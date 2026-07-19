@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Welcome to the Game 3 Wiki - Walkthrough, Puzzles, Endings & Secrets",
+  "short_name": "Welcome to the Game 3",
+  "description": "Welcome to the Game 3 Wiki covers release details, beginner tips, deep web puzzles, threats, endings, secrets, and Steam updates for Reflect Studios' deep web horror puzzle game.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#a71b30",
   "background_color": "#0a0a0a",
   "icons": [
     {
