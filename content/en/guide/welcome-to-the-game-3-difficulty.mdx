@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "welcome to the game 3 difficulty: modes and survival tips",
+  description: "Master the difficulty settings in Welcome to the Game 3. Learn how threat levels scale and discover strategies to survive the night.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Difficulty+Settings+Guide",
+  date: "2026-07-19",
+  author: "welcome to the game 3 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Difficulty impact**: Choosing your welcome to the game 3 difficulty level determines threat spawn rates, hack puzzle complexity, and environmental hazards.
+- **Normal mode focus**: Completing the game on Normal difficulty unlocks the standard ending, clearing Simon's debt.
+- **Threat management**: Sound cues remain your primary defense against intruders regardless of the selected difficulty.
+- **Key locations**: Deep web pages load slower and require more complex decryption steps on higher difficulties.
+</Callout>
+
+<Section icon={Map} title="Understanding Difficulty Settings in Welcome to the Game 3">
+
+Adjusting the welcome to the game 3 difficulty level changes the core gameplay experience. The game scales the tension by modifying how frequently threats attack, how fast your network tools operate, and how unforgiving the hacking minigames become. On lower settings, players can focus on learning the map layouts and understanding the basic flow of the deep web. On higher settings, even a single mistake can result in an immediate game over.
+
+Selecting the right difficulty is crucial for unlocking specific narrative paths. For instance, completing the game on Normal difficulty allows players to view the standard ending cinematic. In this ending, Simon manages to clear his financial obligations through the assistance of mysterious allies who manipulate the game rules behind the scenes.
+
+**Video Highlights:**
+- **Ending cinematic**: Showcase of the Normal difficulty ending where Simon's debt is cleared.
+- **Mysterious benefactor**: The dialogue reveals a double-crossing scheme that worked in Simon's favor.
+- **Survival reward**: Surviving the night grants Simon freedom and a mysterious gift.
+
+<YouTubeEmbed videoId="3aulqEodrqU" title="Welcome To The Game 3 - Normal Difficulty Ending Showcase" />
+
+<Callout type="warning" title="Ending Requirements">
+The standard ending is locked behind Normal difficulty or higher. Completing the game on Casual mode will not reward you with the final cinematic or the associated achievements.
+</Callout>
+
+| Mode | Key Hunt Speed | Threat Spawn Rate | Puzzle Complexity | Ending Unlocked |
+|---|---|---|---|---|
+| Casual | Fast | Low | Basic | None |
+| Normal | Moderate | Medium | Intermediate | Standard Ending |
+| Nightmare | Slow | High | Advanced | True Ending |
+
+</Section>
+
+<Section icon={Shield} title="Key Gameplay Mechanics Affected by Difficulty">
+
+The AI systems governing the intruders scale dynamically with your chosen difficulty level. In Welcome to the Game 3, threats do not follow static paths; instead, they react to your noise levels, computer activity, and physical location. On higher difficulties, the reaction window to these threats is reduced significantly.
+
+For example, when the Kidnapper attempts to pick your apartment lock, the audio cue is quieter on Nightmare difficulty compared to Normal. Additionally, network stability fluctuates based on the difficulty setting. Players must manage DOS attacks and signal drops while searching for deep web keys.
+
+<Callout type="tip" title="Audio Settings">
+Always play with high-quality headphones. Sound propagation is highly realistic, and identifying the direction of footsteps or lockpicks is essential for survival.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Casual Mode">
+    - **Slow AI pacing**
+    - Generous reaction windows
+    - Simplified hacking puzzles
+    - Ideal for learning layouts
+  </Card>
+  <Card title="Normal Mode">
+    - **Balanced threat scaling**
+    - Standard puzzle difficulty
+    - Unlocks the default ending
+    - Requires active sound monitoring
+  </Card>
+  <Card title="Nightmare Mode">
+    - **Aggressive AI behaviors**
+    - Extreme puzzle speed
+    - Unlocks the true ending
+    - Minimal margin for error
+  </Card>
+</CardGrid>
+
+| Threat Type | Audio Cue | Reaction Window (Normal) | Reaction Window (Nightmare) |
+|---|---|---|---|
+| Breather | Heavy breathing at the door | 8 seconds | 4 seconds |
+| Kidnapper | Metallic scratching on lock | 6 seconds | 3 seconds |
+| Lucas | Rapid footsteps in hallway | 5 seconds | 2.5 seconds |
+| Police | Siren sounds outside | 12 seconds | 6 seconds |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Beating Normal Difficulty">
+
+Surviving Normal difficulty requires a structured approach to your night. You must balance searching for hidden keys on the deep web with maintaining your apartment's physical security. Follow this systematic routine to maximize your chances of survival.
+
+<Steps>
+  <Step num="1" title="Initial Setup and Security Check">
+    Boot up your OS and immediately configure your VPN settings. Walk around the apartment to ensure all windows are locked and the main door deadbolt is engaged. Keep your flashlight off unless absolutely necessary to conserve battery power.
+  </Step>
+  <Step num="2" title="Scanning and Wi-Fi Hijacking">
+    Open your network tool and scan for nearby wireless nodes. Hack into the strongest signal using the command terminal. Keep an eye on your signal strength, as drops will interrupt active page downloads.
+  </Step>
+  <Step num="3" title="Deep Web Key Hunting">
+    Navigate through the directory pages to find hidden key codes. Each site has different hiding spots, such as source code comments or hidden clickable elements. Document each key in your notes file immediately.
+  </Step>
+  <Step num="4" title="Defensive Adjustments">
+    Every few minutes, step away from the computer screen. Stand near the door to listen for movement in the hallway. If you hear breathing or lockpicking, hide in the closet or turn off the lights immediately.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimal Key Routing">
+Group your website visits by server category to minimize the time spent switching VPN nodes, which reduces your exposure to tracking.
+</Callout>
+
+| Tool Name | Decryption Speed | CPU Load | Best Use Case |
+|---|---|---|---|
+| SkyNet Scanner | Fast | High | Initial node scanning |
+| Hydra Decrypter | Moderate | Medium | Standard key decryption |
+| Sentinel Firewall | N/A | Low | Preventing tracking attempts |
+
+</Section>
+
+<Section icon={Trophy} title="Survival Checklist and Threat Mitigation">
+
+To consistently survive the challenges of the deep web, you must implement a strict maintenance routine. Neglecting your hardware or environment will lead to rapid failure as the night progresses.
+
+<Checklist
+  id="survival-checklist"
+  title="Hourly Maintenance Goals:"
+  items={[
+    "Verify VPN connection stability every 10 minutes",
+    "Check the window locks after every second key found",
+    "Reboot the router if connection speeds drop below 50%",
+    "Clear browser cache to prevent tracking cookies from accumulating"
+  ]}
+/>
+
+<Callout type="warning" title="Power Grid Failures">
+Power outages can occur randomly on higher difficulties. Keep your flashlight fully charged and memorize the path to the breaker box in pitch-black conditions.
+</Callout>
+
+| Environmental Hazard | Indicator | Mitigation Strategy | Priority |
+|---|---|---|---|
+| Power Outage | Lights flicker and die | Navigate to breaker box | High |
+| Node Drop | Red connection warning | Re-scan and connect | Medium |
+| Motion Sensor Trip | Beeping sound | Hide in designated spot | High |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does welcome to the game 3 difficulty affect the ending?",
+    answer: "Normal difficulty unlocks the standard ending where Simon is freed from his debt. Nightmare difficulty is required to unlock the true ending and discover the ultimate fate of the characters."
+  },
+  {
+    question: "Can I change the difficulty setting mid-game?",
+    answer: "No, difficulty is locked once you begin a new run. You must start a new save file to play on a different difficulty level."
+  },
+  {
+    question: "What happens if my VPN gets compromised?",
+    answer: "If your VPN level drops to zero, the police or other hostile factions will locate your apartment within a short window, resulting in an immediate game over."
+  },
+  {
+    question: "Are key locations randomized on different difficulties?",
+    answer: "Yes, key locations and page designs are randomized on every run, regardless of the selected difficulty level."
+  }
+]} />
+
+<Callout type="info" title="Final Survival Tip">
+Do not rush the process. Patience is your greatest tool when navigating the deep web. Rushing through pages increases the likelihood of missing audio cues that signal an incoming threat.
+</Callout>
+
+</Section>

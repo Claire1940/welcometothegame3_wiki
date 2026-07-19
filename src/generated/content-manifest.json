@@ -1,1 +1,486 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "welcome-to-the-game-3-caseoh",
+        "file": "welcome-to-the-game-3-caseoh"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lucas",
+        "file": "welcome-to-the-game-3-lucas"
+      },
+      {
+        "slug": "welcome-to-the-game-3-patrick",
+        "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-tanner",
+        "file": "welcome-to-the-game-3-tanner"
+      },
+      {
+        "slug": "welcome-to-the-game-3-voice-actors",
+        "file": "welcome-to-the-game-3-voice-actors"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "welcome-to-the-game-3-demo-ending",
+        "file": "welcome-to-the-game-3-demo-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-enemies",
+        "file": "welcome-to-the-game-3-demo-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-guide",
+        "file": "welcome-to-the-game-3-demo-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-length",
+        "file": "welcome-to-the-game-3-demo-length"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo",
+        "file": "welcome-to-the-game-3-demo"
+      }
+    ],
+    "features": [
+      {
+        "slug": "welcome-to-the-game-3-gameplay",
+        "file": "welcome-to-the-game-3-gameplay"
+      },
+      {
+        "slug": "welcome-to-the-game-3-multiplayer",
+        "file": "welcome-to-the-game-3-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "welcome-to-the-game-3-as-my-first-game",
+        "file": "welcome-to-the-game-3-as-my-first-game"
+      },
+      {
+        "slug": "welcome-to-the-game-3-bomb-maker-website",
+        "file": "welcome-to-the-game-3-bomb-maker-website"
+      },
+      {
+        "slug": "welcome-to-the-game-3-difficulty",
+        "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-guide",
+        "file": "welcome-to-the-game-3-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-beat",
+        "file": "welcome-to-the-game-3-how-to-beat"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-play",
+        "file": "welcome-to-the-game-3-how-to-play"
+      },
+      {
+        "slug": "welcome-to-the-game-3-key-locations",
+        "file": "welcome-to-the-game-3-key-locations"
+      },
+      {
+        "slug": "welcome-to-the-game-3-walkthrough",
+        "file": "welcome-to-the-game-3-walkthrough"
+      },
+      {
+        "slug": "welcome-to-the-game-3-website-times",
+        "file": "welcome-to-the-game-3-website-times"
+      }
+    ],
+    "killers": [
+      {
+        "slug": "welcome-to-the-game-3-deaths",
+        "file": "welcome-to-the-game-3-deaths"
+      },
+      {
+        "slug": "welcome-to-the-game-3-jumpscares",
+        "file": "welcome-to-the-game-3-jumpscares"
+      },
+      {
+        "slug": "welcome-to-the-game-3-kidnapper",
+        "file": "welcome-to-the-game-3-kidnapper"
+      },
+      {
+        "slug": "welcome-to-the-game-3-killers",
+        "file": "welcome-to-the-game-3-killers"
+      },
+      {
+        "slug": "welcome-to-the-game-3-when-to-know-he-is-behind-you",
+        "file": "welcome-to-the-game-3-when-to-know-he-is-behind-you"
+      }
+    ],
+    "release": [
+      {
+        "slug": "welcome-to-the-game-3-full-release-date",
+        "file": "welcome-to-the-game-3-full-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-is-out",
+        "file": "welcome-to-the-game-3-is-out"
+      },
+      {
+        "slug": "welcome-to-the-game-3-player-count",
+        "file": "welcome-to-the-game-3-player-count"
+      },
+      {
+        "slug": "welcome-to-the-game-3-price",
+        "file": "welcome-to-the-game-3-price"
+      },
+      {
+        "slug": "welcome-to-the-game-3-ps5",
+        "file": "welcome-to-the-game-3-ps5"
+      },
+      {
+        "slug": "welcome-to-the-game-3-release-date",
+        "file": "welcome-to-the-game-3-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steam",
+        "file": "welcome-to-the-game-3-steam"
+      }
+    ],
+    "story": [
+      {
+        "slug": "welcome-to-the-game-3-ending",
+        "file": "welcome-to-the-game-3-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-john-chapter",
+        "file": "welcome-to-the-game-3-john-chapter"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lore",
+        "file": "welcome-to-the-game-3-lore"
+      },
+      {
+        "slug": "welcome-to-the-game-3-story",
+        "file": "welcome-to-the-game-3-story"
+      }
+    ]
+  },
+  "es": {
+    "demo": [
+      {
+        "slug": "welcome-to-the-game-3-demo-ending",
+        "file": "welcome-to-the-game-3-demo-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-enemies",
+        "file": "welcome-to-the-game-3-demo-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-guide",
+        "file": "welcome-to-the-game-3-demo-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-length",
+        "file": "welcome-to-the-game-3-demo-length"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo",
+        "file": "welcome-to-the-game-3-demo"
+      }
+    ],
+    "features": [
+      {
+        "slug": "welcome-to-the-game-3-gameplay",
+        "file": "welcome-to-the-game-3-gameplay"
+      },
+      {
+        "slug": "welcome-to-the-game-3-multiplayer",
+        "file": "welcome-to-the-game-3-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "welcome-to-the-game-3-as-my-first-game",
+        "file": "welcome-to-the-game-3-as-my-first-game"
+      },
+      {
+        "slug": "welcome-to-the-game-3-bomb-maker-website",
+        "file": "welcome-to-the-game-3-bomb-maker-website"
+      },
+      {
+        "slug": "welcome-to-the-game-3-difficulty",
+        "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-guide",
+        "file": "welcome-to-the-game-3-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-beat",
+        "file": "welcome-to-the-game-3-how-to-beat"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-play",
+        "file": "welcome-to-the-game-3-how-to-play"
+      },
+      {
+        "slug": "welcome-to-the-game-3-key-locations",
+        "file": "welcome-to-the-game-3-key-locations"
+      },
+      {
+        "slug": "welcome-to-the-game-3-walkthrough",
+        "file": "welcome-to-the-game-3-walkthrough"
+      },
+      {
+        "slug": "welcome-to-the-game-3-website-times",
+        "file": "welcome-to-the-game-3-website-times"
+      }
+    ],
+    "killers": [
+      {
+        "slug": "welcome-to-the-game-3-deaths",
+        "file": "welcome-to-the-game-3-deaths"
+      },
+      {
+        "slug": "welcome-to-the-game-3-kidnapper",
+        "file": "welcome-to-the-game-3-kidnapper"
+      },
+      {
+        "slug": "welcome-to-the-game-3-killers",
+        "file": "welcome-to-the-game-3-killers"
+      },
+      {
+        "slug": "welcome-to-the-game-3-when-to-know-he-is-behind-you",
+        "file": "welcome-to-the-game-3-when-to-know-he-is-behind-you"
+      }
+    ],
+    "story": [
+      {
+        "slug": "welcome-to-the-game-3-ending",
+        "file": "welcome-to-the-game-3-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-john-chapter",
+        "file": "welcome-to-the-game-3-john-chapter"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lore",
+        "file": "welcome-to-the-game-3-lore"
+      },
+      {
+        "slug": "welcome-to-the-game-3-story",
+        "file": "welcome-to-the-game-3-story"
+      }
+    ]
+  },
+  "pt": {
+    "demo": [
+      {
+        "slug": "welcome-to-the-game-3-demo-ending",
+        "file": "welcome-to-the-game-3-demo-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-enemies",
+        "file": "welcome-to-the-game-3-demo-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-guide",
+        "file": "welcome-to-the-game-3-demo-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-length",
+        "file": "welcome-to-the-game-3-demo-length"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo",
+        "file": "welcome-to-the-game-3-demo"
+      }
+    ],
+    "features": [
+      {
+        "slug": "welcome-to-the-game-3-multiplayer",
+        "file": "welcome-to-the-game-3-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "welcome-to-the-game-3-as-my-first-game",
+        "file": "welcome-to-the-game-3-as-my-first-game"
+      },
+      {
+        "slug": "welcome-to-the-game-3-bomb-maker-website",
+        "file": "welcome-to-the-game-3-bomb-maker-website"
+      },
+      {
+        "slug": "welcome-to-the-game-3-difficulty",
+        "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-guide",
+        "file": "welcome-to-the-game-3-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-beat",
+        "file": "welcome-to-the-game-3-how-to-beat"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-play",
+        "file": "welcome-to-the-game-3-how-to-play"
+      },
+      {
+        "slug": "welcome-to-the-game-3-key-locations",
+        "file": "welcome-to-the-game-3-key-locations"
+      },
+      {
+        "slug": "welcome-to-the-game-3-walkthrough",
+        "file": "welcome-to-the-game-3-walkthrough"
+      },
+      {
+        "slug": "welcome-to-the-game-3-website-times",
+        "file": "welcome-to-the-game-3-website-times"
+      }
+    ],
+    "killers": [
+      {
+        "slug": "welcome-to-the-game-3-deaths",
+        "file": "welcome-to-the-game-3-deaths"
+      },
+      {
+        "slug": "welcome-to-the-game-3-jumpscares",
+        "file": "welcome-to-the-game-3-jumpscares"
+      },
+      {
+        "slug": "welcome-to-the-game-3-kidnapper",
+        "file": "welcome-to-the-game-3-kidnapper"
+      },
+      {
+        "slug": "welcome-to-the-game-3-killers",
+        "file": "welcome-to-the-game-3-killers"
+      },
+      {
+        "slug": "welcome-to-the-game-3-when-to-know-he-is-behind-you",
+        "file": "welcome-to-the-game-3-when-to-know-he-is-behind-you"
+      }
+    ],
+    "story": [
+      {
+        "slug": "welcome-to-the-game-3-ending",
+        "file": "welcome-to-the-game-3-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-john-chapter",
+        "file": "welcome-to-the-game-3-john-chapter"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lore",
+        "file": "welcome-to-the-game-3-lore"
+      },
+      {
+        "slug": "welcome-to-the-game-3-story",
+        "file": "welcome-to-the-game-3-story"
+      }
+    ]
+  },
+  "ru": {
+    "demo": [
+      {
+        "slug": "welcome-to-the-game-3-demo-ending",
+        "file": "welcome-to-the-game-3-demo-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-enemies",
+        "file": "welcome-to-the-game-3-demo-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-guide",
+        "file": "welcome-to-the-game-3-demo-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-length",
+        "file": "welcome-to-the-game-3-demo-length"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo",
+        "file": "welcome-to-the-game-3-demo"
+      }
+    ],
+    "features": [
+      {
+        "slug": "welcome-to-the-game-3-multiplayer",
+        "file": "welcome-to-the-game-3-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "welcome-to-the-game-3-as-my-first-game",
+        "file": "welcome-to-the-game-3-as-my-first-game"
+      },
+      {
+        "slug": "welcome-to-the-game-3-bomb-maker-website",
+        "file": "welcome-to-the-game-3-bomb-maker-website"
+      },
+      {
+        "slug": "welcome-to-the-game-3-difficulty",
+        "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-guide",
+        "file": "welcome-to-the-game-3-guide"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-beat",
+        "file": "welcome-to-the-game-3-how-to-beat"
+      },
+      {
+        "slug": "welcome-to-the-game-3-how-to-play",
+        "file": "welcome-to-the-game-3-how-to-play"
+      },
+      {
+        "slug": "welcome-to-the-game-3-key-locations",
+        "file": "welcome-to-the-game-3-key-locations"
+      },
+      {
+        "slug": "welcome-to-the-game-3-walkthrough",
+        "file": "welcome-to-the-game-3-walkthrough"
+      },
+      {
+        "slug": "welcome-to-the-game-3-website-times",
+        "file": "welcome-to-the-game-3-website-times"
+      }
+    ],
+    "killers": [
+      {
+        "slug": "welcome-to-the-game-3-jumpscares",
+        "file": "welcome-to-the-game-3-jumpscares"
+      },
+      {
+        "slug": "welcome-to-the-game-3-kidnapper",
+        "file": "welcome-to-the-game-3-kidnapper"
+      },
+      {
+        "slug": "welcome-to-the-game-3-killers",
+        "file": "welcome-to-the-game-3-killers"
+      },
+      {
+        "slug": "welcome-to-the-game-3-when-to-know-he-is-behind-you",
+        "file": "welcome-to-the-game-3-when-to-know-he-is-behind-you"
+      }
+    ],
+    "story": [
+      {
+        "slug": "welcome-to-the-game-3-ending",
+        "file": "welcome-to-the-game-3-ending"
+      },
+      {
+        "slug": "welcome-to-the-game-3-john-chapter",
+        "file": "welcome-to-the-game-3-john-chapter"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lore",
+        "file": "welcome-to-the-game-3-lore"
+      },
+      {
+        "slug": "welcome-to-the-game-3-story",
+        "file": "welcome-to-the-game-3-story"
+      }
+    ]
+  }
+}

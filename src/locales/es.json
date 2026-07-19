@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "guide": "Guide",
+    "killers": "Killers",
+    "characters": "Characters",
+    "story": "Story",
+    "features": "Features"
+  }
+}

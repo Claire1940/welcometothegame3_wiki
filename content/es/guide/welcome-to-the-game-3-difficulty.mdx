@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dificultad en Welcome to the Game 3: Modos y Consejos de Supervivencia",
+  description: "Domina los ajustes de dificultad en Welcome to the Game 3. Aprende cómo escalan los niveles de amenaza y descubre estrategias para sobrevivir a la noche.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Difficulty+Settings+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Welcome to the Game 3",
+  keywords: "welcome to the game 3, dificultad, modos de juego, supervivencia, guía, deep web"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Impacto de la dificultad**: Elegir tu nivel de dificultad en Welcome to the Game 3 determina la tasa de aparición de amenazas, la complejidad de los puzles de hackeo y los peligros ambientales.
+- **Enfoque del modo Normal**: Completar el juego en dificultad Normal desbloquea el final estándar, saldando la deuda de Simon.
+- **Gestión de amenazas**: Las señales sonoras siguen siendo tu principal defensa contra los intrusos independientemente de la dificultad seleccionada.
+- **Ubicaciones clave**: Las páginas de la deep web se cargan más lento y requieren pasos de desencriptación más complejos en dificultades más altas.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo los Ajustes de Dificultad en Welcome to the Game 3">
+
+Ajustar el nivel de dificultad en Welcome to the Game 3 cambia la experiencia de juego principal. El juego escala la tensión modificando la frecuencia con la que atacan las amenazas, la velocidad a la que operan tus herramientas de red y lo implacables que se vuelven los minijuegos de hackeo. En configuraciones más bajas, los jugadores pueden concentrarse en aprender los diseños de los mapas y comprender el flujo básico de la deep web. En configuraciones más altas, incluso un solo error puede resultar en un fin de juego inmediato.
+
+Seleccionar la dificultad adecuada es crucial para desbloquear caminos narrativos específicos. Por ejemplo, completar el juego en dificultad Normal permite a los jugadores ver la cinemática del final estándar. En este final, Simon logra saldar sus obligaciones financieras mediante la asistencia de aliados misteriosos que manipulan las reglas del juego tras bambalinas.
+
+**Puntos Destacados del Vídeo:**
+- **Cinemática final**: Muestra del final en dificultad Normal donde se salda la deuda de Simon.
+- **Benefactor misterioso**: El diálogo revela un esquema de traición que funcionó a favor de Simon.
+- **Recompensa de supervivencia**: Sobrevivir a la noche otorga a Simon la libertad y un regalo misterioso.
+
+<YouTubeEmbed videoId="3aulqEodrqU" title="Welcome To The Game 3 - Muestra del Final en Dificultad Normal" />
+
+<Callout type="warning" title="Requisitos del Final">
+El final estándar está bloqueado tras la dificultad Normal o superior. Completar el juego en modo Casual no te recompensará con la cinemática final ni con los logros asociados.
+</Callout>
+
+| Modo | Vel. Búsqueda de Llaves | Tasa de Amenazas | Complejidad de Puzles | Final Desbloqueado |
+|---|---|---|---|---|
+| Casual | Rápida | Baja | Básica | Ninguno |
+| Normal | Moderada | Media | Intermedia | Final Estándar |
+| Pesadilla | Lenta | Alta | Avanzada | Final Verdadero |
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Juego Clave Afectadas por la Dificultad">
+
+Los sistemas de IA que rigen a los intrusos escalan dinámicamente con el nivel de dificultad elegido. En Welcome to the Game 3, las amenazas no siguen rutas estáticas; en su lugar, reaccionan a tus niveles de ruido, actividad en la computadora y ubicación física. En dificultades más altas, la ventana de reacción ante estas amenazas se reduce significativamente.
+
+Por ejemplo, cuando el Secuestrador intenta forzar la cerradura de tu apartamento, la señal de audio es más silenciosa en dificultad Pesadilla comparada con Normal. Además, la estabilidad de la red fluctúa según el ajuste de dificultad. Los jugadores deben gestionar ataques DOS y caídas de señal mientras buscan llaves en la deep web.
+
+<Callout type="tip" title="Ajustes de Audio">
+Juega siempre con auriculares de alta calidad. La propagación del sonido es muy realista, e identificar la dirección de los pasos o el forzado de cerraduras es esencial para la supervivencia.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Modo Casual">
+    - **Ritmo de IA lento**
+    - Ventanas de reacción generosas
+    - Puzles de hackeo simplificados
+    - Ideal para aprender los mapas
+  </Card>
+  <Card title="Modo Normal">
+    - **Escalamiento de amenazas equilibrado**
+    - Dificultad de puzles estándar
+    - Desbloquea el final por defecto
+    - Requiere monitoreo de sonido activo
+  </Card>
+  <Card title="Modo Pesadilla">
+    - **Comportamientos de IA agresivos**
+    - Velocidad de puzles extrema
+    - Desbloquea el final verdadero
+    - Margen de error mínimo
+  </Card>
+</CardGrid>
+
+| Tipo de Amenaza | Señal de Audio | Ventana Reacción (Normal) | Ventana Reacción (Pesadilla) |
+|---|---|---|---|
+| Breather | Respiración fuerte en la puerta | 8 segundos | 4 segundos |
+| Secuestrador | Rascado metálico en cerradura | 6 segundos | 3 segundos |
+| Lucas | Pasos rápidos en el pasillo | 5 segundos | 2.5 segundos |
+| Policía | Sonidos de sirena afuera | 12 segundos | 6 segundos |
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Superar la Dificultad Normal">
+
+Sobrevivir a la dificultad Normal requiere un enfoque estructurado de tu noche. Debes equilibrar la búsqueda de llaves ocultas en la deep web con el mantenimiento de la seguridad física de tu apartamento. Sigue esta rutina sistemática para maximizar tus posibilidades de supervivencia.
+
+<Steps>
+  <Step num="1" title="Configuración Inicial y Control de Seguridad">
+    Inicia tu sistema operativo y configura inmediatamente los ajustes de tu VPN. Camina por el apartamento para asegurarte de que todas las ventanas estén cerradas y el cerrojo de la puerta principal esté echado. Mantén tu linterna apagada a menos que sea absolutamente necesario para conservar la batería.
+  </Step>
+  <Step num="2" title="Escaneo y Secuestro de Wi-Fi">
+    Abre tu herramienta de red y escanea en busca de nodos inalámbricos cercanos. Hackea la señal más fuerte usando la terminal de comandos. Vigila la fuerza de tu señal, ya que las caídas interrumpirán las descargas de páginas activas.
+  </Step>
+  <Step num="3" title="Búsqueda de Llaves en la Deep Web">
+    Navega por las páginas del directorio para encontrar códigos de llaves ocultos. Cada sitio tiene diferentes lugares para esconderse, como comentarios en el código fuente o elementos clicables ocultos. Documenta cada llave en tu archivo de notas inmediatamente.
+  </Step>
+  <Step num="4" title="Ajustes Defensivos">
+    Cada pocos minutos, aléjate de la pantalla de la computadora. Ponte cerca de la puerta para escuchar movimientos en el pasillo. Si escuchas respiración o forzado de cerraduras, escóndete en el armario o apaga las luces de inmediato.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ruta Óptima de Llaves">
+Agrupa tus visitas a sitios web por categoría de servidor para minimizar el tiempo dedicado a cambiar nodos VPN, lo que reduce tu exposición al rastreo.
+</Callout>
+
+| Nombre de Herramienta | Vel. Desencriptación | Carga de CPU | Mejor Caso de Uso |
+|---|---|---|---|
+| SkyNet Scanner | Rápida | Alta | Escaneo inicial de nodos |
+| Hydra Decrypter | Moderada | Media | Desencriptación de llaves estándar |
+| Sentinel Firewall | N/A | Baja | Prevenir intentos de rastreo |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Supervivencia y Mitigación de Amenazas">
+
+Para sobrevivir consistentemente a los desafíos de la deep web, debes implementar una rutina de mantenimiento estricta. Descuidar tu hardware o entorno te llevará a un fracaso rápido a medida que avanza la noche.
+
+<Checklist
+  id="survival-checklist"
+  title="Objetivos de Mantenimiento Horario:"
+  items={[
+    "Verificar la estabilidad de la conexión VPN cada 10 minutos",
+    "Revisar los seguros de las ventanas después de encontrar cada segunda llave",
+    "Reiniciar el router si la velocidad de conexión cae por debajo del 50%",
+    "Limpiar el caché del navegador para evitar que se acumulen cookies de rastreo"
+  ]}
+/>
+
+<Callout type="warning" title="Fallos en la Red Eléctrica">
+Los apagones pueden ocurrir aleatoriamente en dificultades más altas. Mantén tu linterna completamente cargada y memoriza el camino hacia la caja de interruptores en condiciones de oscuridad total.
+</Callout>
+
+| Peligro Ambiental | Indicador | Estrategia de Mitigación | Prioridad |
+|---|---|---|---|
+| Apagón | Luces parpadean y se apagan | Navegar a la caja de interruptores | Alta |
+| Caída de Nodo | Aviso rojo de conexión | Volver a escanear y conectar | Media |
+| Sensor Movimiento | Sonido de pitido | Esconderse en lugar designado | Alta |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo afecta la dificultad de Welcome to the Game 3 al final?",
+    answer: "La dificultad Normal desbloquea el final estándar donde Simon es liberado de su deuda. La dificultad Pesadilla es necesaria para desbloquear el final verdadero y descubrir el destino final de los personajes."
+  },
+  {
+    question: "¿Puedo cambiar el ajuste de dificultad a mitad del juego?",
+    answer: "No, la dificultad se bloquea una vez que comienzas una nueva partida. Debes iniciar un nuevo archivo de guardado para jugar en un nivel de dificultad diferente."
+  },
+  {
+    question: "¿Qué pasa si mi VPN se ve comprometida?",
+    answer: "Si tu nivel de VPN cae a cero, la policía u otras facciones hostiles localizarán tu apartamento en un corto periodo de tiempo, resultando en un fin de juego inmediato."
+  },
+  {
+    question: "¿Las ubicaciones de las llaves son aleatorias en diferentes dificultades?",
+    answer: "Sí, las ubicaciones de las llaves y los diseños de las páginas son aleatorios en cada partida, independientemente del nivel de dificultad seleccionado."
+  }
+]} />
+
+<Callout type="info" title="Consejo Final de Supervivencia">
+No apresures el proceso. La paciencia es tu mejor herramienta al navegar por la deep web. Ir demasiado rápido por las páginas aumenta la probabilidad de perder señales de audio que indican una amenaza inminente.
+</Callout>
+
+</Section>

@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Welcome to the Game 3 Multiplayer: Guia de Sobrevivência Co-Op",
+  description: "Domine as mecânicas cooperativas no multiplayer de Welcome to the Game 3. Aprenda sobre divisão de funções, estratégias de hacking e técnicas de evasão de ameaças.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+Co-Op+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Welcome to the Game 3"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Jogabilidade Co-op**: O modo multiplayer de Welcome to the Game 3 exige que os jogadores dividam funções entre hacking, exploração (running) e defesa.
+- **Divisão de Funções**: Designe um jogador como Hacker, um como Runner e um como Defensor para maximizar a eficiência.
+- **Comunicação**: Use a comunicação local ou via rádio com sabedoria, pois o ruído atrai assassinos mortais da deep web.
+- **Coleta de Chaves**: Localize 8 chaves escondidas pela deep web enquanto gerencia redes elétricas e ameaças de intrusão física.
+</Callout>
+
+<Section icon={Map} title="Configuração do Multiplayer de Welcome to the Game 3">
+
+O multiplayer de Welcome to the Game 3 introduz uma dinâmica cooperativa emocionante à experiência de survival horror na deep web. Ao contrário da experiência solo, jogar com companheiros de equipe requer uma configuração de rede coordenada e uma compreensão clara das configurações do lobby. Os jogadores devem estabelecer uma conexão segura para hospedar ou entrar em uma sessão, garantindo que a latência seja minimizada para reagir a ameaças em ritmo acelerado.
+
+Para iniciar uma sessão multiplayer, o anfitrião deve definir as configurações do lobby para corresponder ao nível de experiência da equipe. A alta latência pode atrasar os mecanismos de trancamento de portas e as entradas de hacking, levando à falha instantânea, portanto, uma conexão estável é vital.
+
+| Configuração | Recomendado | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| Dificuldade | Normal | Taxa padrão de surgimento de ameaças e complexidade de puzzles |
+| Chat de Voz | Proximidade | Restringe a comunicação de voz com base na distância |
+| Lanterna | Compartilhada | Reservas de bateria compartilhadas entre todos os runners ativos |
+| Nível de Ameaça | Médio | Equilíbrio entre ataques de hackers e ameaças físicas |
+
+<Callout type="warning" title="Estabilidade da Rede">
+Certifique-se de que todos os jogadores tenham um ping estável. A alta latência pode atrasar os mecanismos de trancamento de portas e as entradas de hacking, levando à falha instantânea.
+</Callout>
+
+A seleção da dificuldade correta e das configurações de comunicação determina como o jogo lida com o escalonamento de ameaças. O chat de voz por proximidade adiciona uma camada extra de tensão, pois falar muito alto pode alertar intrusos próximos sobre sua localização.
+
+</Section>
+
+<Section icon={Swords} title="Divisão de Funções e Mecânicas Co-op">
+
+A sobrevivência no modo multiplayer depende inteiramente de quão bem sua equipe divide as responsabilidades. O ambiente do jogo é dividido entre o esconderijo, onde o terminal do computador está localizado, e os corredores circundantes, poços de manutenção e salas externas. Tentar fazer com que todos os jogadores fiquem no computador ou corram sem rumo resultará em um fim de jogo rápido.
+
+Atribuir funções específicas garante que todas as tarefas, desde a defesa digital até a exploração física, sejam tratadas com eficiência.
+
+<CardGrid cols={3}>
+  <Card title="O Hacker">
+    - **Operações de Terminal**: Cuida da navegação na deep web, descriptografa códigos e monitora a segurança da rede.
+    - **Gerenciamento de Recursos**: Compra ferramentas essenciais, melhorias e itens utilitários usando DOS Coins.
+    - **Hub de Comunicação**: Direciona o Runner para coordenadas específicas e avisa sobre ameaças digitais iminentes.
+  </Card>
+  <Card title="O Runner">
+    - **Exploração Física**: Vasculha o prédio em busca de notas escondidas, chaves físicas e disjuntores de energia.
+    - **Táticas de Distração**: Atrai ameaças físicas para longe do esconderijo para ganhar tempo para o Hacker.
+    - **Recuperação de Itens**: Coleta equipamentos entregues e coloca armadilhas defensivas nos corredores.
+  </Card>
+  <Card title="O Defensor">
+    - **Monitoramento de Segurança**: Observa as câmeras de segurança e ouve pistas sonoras de intrusos.
+    - **Gerenciamento de Disjuntores**: Redefine os interruptores de energia quando a rede é sabotada ou sobrecarregada.
+    - **Defesa Próxima**: Segura portas e usa lanternas ou ferramentas defensivas para repelir atacantes físicos.
+  </Card>
+</CardGrid>
+
+Cada jogador deve entender os limites de sua função e coordenar ações através do sistema de rádio. Abaixo está uma análise das configurações padrão e dos níveis de risco associados a cada posição.
+
+| Função | Ferramenta Essencial | Objetivo Principal | Nível de Risco |
+| :--- | :--- | :--- | :--- |
+| Hacker | Terminal de Comando | Localizar 8 chaves e descriptografar hashes | Baixo (Físico) / Alto (Digital) |
+| Runner | Lanterna e Rádio | Recuperar pistas físicas e itens | Alto (Físico) / Baixo (Digital) |
+| Defensor | Sensor de Movimento | Proteger pontos de entrada do esconderijo | Médio (Físico) / Baixo (Digital) |
+
+<Callout type="tip" title="Rotação de Funções">
+Alterne as funções entre as rodadas para manter os jogadores afiados tanto nas mecânicas de hacking quanto nas rotas de evasão física.
+</Callout>
+
+Embora o Hacker esteja relativamente seguro de ataques físicos no início da partida, ele enfrenta bombardeio digital constante. Por outro lado, o Runner corre perigo constante de encontrar ameaças físicas nos corredores escuros.
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo de Hacking e Coleta de Chaves">
+
+Para vencer o jogo, sua equipe deve localizar 8 chaves escondidas em vários sites da deep web. O processo de hacking é complexo e requer ação sincronizada entre o Hacker no terminal e o Runner em campo. O Defensor deve manter a área limpa enquanto esse processo ocorre.
+
+Siga estes passos para localizar, descriptografar e compilar as chaves necessárias para a extração.
+
+<Steps>
+  <Step num="1" title="Escanear a Rede">
+    O Hacker escaneia diretórios ativos da deep web enquanto o Defensor monitora a rede local em busca de intrusões digitais.
+  </Step>
+  <Step num="2" title="Localizar Páginas de Chaves">
+    Navegue por páginas de wiki escondidas e pesquise no código-fonte ou links ocultos para encontrar hashes de chaves criptografados.
+  </Step>
+  <Step num="3" title="Descriptografar os Hashes">
+    O Hacker inicia a ferramenta de descriptografia, que exige que o Runner insira códigos físicos encontrados em disjuntores ou painéis de parede.
+  </Step>
+  <Step num="4" title="Extrair e Compilar">
+    Uma vez descriptografadas, compile as chaves na ferramenta de extração final para desbloquear as coordenadas do local de resgate.
+  </Step>
+</Steps>
+
+As ferramentas de descriptografia variam em custo e eficiência. Gerenciar suas DOS Coins com sabedoria é crucial para comprar as atualizações de software certas no momento certo.
+
+| Nome da Ferramenta | Custo em DOS Coins | Velocidade de Descriptografia | Taxa de Vulnerabilidade |
+| :--- | :--- | :--- | :--- |
+| Descriptografador Básico | Grátis | Lenta (180s) | Baixa pegada digital |
+| Multi-Threader | 150 | Média (90s) | Alta frequência de aviso de rastreamento |
+| Quantum Bypass | 350 | Rápida (45s) | Dispara evento de rastreamento imediato |
+
+<Callout type="info" title="Pegada de Hacking">
+O uso de ferramentas de descriptografia mais rápidas aumenta sua pegada digital, tornando sua rede mais suscetível a ataques cibernéticos.
+</Callout>
+
+Equilibrar a velocidade de descriptografia com o risco de ser rastreado é uma decisão constante que o Hacker deve tomar. Se um rastreamento atingir 100%, a localização da equipe será comprometida, resultando em um ataque imediato.
+
+</Section>
+
+<Section icon={Shield} title="Identificação de Ameaças e Evasão">
+
+As ameaças no modo multiplayer são divididas em atacantes digitais que tentam rastrear seu IP e invasores físicos que tentam entrar no esconderijo. Lidar com eles requer comunicação imediata e ações defensivas coordenadas de todos os membros da equipe.
+
+Entender o comportamento de cada ameaça permite que a equipe use as contramedidas corretas antes que seja tarde demais.
+
+| Nome da Ameaça | Tipo | Sinais de Alerta | Contramedida |
+| :--- | :--- | :--- | :--- |
+| O Sequestrador | Físico | Passos no corredor, maçaneta chacoalhando | Trancar a porta principal, esconder-se em armários |
+| O Noir | Físico | Estática nas câmeras de segurança, luzes piscando | Apagar todas as luzes, permanecer em silêncio total |
+| Cyber Tracker | Digital | Aviso vermelho na tela do terminal | Executar script de reset de IP, limpar cache do navegador |
+| O Breather | Físico | Sons de respiração pesada perto de dutos de ventilação | Apontar lanterna diretamente para a abertura do duto |
+
+<Callout type="warning" title="Gerenciamento de Som">
+As ameaças físicas são altamente sensíveis ao som. Se estiver usando o chat de voz por proximidade, permaneça em silêncio quando uma ameaça estiver por perto.
+</Callout>
+
+Quando o Defensor detectar um intruso através das câmeras de segurança, deve alertar imediatamente o Runner para retornar ao esconderijo ou encontrar um esconderijo. O Hacker deve minimizar o uso do terminal durante uma ameaça física ativa para reduzir a emissão de ruído e luz.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Progressão e Vitória">
+
+Alcançar a vitória no multiplayer requer disciplina e uma progressão estruturada. Use esta lista de verificação para acompanhar os objetivos da sua equipe durante uma partida para garantir que nenhum passo seja esquecido.
+
+<Checklist
+  id="victory-milestones"
+  title="Objetivos da Partida:"
+  items={[
+    "Estabelecer canais de comunicação seguros",
+    "Comprar o sensor de movimento e o rádio",
+    "Localizar e descriptografar as primeiras 4 chaves antes do anoitecer",
+    "Sobreviver à primeira onda de invasores físicos",
+    "Compilar todas as 8 chaves e iniciar o protocolo de extração"
+  ]}
+/>
+
+<Callout type="success" title="Fase de Extração">
+Assim que o protocolo de extração começar, todas as ameaças tornam-se hiper-agressivas. Certifique-se de que todas as portas estejam trancadas antes de iniciar.
+</Callout>
+
+Durante a fase final de extração, o Defensor e o Runner devem trabalhar juntos para manter os pontos de entrada enquanto o Hacker completa a transferência final de dados.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ e Solução de Problemas">
+
+Encontre respostas para as perguntas mais comuns sobre configuração multiplayer, otimização e táticas de sobrevivência.
+
+<FAQ items={[
+  {
+    question: "O multiplayer de Welcome to the Game 3 suporta crossplay?",
+    answer: "Sim, o modo multiplayer suporta crossplay entre plataformas de PC compatíveis, desde que todos os jogadores estejam executando a mesma versão do jogo."
+  },
+  {
+    question: "O que acontece se um jogador morrer durante uma partida?",
+    answer: "Se um jogador morrer, ele não poderá renascer pelo resto da rodada. Os jogadores sobreviventes devem assumir suas funções e completar os objetivos."
+  },
+  {
+    question: "Como ganhamos DOS Coins mais rápido no co-op?",
+    answer: "As DOS Coins são ganhas ao completar puzzles de hacking com sucesso, encontrar moedas físicas nos corredores e defender-se contra tentativas de rastreamento."
+  },
+  {
+    question: "Podemos jogar o modo multiplayer com apenas dois jogadores?",
+    answer: "Sim, o jogo ajusta a frequência das ameaças para lobbies de dois jogadores, embora o gerenciamento de funções se torne significativamente mais desafiador."
+  }
+]} />
+
+<Callout type="info" title="Guias da Comunidade">
+Verifique os fóruns oficiais da comunidade para configurações de lobby personalizadas e mapas feitos pela comunidade para testar suas habilidades.
+</Callout>
+
+</Section>

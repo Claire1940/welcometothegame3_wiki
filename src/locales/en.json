@@ -10,7 +10,15 @@
       "twitterDescription": "Explore Welcome to the Game 3 guides covering release details, deep web puzzles, threats, endings, and survival tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "guide": "Guide",
+    "killers": "Killers",
+    "characters": "Characters",
+    "story": "Story",
+    "features": "Features"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -938,165 +946,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "beginner-guide": {
-      "title": "Welcome to the Game 3 Beginner Guide",
-      "description": "Core gameplay loop, computer tools, defensive routine, and early survival priorities for Welcome to the Game 3.",
-      "metaTitle": "Welcome to the Game 3 Beginner Guide - Getting Started",
-      "metaDescription": "Learn the basic investigation loop, computer tools, and survival priorities in Welcome to the Game 3 with this beginner guide.",
-      "categoryLabel": "BEGINNER GUIDE",
-      "whatIs": "Beginner Guide",
-      "whatIsDescription": "A beginner-friendly overview of the investigation loop, computer workspace, and defensive routine that keeps your first hours in Welcome to the Game 3 organized.",
-      "why": "Why start here?",
+    "release": {
+      "title": "Welcome to the Game 3 Release",
+      "description": "Release date, Steam page, price, supported platforms, and live player count for Welcome to the Game 3.",
+      "metaTitle": "Welcome to the Game 3 Release - Date, Price & Platforms",
+      "metaDescription": "Track the Welcome to the Game 3 release with the confirmed launch date, Steam price, supported platforms, and current player count.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "Release Info",
+      "whatIsDescription": "Everything about the launch of Welcome to the Game 3, including the confirmed release date, the Steam store page, regional pricing, supported platforms, and the live player count.",
+      "why": "Why check release info?",
       "whySteps": {
-        "step1Title": "Learn the Safe Area",
-        "step1Description": "Inspect the room, locate defensive controls, and set up a notes workspace before browsing.",
-        "step2Title": "Build a Check-and-Browse Cycle",
-        "step2Description": "Alternate short investigation sessions with physical security checks.",
-        "step3Title": "Avoid Early Run Killers",
-        "step3Description": "Slow down whenever the environment changes or the computer behaves unexpectedly."
+        "step1Title": "Confirm the Launch Date",
+        "step1Description": "See the official release date and every full-release milestone for Welcome to the Game 3.",
+        "step2Title": "Compare Platforms and Price",
+        "step2Description": "Check supported platforms like Steam and regional pricing before buying.",
+        "step3Title": "Track the Player Count",
+        "step3Description": "Follow the active player base to gauge community size and update pace."
       },
       "featured": "Featured & Essential",
-      "all": "All Beginner Guides"
+      "all": "All Release Articles"
     },
-    "walkthrough": {
-      "title": "Welcome to the Game 3 Walkthrough",
-      "description": "Stage-by-stage progression from opening setup to the final endgame sequence.",
-      "metaTitle": "Welcome to the Game 3 Walkthrough - Full Progression",
-      "metaDescription": "Follow the Welcome to the Game 3 walkthrough from the opening setup through clue chains and the endgame sequence.",
-      "categoryLabel": "WALKTHROUGH",
-      "whatIs": "Walkthrough",
-      "whatIsDescription": "A structured progression route covering each stage of the investigation, including required actions, preparations, dangers, and recovery options.",
-      "why": "Why follow the walkthrough?",
+    "demo": {
+      "title": "Welcome to the Game 3 Demo",
+      "description": "Demo length, enemy encounters, survival tips, and the ending of the Welcome to the Game 3 demo.",
+      "metaTitle": "Welcome to the Game 3 Demo - Length, Enemies & Ending",
+      "metaDescription": "Try the Welcome to the Game 3 demo with a full guide covering demo length, enemy encounters, survival tips, and the demo ending.",
+      "categoryLabel": "DEMO",
+      "whatIs": "Demo",
+      "whatIsDescription": "A focused walkthrough of the Welcome to the Game 3 demo, covering how long it takes, which enemies appear, how to survive each encounter, and what the demo ending reveals.",
+      "why": "Why play the demo?",
       "whySteps": {
-        "step1Title": "Progress One Branch at a Time",
-        "step1Description": "Complete investigation branches in order to avoid losing clue connections.",
-        "step2Title": "Prepare Before Each Stage",
-        "step2Description": "Review warnings and organize notes before opening new pages.",
-        "step3Title": "Recover From Missed Clues",
-        "step3Description": "Use the recovery steps to resume without restarting the whole investigation."
+        "step1Title": "Plan Around the Demo Length",
+        "step1Description": "Know how long the demo runs so you can finish it in a single sitting.",
+        "step2Title": "Learn the Enemy Encounters",
+        "step2Description": "Identify each enemy's warning signs and the correct defensive response.",
+        "step3Title": "See the Demo Ending",
+        "step3Description": "Reach the end of the demo to preview the tone and threats of the full game."
       },
       "featured": "Featured & Essential",
-      "all": "All Walkthrough Stages"
+      "all": "All Demo Articles"
     },
-    "puzzles": {
-      "title": "Welcome to the Game 3 Puzzle Guide",
-      "description": "Clue types, decoding methods, and full solutions for every puzzle category.",
-      "metaTitle": "Welcome to the Game 3 Puzzle Guide - Clues & Solutions",
-      "metaDescription": "Master every puzzle type in Welcome to the Game 3 with hint-first solutions for clue chains, passwords, fragments, and visual clues.",
-      "categoryLabel": "PUZZLE GUIDE",
-      "whatIs": "Puzzle Guide",
-      "whatIsDescription": "Hint-first puzzle solutions that cover linked-page clue chains, passwords, ordered fragments, visual clues, hidden text, numbers, and multi-step computer challenges.",
-      "why": "Why use the puzzle guide?",
+    "guide": {
+      "title": "Welcome to the Game 3 Guide",
+      "description": "Full walkthrough, difficulty tips, key locations, website timing, and a clear plan to beat Welcome to the Game 3.",
+      "metaTitle": "Welcome to the Game 3 Guide - Walkthrough & Tips",
+      "metaDescription": "Master Welcome to the Game 3 with a complete walkthrough, difficulty tips, key locations, website timing, and a step-by-step plan to beat the game.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "Guide",
+      "whatIsDescription": "A complete Welcome to the Game 3 guide that covers the core investigation loop, the full walkthrough, difficulty options, key item locations, website access timing, and a step-by-step plan to beat every threat.",
+      "why": "Why use the guide?",
       "whySteps": {
-        "step1Title": "Read the Hint First",
-        "step1Description": "Open the spoiler-free hint before revealing the full solution.",
-        "step2Title": "Preserve Original Clues",
-        "step2Description": "Keep capitalization, spacing, order, and symbols exactly as displayed.",
-        "step3Title": "Connect Evidence Across Pages",
-        "step3Description": "Match fragments to the pages and fields that request them."
+        "step1Title": "Follow the Walkthrough",
+        "step1Description": "Progress through each stage of the investigation in the correct order.",
+        "step2Title": "Find Every Key Location",
+        "step2Description": "Locate keys, codes, and items without backtracking.",
+        "step3Title": "Time Your Website Visits",
+        "step3Description": "Open each deep web page at the right moment to avoid deadly ambushes."
       },
       "featured": "Featured & Essential",
-      "all": "All Puzzle Solutions"
+      "all": "All Guides"
     },
-    "threats-and-survival": {
-      "title": "Welcome to the Game 3 Threats and Survival",
-      "description": "Warning cues, defensive responses, and prevention tips for every threat type.",
-      "metaTitle": "Welcome to the Game 3 Threats & Survival Guide",
-      "metaDescription": "Survive Welcome to the Game 3 with warning cues, defensive responses, and prevention tips for every threat type.",
-      "categoryLabel": "THREATS & SURVIVAL",
-      "whatIs": "Threats and Survival",
-      "whatIsDescription": "A survival reference covering warning signs, behavior, immediate response, and prevention for each hostile encounter in the game.",
-      "why": "Why study threats?",
+    "killers": {
+      "title": "Welcome to the Game 3 Killers",
+      "description": "Every killer in Welcome to the Game 3, with warning signs, jumpscare patterns, death triggers, and survival tactics.",
+      "metaTitle": "Welcome to the Game 3 Killers - How to Survive Each Threat",
+      "metaDescription": "Survive every killer in Welcome to the Game 3 with warning signs, jumpscare patterns, death triggers, kidnapper behavior, and proven survival tactics.",
+      "categoryLabel": "KILLERS",
+      "whatIs": "Killers",
+      "whatIsDescription": "A threat-by-threat breakdown of every killer in Welcome to the Game 3, including how to tell when one is behind you, the kidnapper's behavior, jumpscare patterns, and the conditions that trigger a death.",
+      "why": "Why study the killers?",
       "whySteps": {
-        "step1Title": "Recognize Warning Cues",
-        "step1Description": "Identify physical, visual, and digital warning signs early.",
-        "step2Title": "Respond in the Correct Order",
-        "step2Description": "Stop browsing, identify the source, then use the matching defense.",
-        "step3Title": "Prevent Repeat Encounters",
-        "step3Description": "Shorten sessions and keep defensive controls ready."
+        "step1Title": "Spot the Warning Signs",
+        "step1Description": "Read the audio and visual cues that signal a killer is near.",
+        "step2Title": "Know the Death Triggers",
+        "step2Description": "Learn which mistakes instantly end your run so you can avoid them.",
+        "step3Title": "Counter the Kidnapper",
+        "step3Description": "Recognize the kidnapper's approach and apply the correct defensive action."
       },
       "featured": "Featured & Essential",
-      "all": "All Survival Guides"
+      "all": "All Killers"
     },
-    "deep-web-sites": {
-      "title": "Welcome to the Game 3 Deep Web Sites",
-      "description": "A catalog of fictional deep web pages, their clues, access requirements, and danger levels.",
-      "metaTitle": "Welcome to the Game 3 Deep Web Sites - Catalog & Clues",
-      "metaDescription": "Browse the fictional deep web of Welcome to the Game 3 with a full site catalog covering clues, access requirements, and danger levels.",
-      "categoryLabel": "DEEP WEB SITES",
-      "whatIs": "Deep Web Sites",
-      "whatIsDescription": "A catalog of the fictional deep web pages in the game, separating progression sites from optional, misleading, and high-risk pages.",
-      "why": "Why use the site catalog?",
+    "characters": {
+      "title": "Welcome to the Game 3 Characters",
+      "description": "The cast of Welcome to the Game 3, including Tanner, Lucas, Patrick, CaseOh, and the voice actors behind them.",
+      "metaTitle": "Welcome to the Game 3 Characters - Cast & Voice Actors",
+      "metaDescription": "Meet the Welcome to the Game 3 characters including Tanner, Lucas, Patrick, CaseOh, and the voice actors who bring the cast to life.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "Characters",
+      "whatIsDescription": "An overview of the Welcome to the Game 3 cast, covering main characters like Tanner, Lucas, and Patrick, special appearances like CaseOh, and the voice actors who perform each role.",
+      "why": "Why explore the characters?",
       "whySteps": {
-        "step1Title": "Separate Progression From Traps",
-        "step1Description": "Identify which pages advance the investigation and which distract.",
-        "step2Title": "Check Access Requirements",
-        "step2Description": "Prepare invitation codes, credentials, and links before visiting.",
-        "step3Title": "Read Danger Levels First",
-        "step3Description": "Prepare the room and security tools before opening high-risk pages."
+        "step1Title": "Meet the Main Cast",
+        "step1Description": "Learn who Tanner, Lucas, and Patrick are and how they fit the story.",
+        "step2Title": "Spot Guest Appearances",
+        "step2Description": "Identify special guests like CaseOh and their role in the game.",
+        "step3Title": "Discover the Voice Actors",
+        "step3Description": "See which performers voice each character in Welcome to the Game 3."
       },
       "featured": "Featured & Essential",
-      "all": "All Deep Web Sites"
+      "all": "All Characters"
     },
-    "endings": {
-      "title": "Welcome to the Game 3 Endings",
-      "description": "Outcome routes, requirements, critical choices, and a checklist for every ending.",
-      "metaTitle": "Welcome to the Game 3 Endings - Routes & Requirements",
-      "metaDescription": "Unlock every ending in Welcome to the Game 3 with route requirements, critical choices, and a completion checklist.",
-      "categoryLabel": "ENDINGS",
-      "whatIs": "Endings",
-      "whatIsDescription": "A spoiler-controlled guide to every outcome, the conditions that trigger it, and the final choices that decide which route you reach.",
-      "why": "Why plan endings?",
+    "story": {
+      "title": "Welcome to the Game 3 Story",
+      "description": "The full story, lore, every ending, and the John chapter of Welcome to the Game 3.",
+      "metaTitle": "Welcome to the Game 3 Story - Lore, Endings & John Chapter",
+      "metaDescription": "Understand the Welcome to the Game 3 story with a deep dive into the lore, every ending, and the John chapter.",
+      "categoryLabel": "STORY",
+      "whatIs": "Story",
+      "whatIsDescription": "A spoiler-aware look at the Welcome to the Game 3 narrative, including the main story, the broader lore, every ending and how to reach it, and the pivotal John chapter.",
+      "why": "Why read the story guide?",
       "whySteps": {
-        "step1Title": "Track Required Evidence",
-        "step1Description": "Collect every mandatory clue before the final sequence.",
-        "step2Title": "Identify the Last Decision Point",
-        "step2Description": "Pinpoint where the ending route is locked in.",
-        "step3Title": "Use a Reusable Run Plan",
-        "step3Description": "Test alternate choices without repeating the whole investigation."
+        "step1Title": "Follow the Main Story",
+        "step1Description": "Track the central investigation and how each clue advances the plot.",
+        "step2Title": "Explore the Lore",
+        "step2Description": "Connect the deep web pages and files to the world behind Welcome to the Game 3.",
+        "step3Title": "Unlock Every Ending",
+        "step3Description": "Meet the requirements for each ending, including the John chapter outcome."
       },
       "featured": "Featured & Essential",
-      "all": "All Endings"
+      "all": "All Story Articles"
     },
-    "secrets": {
-      "title": "Welcome to the Game 3 Secrets and Easter Eggs",
-      "description": "Hidden interactions, optional discoveries, and the rewards each secret unlocks.",
-      "metaTitle": "Welcome to the Game 3 Secrets & Easter Eggs",
-      "metaDescription": "Find every secret and Easter egg in Welcome to the Game 3 with hint-first discovery methods and reward details.",
-      "categoryLabel": "SECRETS & EASTER EGGS",
-      "whatIs": "Secrets and Easter Eggs",
-      "whatIsDescription": "A collection of hidden interactions, optional discoveries, and developer references, each with a hint, a full solution, and the reward it unlocks.",
-      "why": "Why hunt secrets?",
+    "features": {
+      "title": "Welcome to the Game 3 Features",
+      "description": "Gameplay mechanics and multiplayer details that define the Welcome to the Game 3 experience.",
+      "metaTitle": "Welcome to the Game 3 Features - Gameplay & Multiplayer",
+      "metaDescription": "Discover the Welcome to the Game 3 features, from core gameplay mechanics to multiplayer modes and what makes the horror experience unique.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "Features",
+      "whatIsDescription": "An overview of the standout Welcome to the Game 3 features, covering the core gameplay loop, multiplayer support, and the systems that shape the horror investigation.",
+      "why": "Why review the features?",
       "whySteps": {
-        "step1Title": "Read the Hint First",
-        "step1Description": "Try the spoiler-free hint before revealing the solution.",
-        "step2Title": "Follow the Discovery Method",
-        "step2Description": "Use the documented steps to trigger each secret.",
-        "step3Title": "Collect the Rewards",
-        "step3Description": "Unlock optional lore, alternate clues, and ending routes."
+        "step1Title": "Understand the Gameplay Loop",
+        "step1Description": "See how browsing, clue-hunting, and threat survival fit together.",
+        "step2Title": "Check Multiplayer Support",
+        "step2Description": "Learn how multiplayer works and what it changes about the experience.",
+        "step3Title": "Plan Around the Mechanics",
+        "step3Description": "Use the feature set to shape your playstyle before you start."
       },
       "featured": "Featured & Essential",
-      "all": "All Secrets"
-    },
-    "updates": {
-      "title": "Welcome to the Game 3 Updates and Patch Notes",
-      "description": "Releases, fixes, balance changes, and new content tracked over time.",
-      "metaTitle": "Welcome to the Game 3 Updates & Patch Notes",
-      "metaDescription": "Track Welcome to the Game 3 updates, bug fixes, balance changes, and new content with guide impact notes.",
-      "categoryLabel": "UPDATES & PATCH NOTES",
-      "whatIs": "Updates and Patch Notes",
-      "whatIsDescription": "A timeline of releases, hotfixes, balance changes, and content updates, with notes on how each change affects puzzles, threats, and progression.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "Stay Current With the Build",
-        "step1Description": "Match puzzle and threat behavior to the latest version.",
-        "step2Title": "See What Changed",
-        "step2Description": "Review affected systems for each update.",
-        "step3Title": "Adjust Your Strategy",
-        "step3Description": "Update survival routines and walkthrough steps after balance changes."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Features"
     }
   }
 }

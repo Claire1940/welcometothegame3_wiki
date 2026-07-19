@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Welcome to the Game 3 Multijugador: Guía de Supervivencia Cooperativa",
+  description: "Domina las mecánicas cooperativas en el multijugador de Welcome to the Game 3. Aprende sobre la división de roles, estrategias de hackeo y técnicas de evasión de amenazas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+Co-Op+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Welcome to the Game 3",
+  keywords: "welcome to the game 3, multijugador, cooperativo, guía, hackeo, roles, supervivencia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jugabilidad Cooperativa**: El modo multijugador de Welcome to the Game 3 requiere que los jugadores dividan sus roles entre hackeo, exploración (running) y defensa.
+- **División de Roles**: Asigna a un jugador como el Hacker, uno como el Corredor (Runner) y uno como el Defensor para maximizar la eficiencia.
+- **Comunicación**: Utiliza la comunicación local o por radio sabiamente, ya que el ruido atrae a los letales asesinos de la deep web.
+- **Recolección de Llaves**: Localiza 8 llaves ocultas a través de la deep web mientras gestionas las redes eléctricas y las amenazas de intrusión física.
+</Callout>
+
+<Section icon={Map} title="Configuración del Multijugador de Welcome to the Game 3">
+
+El modo multijugador de Welcome to the Game 3 introduce una emocionante dinámica cooperativa a la experiencia de horror y supervivencia en la deep web. A diferencia de la experiencia en solitario, jugar con compañeros de equipo requiere una configuración de red coordinada y una comprensión clara de las configuraciones de la sala (lobby). Los jugadores deben establecer una conexión segura para hospedar o unirse a una sesión, asegurando que la latencia se minimice para reaccionar ante amenazas rápidas.
+
+Para comenzar una sesión multijugador, el anfitrión debe configurar los ajustes de la sala para que coincidan con el nivel de experiencia del equipo. Una latencia alta puede retrasar los mecanismos de bloqueo de puertas y las entradas de hackeo, lo que lleva a un fallo instantáneo, por lo que una conexión estable es vital.
+
+| Ajuste | Recomendado | Impacto en el Juego |
+| :--- | :--- | :--- |
+| Dificultad | Normal | Tasa de aparición de amenazas y complejidad de puzles estándar |
+| Chat de Voz | Proximidad | Restringe la comunicación de voz según la distancia |
+| Linterna | Compartida | Reservas de batería compartidas entre todos los corredores activos |
+| Nivel de Amenaza | Medio | Equilibrio entre ataques de hackers y amenazas físicas |
+
+<Callout type="warning" title="Estabilidad de la Red">
+Asegúrate de que todos los jugadores tengan un ping estable. La alta latencia puede retrasar los mecanismos de bloqueo de puertas y las entradas de hackeo, provocando un fallo instantáneo.
+</Callout>
+
+Seleccionar la dificultad y los ajustes de comunicación adecuados determina cómo el juego maneja el escalado de amenazas. El chat de voz por proximidad añade una capa extra de tensión, ya que hablar demasiado alto puede alertar a los intrusos cercanos sobre tu ubicación.
+
+</Section>
+
+<Section icon={Swords} title="División de Roles y Mecánicas Cooperativas">
+
+La supervivencia en el modo multijugador depende enteramente de qué tan bien divida las responsabilidades tu equipo. El entorno del juego se divide en el refugio, donde se encuentra la terminal de la computadora, y los pasillos circundantes, conductos de mantenimiento y habitaciones externas. Intentar que todos los jugadores se sienten frente a la computadora o corran sin rumbo resultará en un fin de juego rápido.
+
+Asignar roles específicos garantiza que todas las tareas, desde la defensa digital hasta la exploración física, se manejen de manera eficiente.
+
+<CardGrid cols={3}>
+  <Card title="El Hacker">
+    - **Operaciones de Terminal**: Gestiona la navegación por la deep web, desencripta códigos y monitorea la seguridad de la red.
+    - **Gestión de Recursos**: Compra herramientas esenciales, mejoras y artículos de utilidad usando DOS Coins.
+    - **Centro de Comunicación**: Dirige al Corredor a coordenadas específicas y advierte sobre amenazas digitales entrantes.
+  </Card>
+  <Card title="El Corredor (Runner)">
+    - **Exploración Física**: Registra el edificio en busca de notas ocultas, llaves físicas y disyuntores de energía.
+    - **Tácticas de Distracción**: Atrae las amenazas físicas lejos del refugio para ganar tiempo para el Hacker.
+    - **Recuperación de Objetos**: Recoge el equipo entregado y coloca trampas defensivas en los pasillos.
+  </Card>
+  <Card title="El Defensor">
+    - **Monitoreo de Seguridad**: Observa las cámaras de seguridad y escucha señales de audio de intrusos.
+    - **Gestión de Disyuntores**: Restablece los interruptores de energía cuando la red es saboteada o se sobrecarga.
+    - **Defensa Cercana**: Asegura las puertas y usa linternas o herramientas defensivas para repeler atacantes físicos.
+  </Card>
+</CardGrid>
+
+Cada jugador debe entender los límites de su rol y coordinar acciones a través del sistema de radio. A continuación, se muestra un desglose de los equipamientos estándar y los niveles de riesgo asociados con cada posición.
+
+| Rol | Herramienta Esencial | Objetivo Principal | Nivel de Riesgo |
+| :--- | :--- | :--- | :--- |
+| Hacker | Terminal de Comandos | Localizar 8 llaves y desencriptar hashes | Bajo (Físico) / Alto (Digital) |
+| Corredor | Linterna y Radio | Recuperar pistas físicas y objetos | Alto (Físico) / Bajo (Digital) |
+| Defensor | Sensor de Movimiento | Proteger los puntos de entrada del refugio | Medio (Físico) / Bajo (Digital) |
+
+<Callout type="tip" title="Rotación de Roles">
+Rota los roles entre rondas para mantener a los jugadores ágiles tanto en las mecánicas de hackeo como en las rutas de evasión física.
+</Callout>
+
+Mientras que el Hacker está relativamente a salvo de ataques físicos al principio de la partida, se enfrenta a un bombardeo digital constante. Por el contrario, el Corredor está en peligro constante de encontrarse con amenazas físicas en los pasillos oscuros.
+
+</Section>
+
+<Section icon={Target} title="Hackeo Paso a Paso y Recolección de Llaves">
+
+Para ganar el juego, tu equipo debe localizar 8 llaves ocultas en varios sitios de la deep web. El proceso de hackeo es complejo y requiere una acción sincronizada entre el Hacker en la terminal y el Corredor en el campo. El Defensor debe mantener el área despejada mientras se lleva a cabo este proceso.
+
+Sigue estos pasos para localizar, desencriptar y compilar las llaves necesarias para la extracción.
+
+<Steps>
+  <Step num="1" title="Escanear la Red">
+    El Hacker busca directorios activos de la deep web mientras el Defensor monitorea la red de área local en busca de intrusiones digitales.
+  </Step>
+  <Step num="2" title="Localizar Páginas de Llaves">
+    Navega por páginas wiki ocultas y busca en el código fuente o enlaces escondidos para encontrar hashes de llaves encriptados.
+  </Step>
+  <Step num="3" title="Desencriptar los Hashes">
+    El Hacker inicia la herramienta de desencriptación, que requiere que el Corredor ingrese códigos físicos encontrados en disyuntores o paneles de pared.
+  </Step>
+  <Step num="4" title="Extraer y Compilar">
+    Una vez desencriptadas, compila las llaves en la herramienta de extracción final para desbloquear las coordenadas de la ubicación de rescate.
+  </Step>
+</Steps>
+
+Las herramientas de desencriptación varían en costo y eficiencia. Gestionar tus DOS Coins sabiamente es crucial para comprar las mejoras de software adecuadas en el momento oportuno.
+
+| Nombre de Herramienta | Costo en DOS Coins | Velocidad de Desencriptación | Tasa de Vulnerabilidad |
+| :--- | :--- | :--- | :--- |
+| Desencriptador Básico | Gratis | Lenta (180s) | Huella digital baja |
+| Multi-Threader | 150 | Media (90s) | Frecuencia alta de advertencia de rastreo |
+| Bypass Cuántico | 350 | Rápida (45s) | Activa evento de rastreo inmediato |
+
+<Callout type="info" title="Huella de Hackeo">
+El uso de herramientas de desencriptación más rápidas aumenta tu huella digital, haciendo que tu red sea más susceptible a ciberataques.
+</Callout>
+
+Equilibrar la velocidad de desencriptación con el riesgo de ser rastreado es una decisión constante que el Hacker debe tomar. Si un rastreo alcanza el 100%, la ubicación del equipo se ve comprometida, lo que resulta en un ataque inmediato.
+
+</Section>
+
+<Section icon={Shield} title="Identificación y Evasión de Amenazas">
+
+Las amenazas en el modo multijugador se dividen en atacantes digitales que intentan rastrear tu IP e intrusos físicos que intentan entrar al refugio. Lidiar con ellos requiere comunicación inmediata y acciones defensivas coordinadas de todos los miembros del equipo.
+
+Comprender el comportamiento de cada amenaza permite al equipo desplegar las contramedidas correctas antes de que sea demasiado tarde.
+
+| Nombre de Amenaza | Tipo | Señales de Advertencia | Contramedida |
+| :--- | :--- | :--- | :--- |
+| El Secuestrador | Físico | Pasos en el pasillo, pomo de la puerta vibrando | Cierra la puerta principal, escóndete en armarios |
+| El Noir | Físico | Estática en cámaras de seguridad, luces parpadeantes | Apaga todas las luces, permanece en completo silencio |
+| Cyber Tracker | Digital | Aviso de advertencia rojo en la pantalla de la terminal | Ejecuta script de reinicio de IP, limpia caché del navegador |
+| El Respirador | Físico | Sonidos de respiración pesada cerca de los conductos | Apunta la linterna directamente a la abertura del conducto |
+
+<Callout type="warning" title="Gestión del Sonido">
+Las amenazas físicas son muy sensibles al sonido. Si usas el chat de voz por proximidad, permanece en silencio cuando haya una amenaza cerca.
+</Callout>
+
+Cuando el Defensor detecta un intruso a través de las cámaras de seguridad, debe alertar de inmediato al Corredor para que regrese al refugio o encuentre un escondite. El Hacker debe minimizar el uso de la terminal durante una amenaza física activa para reducir las emisiones de ruido y luz.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Victoria">
+
+Lograr la victoria en el multijugador requiere disciplina y una progresión estructurada. Usa esta lista para seguir los objetivos de tu equipo durante una partida y asegurar que no se salte ningún paso.
+
+<Checklist
+  id="victory-milestones"
+  title="Objetivos de la Partida:"
+  items={[
+    "Establecer canales de comunicación seguros",
+    "Comprar el sensor de movimiento y la radio",
+    "Localizar y desencriptar las primeras 4 llaves antes del anochecer",
+    "Sobrevivir a la primera oleada de intrusos físicos",
+    "Compilar las 8 llaves e iniciar el protocolo de extracción"
+  ]}
+/>
+
+<Callout type="success" title="Fase de Extracción">
+Una vez que comienza el protocolo de extracción, todas las amenazas se vuelven hiperagresivas. Asegúrate de que todas las puertas estén cerradas antes de iniciar.
+</Callout>
+
+Durante la fase final de extracción, el Defensor y el Corredor deben trabajar juntos para mantener los puntos de entrada mientras el Hacker completa la transferencia de datos final.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ y Resolución de Problemas">
+
+Encuentra respuestas a las preguntas más comunes sobre la configuración, optimización y tácticas de supervivencia en el multijugador.
+
+<FAQ items={[
+  {
+    question: "¿Admite el multijugador de Welcome to the Game 3 el juego cruzado (crossplay)?",
+    answer: "Sí, el modo multijugador admite el juego cruzado entre plataformas de PC compatibles, siempre que todos los jugadores ejecuten la misma versión del juego."
+  },
+  {
+    question: "¿Qué sucede si un jugador muere durante una partida?",
+    answer: "Si un jugador muere, no puede reaparecer durante el resto de la ronda. Los jugadores supervivientes deben asumir sus roles y completar los objetivos."
+  },
+  {
+    question: "¿Cómo ganamos DOS Coins más rápido en cooperativo?",
+    answer: "Las DOS Coins se ganan completando con éxito puzles de hackeo, encontrando monedas físicas en los pasillos y defendiéndose contra intentos de rastreo."
+  },
+  {
+    question: "¿Podemos jugar el modo multijugador con solo dos jugadores?",
+    answer: "Sí, el juego ajusta la frecuencia de las amenazas para salas de dos jugadores, aunque la gestión de roles se vuelve significativamente más desafiante."
+  }
+]} />
+
+<Callout type="info" title="Guías de la Comunidad">
+Consulta los foros oficiales de la comunidad para configuraciones de salas personalizadas y mapas creados por la comunidad para poner a prueba tus habilidades.
+</Callout>
+
+</Section>

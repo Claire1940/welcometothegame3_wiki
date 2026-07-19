@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Welcome to the Game 3 Multiplayer: Co-Op Survival Guide",
+  description: "Master the co-op mechanics in Welcome to the Game 3 multiplayer. Learn role division, hacking strategies, and threat evasion techniques.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+Co-Op+Guide",
+  date: "2026-07-19",
+  author: "welcome to the game 3 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Co-op Gameplay**: The welcome to the game 3 multiplayer mode requires players to split roles between hacking, running, and defending.
+- **Role Division**: Assign one player as the Hacker, one as the Runner, and one as the Defender to maximize efficiency.
+- **Communication**: Use local or radio communication wisely, as noise attracts deadly deep web assassins.
+- **Key Collection**: Locate 8 hidden keys across the deep web while managing power grids and physical intrusion threats.
+</Callout>
+
+<Section icon={Map} title="Welcome to the Game 3 Multiplayer Setup">
+
+Welcome to the Game 3 multiplayer introduces a thrilling co-op dynamic to the deep web survival horror experience. Unlike the solo experience, playing with teammates requires a coordinated network setup and a clear understanding of lobby configurations. Players must establish a secure connection to host or join a session, ensuring that latency is minimized to react to fast-paced threats. 
+
+To start a multiplayer session, the host must configure the lobby settings to match the team's experience level. High latency can delay door locking mechanisms and hacking inputs, leading to instant failure, so a stable connection is vital.
+
+| Setting | Recommended | Impact on Gameplay |
+| Difficulty | Normal | Standard threat spawn rate and puzzle complexity |
+| Voice Chat | Proximity | Restricts voice communication based on distance |
+| Flashlight | Shared | Shared battery reserves across all active runners |
+| Threat Level | Medium | Balance between hacker attacks and physical threats |
+
+<Callout type="warning" title="Network Stability">
+Ensure all players have stable ping. High latency can delay door locking mechanisms and hacking inputs, leading to instant failure.
+</Callout>
+
+Selecting the right difficulty and communication settings determines how the game handles threat scaling. Proximity voice chat adds an extra layer of tension, as speaking too loudly can alert nearby intruders to your location.
+
+</Section>
+
+<Section icon={Swords} title="Role Division & Co-op Mechanics">
+
+Survival in the multiplayer mode depends entirely on how well your team divides responsibilities. The game environment is divided into the safehouse, where the computer terminal is located, and the surrounding corridors, maintenance shafts, and external rooms. Trying to have every player sit at the computer or run around aimlessly will result in a quick game over.
+
+Assigning specific roles ensures that all tasks, from digital defense to physical exploration, are handled efficiently.
+
+<CardGrid cols={3}>
+  <Card title="The Hacker">
+    - **Terminal Operations**: Handles deep web navigation, decrypts codes, and monitors network security.
+    - **Resource Management**: Purchases essential tools, upgrades, and utility items using DOS Coins.
+    - **Communication Hub**: Directs the Runner to specific coordinates and warns of incoming digital threats.
+  </Card>
+  <Card title="The Runner">
+    - **Physical Exploration**: Searches the building for hidden notes, physical keys, and power breakers.
+    - **Distraction Tactics**: Lures physical threats away from the safehouse to buy time for the Hacker.
+    - **Item Retrieval**: Collects delivered gear and places defensive traps in hallways.
+  </Card>
+  <Card title="The Defender">
+    - **Security Monitoring**: Watches security cameras and listens for audio cues of intruders.
+    - **Breaker Management**: Resets power switches when the grid is sabotaged or overloaded.
+    - **Close Defense**: Holds doors and uses flashlights or defensive tools to repel physical attackers.
+  </Card>
+</CardGrid>
+
+Each player must understand their role's boundaries and coordinate actions through the radio system. Below is a breakdown of the standard loadouts and risk levels associated with each position.
+
+| Role | Essential Tool | Primary Objective | Risk Level |
+| Hacker | Command Terminal | Locate 8 keys and decrypt hashes | Low (Physical) / High (Digital) |
+| Runner | Flashlight & Radio | Retrieve physical clues and items | High (Physical) / Low (Digital) |
+| Defender | Motion Sensor | Protect safehouse entry points | Medium (Physical) / Low (Digital) |
+
+<Callout type="tip" title="Role Rotation">
+Rotate roles between rounds to keep players sharp on both hacking mechanics and physical evasion routes.
+</Callout>
+
+While the Hacker is relatively safe from physical attacks early in the match, they face constant digital bombardment. Conversely, the Runner is in constant danger of encountering physical threats in the dark hallways.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Hacking and Key Collection">
+
+To win the game, your team must locate 8 hidden keys hidden across various deep web sites. The hacking process is complex and requires synchronized action between the Hacker at the terminal and the Runner in the field. The Defender must keep the area clear while this process takes place.
+
+Follow these steps to locate, decrypt, and compile the keys required for extraction.
+
+<Steps>
+  <Step num="1" title="Scan the Network">
+    The Hacker scans for active deep web directories while the Defender monitors the local area network for digital intrusions.
+  </Step>
+  <Step num="2" title="Locate Key Pages">
+    Navigate to hidden wiki pages and search the source code or hidden links to find encrypted key hashes.
+  </Step>
+  <Step num="3" title="Decrypt the Hashes">
+    The Hacker initiates the decryption tool, which requires the Runner to input physical codes found on breakers or wall panels.
+  </Step>
+  <Step num="4" title="Extract and Compile">
+    Once decrypted, compile the keys into the final extraction tool to unlock the coordinates to the rescue location.
+  </Step>
+</Steps>
+
+Decryption tools vary in cost and efficiency. Managing your DOS Coins wisely is crucial to purchasing the right software upgrades at the right time.
+
+| Tool Name | DOS Coin Cost | Decryption Speed | Vulnerability Rate |
+| Basic Decrypter | Free | Slow (180s) | Low digital footprint |
+| Multi-Threader | 150 | Medium (90s) | High trace warning frequency |
+| Quantum Bypass | 350 | Fast (45s) | Triggers immediate trace event |
+
+<Callout type="info" title="Hacking Footprint">
+Using faster decryption tools increases your digital footprint, making your network more susceptible to cyberattacks.
+</Callout>
+
+Balancing decryption speed against the risk of being traced is a constant decision the Hacker must make. If a trace reaches 100%, the team's location is compromised, resulting in an immediate attack.
+
+</Section>
+
+<Section icon={Shield} title="Threat Identification and Evasion">
+
+Threats in the multiplayer mode are divided into digital attackers trying to trace your IP and physical intruders trying to enter the safehouse. Dealing with them requires immediate communication and coordinated defensive actions from all team members.
+
+Understanding the behavior of each threat allows the team to deploy the correct countermeasures before it is too late.
+
+| Threat Name | Type | Warning Signs | Countermeasure |
+| The Kidnapper | Physical | Footsteps in the hallway, doorknob rattling | Lock the main door, hide in closets |
+| The Noir | Physical | Static on security cameras, flickering lights | Turn off all lights, remain completely silent |
+| Cyber Tracker | Digital | Red warning prompt on the terminal screen | Execute IP reset script, clear browser cache |
+| The Breather | Physical | Heavy breathing sounds near ventilation shafts | Flash light directly into the vent opening |
+
+<Callout type="warning" title="Sound Management">
+Physical threats are highly sensitive to sound. If using proximity voice chat, remain silent when a threat is nearby.
+</Callout>
+
+When the Defender detects an intruder via the security cameras, they must immediately alert the Runner to return to the safehouse or find a hiding spot. The Hacker should minimize terminal usage during an active physical threat to reduce noise and light emissions.
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Victory Checklist">
+
+Achieving victory in multiplayer requires discipline and a structured progression. Use this checklist to track your team's objectives during a match to ensure no steps are missed.
+
+<Checklist
+  id="victory-milestones"
+  title="Match Objectives:"
+  items={[
+    "Establish secure communication channels",
+    "Purchase the motion sensor and radio",
+    "Locate and decrypt the first 4 keys before nightfall",
+    "Survive the first wave of physical intruders",
+    "Compile all 8 keys and initiate the extraction protocol"
+  ]}
+/>
+
+<Callout type="success" title="Extraction Phase">
+Once the extraction protocol starts, all threats become hyper-aggressive. Ensure all doors are locked before initiating.
+</Callout>
+
+During the final extraction phase, the Defender and Runner must work together to hold the entry points while the Hacker completes the final data transfer.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ and Troubleshooting">
+
+Find answers to the most common questions regarding multiplayer setup, optimization, and survival tactics.
+
+<FAQ items={[
+  {
+    question: "Does welcome to the game 3 multiplayer support crossplay?",
+    answer: "Yes, the multiplayer mode supports crossplay between compatible PC platforms, provided all players are running the same game version."
+  },
+  {
+    question: "What happens if one player dies during a match?",
+    answer: "If a player dies, they cannot respawn for the remainder of the round. The surviving players must take over their roles and complete the objectives."
+  },
+  {
+    question: "How do we earn DOS Coins faster in co-op?",
+    answer: "DOS Coins are earned by successfully completing hacking puzzles, finding physical coin drops in the corridors, and defending against trace attempts."
+  },
+  {
+    question: "Can we play the multiplayer mode with only two players?",
+    answer: "Yes, the game scales the threat frequency for two-player lobbies, though role management becomes significantly more challenging."
+  }
+]} />
+
+<Callout type="info" title="Community Guides">
+Check the official community forums for custom lobby configurations and community-made maps to test your skills.
+</Callout>
+
+</Section>

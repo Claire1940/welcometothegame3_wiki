@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de la Demo de Welcome to the Game 3: Tutorial Completo y Consejos de Supervivencia",
+  description: "Domina la dark web en esta guía de la demo de Welcome to the Game 3. Aprende sobre el monitoreo de cámaras de seguridad, evasión de amenazas, soluciones de hackeo y decodificación de claves.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=WTTG+3+Demo+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Welcome to the Game 3",
+  keywords: "Welcome to the Game 3, demo, guía, tutorial, supervivencia, dark web"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Encontrar dos hashes de clave ocultos, desencriptarlos usando un agente y enviar la clave compilada a Ronald.
+- **Gestión de Amenazas**: Monitorea las cámaras de seguridad para detectar la furgoneta del Secuestrador y vigila la pared del sótano para ver la sombra de The Noir.
+- **Defensa contra Hackeos**: Resuelve los mini-juegos Stack Pusher y Memory Deallocator para proteger tus DOS Coins y tu sistema.
+- **Ciclo Económico**: Completa tareas para agentes de la darknet compartiendo URLs de sitios web o archivos descargados para ganar DOS Coins.
+</Callout>
+
+<Section icon={Map} title="Guía de la Demo de Welcome to the Game 3: Resumen y Configuración">
+
+Ha llegado la prueba del simulador de la dark web, ofreciendo una mirada tensa a las mecánicas actualizadas de esta serie de terror psicológico. Esta **guía de la demo de Welcome to the Game 3** proporciona las estrategias esenciales, comportamientos de las amenazas y soluciones técnicas necesarias para completar la demo con éxito. Ambientada en un sótano desolado en lugar de la habitación de motel del juego principal, los jugadores deben adaptarse a un entorno altamente claustrofóbico donde convergen los peligros digitales y los intrusos físicos.
+
+Para sobrevivir a la noche, debes operar un navegador ANN especializado, gestionar el estado de procesamiento de tu sistema y esquivar amenazas letales. El ciclo de juego es rápido e implacable, requiriendo una coordinación estrecha entre la navegación web, el monitoreo de cámaras y la interacción manual con la habitación.
+
+**Puntos Destacados del Video:**
+- Desglose detallado del diseño del sótano y la ubicación de los interruptores de luz.
+- Demostración en vivo de los mini-juegos de hackeo Stack Pusher y Memory Deallocator.
+- Pistas visuales para identificar la furgoneta del Secuestrador y la sombra de The Noir.
+- Secuencia de desencriptación paso a paso usando el agente de la darknet.
+
+<YouTubeEmbed videoId="HpGc2Y5ZflU" title="WELCOME TO THE GAME is BACK! (WTTG 3 Demo)" />
+
+<Callout type="info" title="Configuración de la Demo vs Juego Principal">
+La demo sirve como una prueba independiente con configuraciones únicas. Mientras que la demo tiene lugar en un sótano, el lanzamiento completo del juego está diseñado para desarrollarse en una habitación de motel con una exploración expandida y más vectores de amenaza.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas Principales y Aplicaciones de Software">
+
+Operar el sistema informático del juego de manera eficiente es la base de la supervivencia. Tu entorno de escritorio cuenta con varias aplicaciones de software críticas que deben utilizarse para localizar claves, descargar archivos y monitorear tu entorno físico inmediato.
+
+Comprender cómo interactúan estos programas es vital. A continuación, se presenta un desglose detallado de las principales utilidades de software disponibles en tu terminal.
+
+| Aplicación | Función Principal | Costo / Impacto en el Sistema | Escenario de Uso |
+|---|---|---|---|
+| Navegador ANN | Se conecta a la darknet a través de la wiki Codex of Silence | Gratis | Encontrar hashes de clave y archivos ocultos |
+| Crypt Chat | Se comunica con agentes y el Game Master (Ronald) | Gratis | Recibir tareas y enviar claves compiladas |
+| Sic Cam | Monitorea las cámaras de seguridad físicas de la propiedad | Gratis | Detectar el vehículo del Secuestrador |
+| Shadow Fetch | Descarga archivos seguros usando URLs de obtención directa | DOS Coins variables | Obtener archivos solicitados por los agentes |
+| DOS Miner | Genera ingresos pasivos continuos de DOS Coins | Alta carga de CPU | Financiar tarifas de desencriptación y descargas |
+
+Para progresar, debes navegar por la wiki Codex of Silence. Este directorio contiene diez enlaces web, aunque solo seis están activos durante una sola partida, mientras que los otros cuatro enlaces están completamente fuera de línea. Estos sitios activos contienen puntos de clic ocultos que revelan un hash de clave o un archivo descargable.
+
+<Callout type="tip" title="Consejo Pro: Maximiza la Eficiencia de DOS Coins">
+Mantén tu DOS Miner activo tanto como sea posible, pero prepárate para desactivarlo si la temperatura del sistema sube demasiado o si se inicia un intento de hackeo. Ganar DOS Coins temprano es crucial, ya que necesitas un total de 150 DOS Coins para las tarifas de desencriptación de claves.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Amenazas y Estrategias de Supervivencia">
+
+La supervivencia en este simulador requiere una agudeza espacial extrema. Eres cazado por dos amenazas físicas principales: el Secuestrador y The Noir. Ignorar a cualquiera de estas entidades resultará en un fin de juego inmediato.
+
+### El Secuestrador (La Furgoneta)
+El Secuestrador patrulla el vecindario circundante intentando triangular tu ubicación exacta. No puede localizar tu posición a menos que los sensores de tu sótano detecten una luz fuerte emanando del interior.
+
+- **Detección**: Revisa tus cámaras de seguridad regularmente a través de la aplicación Sic Cam. Busca una furgoneta blanca sospechosa estacionada en la calle.
+- **Contramedida**: Levántate inmediatamente de tu escritorio, camina hacia los interruptores de luz y apaga ambas luces del sótano.
+- **Resolución**: Regresa a tu computadora (aún puedes usar la terminal en la oscuridad) y monitorea las cámaras. Una vez que la furgoneta se aleje, vuelve a encender las luces inmediatamente para evitar que aparezcan otras amenazas.
+
+### The Noir
+The Noir es un acosador silencioso que se para directamente detrás de ti. Se siente atraído por la oscuridad prolongada, lo que significa que dejar las luces del sótano apagadas por demasiado tiempo lo invitará a entrar en tu habitación.
+
+- **Detección**: Cuando estés sentado frente a tu computadora, mira la pared directamente detrás de tu monitor. Si ves una sombra humana distintiva proyectada en la pared, The Noir está presente.
+- **Contramedida**: No te levantes de tu silla y no intentes darte la vuelta. Debes permanecer completamente inmóvil en tu terminal de computadora.
+- **Resolución**: Espera en silencio hasta que la sombra desaparezca por completo de la pared antes de reanudar tus tareas.
+
+| Amenaza | Activador Principal | Método de Detección | Respuesta Correcta |
+|---|---|---|---|
+| Secuestrador | Luces del sótano activas cuando la furgoneta está cerca | Transmisión de cámaras (Sic Cam) | Apagar todas las luces del sótano |
+| The Noir | Oscuridad prolongada o aparición aleatoria | Sombra proyectada en la pared detrás del PC | Permanecer sentado y no moverse |
+
+<Callout type="warning" title="Cuidado con las Distracciones de Audio">
+Todas las señales de sonido en la demo, incluyendo pasos y susurros de fondo, son completamente falsas y están diseñadas para inducir el pánico. Confía estrictamente en la confirmación visual a través de cámaras y sombras para tomar tus decisiones de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mini-juegos de Hackeo y Guía de Defensa">
+
+Mientras navegas por la darknet, hackers rebeldes intentarán periódicamente vulnerar tu sistema. Cuando ocurre un hackeo, tu pantalla se bloqueará, obligándote a resolver uno de los dos mini-juegos de seguridad para evitar fallos en el sistema y la pérdida de tus preciadas DOS Coins.
+
+### Stack Pusher
+Una mecánica que regresa de entregas anteriores. Debes manipular pilas de memoria en una cuadrícula.
+- **Cómo jugar**: Mueve el cursor junto a los bloques de memoria y empújalos hacia la zona central designada.
+- **Estrategia**: Concéntrate primero en los bloques exteriores para evitar que se queden atascados contra los bordes de la cuadrícula.
+
+### Memory Deallocator
+Un mini-juego de ritmo rápido que requiere entradas precisas basadas en indicadores visuales.
+
+<Steps>
+  <Step num="1" title="Analiza el Bloque de Memoria">
+    Centra tu atención por completo en la última línea mostrada en la interfaz del asignador.
+  </Step>
+  <Step num="2" title="Identifica la Zona de Objetivo Verde">
+    Observa qué sección de la línea está resaltada en verde: el lado izquierdo, el lado derecho o ambos lados.
+  </Step>
+  <Step num="3" title="Ingresa el Comando Correspondiente">
+    Presiona la tecla de Flecha Izquierda para el lado izquierdo, la tecla de Flecha Derecha para el lado derecho, o la Barra Espaciadora si ambos lados están resaltados.
+  </Step>
+  <Step num="4" title="Ejecuta con Ritmo">
+    Completa las secuencias línea por línea. Evita presionar botones al azar, ya que las entradas incorrectas activarán instantáneamente una brecha en el sistema.
+  </Step>
+</Steps>
+
+| Mini-juego | Controles de Entrada | Área de Enfoque | Consecuencia de Fallo |
+|---|---|---|---|
+| Stack Pusher | Teclas Direccionales | Bloques exteriores de la cuadrícula | Pérdida de DOS Coins |
+| Memory Deallocator | Flecha Izquierda / Derecha / Espacio | Línea verde inferior | Bloqueo del sistema y aceleración de amenazas |
+
+<Callout type="success" title="Maestría en Mini-juegos">
+El Memory Deallocator requiere un ritmo constante. Tómate una fracción de segundo para confirmar el resaltado verde antes de presionar la tecla, ya que se valora más la precisión que la velocidad pura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tutorial Paso a Paso de la Demo">
+
+Para completar con éxito la demo, debes seguir una ruta de progresión estructurada. Tu objetivo es recolectar dos fragmentos de clave, pagar a un agente para desencriptarlos, combinarlos y entregar el código final al Game Master.
+
+<CardGrid cols={3}>
+  <Card title="Fase 1: Recopilación de Información">
+    - Conéctate a la wiki **Codex of Silence**.
+    - Escanea los sitios web activos en busca de **puntos de clic rojos** (claves) y **puntos de clic verdes** (archivos).
+    - Anota las URLs de obtención directa para Shadow Fetch.
+  </Card>
+  <Card title="Fase 2: Acumulación Financiera">
+    - Monitorea Crypt Chat para tareas de agentes entrantes.
+    - Proporciona los enlaces de sitios web solicitados o descarga archivos a través de Shadow Fetch.
+    - Acumula al menos **150 DOS Coins** para cubrir las tarifas de desencriptación.
+  </Card>
+  <Card title="Fase 3: Desencriptación y Escape">
+    - Envía la Clave 1 a tu agente de desencriptación por **50 DOS Coins**.
+    - Envía la Clave 2 a tu agente por **100 DOS Coins**.
+    - Combina los fragmentos de la clave y envía el código final a Ronald.
+  </Card>
+</CardGrid>
+
+Una vez que envíes la clave compilada a Ronald, él confirmará tu éxito. Luego debes levantarte con seguridad, subir las escaleras hasta la puerta principal y recoger el paquete físico que contiene una unidad flash y una nota para concluir la demo.
+
+<Checklist
+  id="demo-checklist"
+  title="Objetivos Requeridos para Completar la Demo:"
+  items={[
+    "Establecer conexión con la página wiki de Codex of Silence",
+    "Localizar ambos hashes de clave ocultos en los sitios web activos",
+    "Ganar 150 DOS Coins completando las solicitudes de los agentes de la darknet",
+    "Desencriptar ambos fragmentos de clave a través del agente de Crypt Chat",
+    "Combinar los fragmentos desencriptados por índice y enviarlos a Ronald",
+    "Subir las escaleras y recoger el paquete de entrega de la puerta principal"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia para Speedrun">
+Si tienes dificultades con las ubicaciones aleatorias de los puntos de clic, memoriza las coordenadas de los cuadros verdes y rojos en sitios de alta frecuencia como 'Red Triangle' o 'The Hole'. Esto te permite omitir la búsqueda extensiva y completar la demo en menos de diez minutos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal en la guía de la demo de Welcome to the Game 3?",
+    answer: "El objetivo principal es localizar dos hashes de clave ocultos en sitios activos de la darknet, ganar 150 DOS Coins a través de tareas de agentes, pagar para desencriptar ambos hashes y enviar la clave combinada a Ronald para desbloquear la secuencia de salida."
+  },
+  {
+    question: "¿Cómo sé si The Noir está en la habitación conmigo?",
+    answer: "Mira la pared directamente detrás del monitor de tu computadora. Si una sombra humana es visible en la pared, The Noir está presente. Debes permanecer completamente inmóvil en tu computadora y evitar levantarte hasta que la sombra desaparezca."
+  },
+  {
+    question: "¿Puedo dejar las luces del sótano apagadas permanentemente para evitar al Secuestrador?",
+    answer: "No. Mantener las luces del sótano apagadas durante un período prolongado activará automáticamente a The Noir para que entre en la habitación y te ataque. Solo apaga las luces cuando la furgoneta del Secuestrador sea visible activamente en las cámaras."
+  },
+  {
+    question: "¿Qué debo hacer si la descarga de Shadow Fetch falla?",
+    answer: "Revisa el ícono de estado en la parte inferior derecha de tu escritorio. Si se muestra un círculo rojo, el programa se ha desconectado y requiere un clic de reinicio manual para reanudar las descargas seguras."
+  }
+]} />
+
+<Callout type="info" title="Nota Final de Supervivencia">
+El éxito en esta prueba te prepara para las mecánicas avanzadas del lanzamiento completo. Mantén la calma, gestiona los recursos de tu sistema y prioriza siempre el barrido de cámaras sobre la navegación web cuando la supervivencia esté en juego.
+</Callout>
+
+</Section>

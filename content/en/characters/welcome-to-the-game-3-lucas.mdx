@@ -1,0 +1,156 @@
+import { Map, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Welcome to the Game 3: Beginner Walkthrough & Survival Guide",
+  description: "Master Welcome to the Game 3 with our expert walkthrough. Learn investigation loops, deep web puzzle solutions, and essential survival strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1e1e/d4d4d4?text=Welcome+to+the+Game+3+Guide",
+  date: "2026-07-19",
+  author: "welcome to the game 3 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Welcome to the Game 3** requires a balance between deep-web investigation and physical room awareness.
+- **Master the investigation loop** by recording clues, managing browser tabs, and checking for threats regularly.
+- **Prioritize survival** by learning the room layout and responding immediately to auditory or visual warning signs.
+- **Use methodical browsing** to connect evidence across fictional websites without falling for decoys.
+- **Keep your notes organized** to ensure you can quickly access passwords and codes during high-pressure sequences.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Investigation">
+
+To survive in Welcome to the Game 3, you must treat your in-game computer and your physical environment as two halves of a single, dangerous workspace. Players often fail by focusing too intently on screen puzzles while ignoring the physical threats lurking in their apartment.
+
+**Video Highlights:**
+- Understanding the core investigation loop
+- Identifying early-game defensive tools
+- Setting up an efficient note-taking system
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Welcome to the Game 3 Beginner Guide" />
+
+Before opening any deep web pages, spend time memorizing the quickest route between your desk and defensive interactables. Treat your room as a hazard zone where silence is rarely an indicator of safety. Always keep your audio settings high enough to hear subtle movement, such as footsteps or door handles turning.
+
+| Feature | Importance | Action Required |
+| :--- | :--- | :--- |
+| **Room Security** | Critical | Check entrances and windows frequently |
+| **Note System** | High | Record every URL, password, and symbol |
+| **Browser Tabs** | Medium | Close unnecessary pages to reduce clutter |
+| **Audio Cues** | Critical | Listen for movement and environmental changes |
+
+<Callout type="tip" title="Pro Tip">
+Never assume a page is safe just because it looks static. Always perform a quick room security check before diving into complex text or image analysis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Investigation Workflow">
+
+Progression in Welcome to the Game 3 relies on your ability to connect disparate fragments of information. Follow this structured approach to maintain your investigation without losing track of your goals.
+
+<Steps>
+  <Step num="1" title="Room Inspection">
+    Before logging into the computer, verify that all security measures are active and familiarize yourself with the escape routes.
+  </Step>
+  <Step num="2" title="Clue Collection">
+    Browse one site at a time. Record repeated usernames, symbols, or numerical sequences exactly as they appear.
+  </Step>
+  <Step num="3" title="Data Correlation">
+    Compare your notes across multiple pages. Look for shared aliases or file naming conventions that bridge different investigation branches.
+  </Step>
+  <Step num="4" title="Security Cycle">
+    After every 5-10 minutes of browsing, force yourself to stop and perform a full room sweep to detect any encroaching threats.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Crucial Warning">
+Avoid the common mistake of opening dozens of tabs simultaneously. This leads to information overload and makes it easier to miss the critical clue connecting two seemingly unrelated sites.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Threats and Survival Strategy">
+
+Survival in Welcome to the Game 3 depends on your reaction speed. Different threats require different defensive responses, and knowing the warning signs is the difference between a successful run and a game over.
+
+| Threat Type | Warning Sign | Best Defensive Action |
+| :--- | :--- | :--- |
+| **Physical Intrusion** | Footsteps/Door sounds | Hide or use room security tools |
+| **Visual Surveillance** | Silhouette/Window movement | Break line of sight immediately |
+| **Network Tracking** | Security alerts/Pop-ups | Use security utilities/Close tabs |
+| **Computer Distraction** | Interface glitches | Check room before clicking anything |
+
+<CardGrid cols={3}>
+  <Card title="Early Game">
+    Focus on learning the environment. Do not rush into deep investigation branches until you can navigate your room in the dark.
+  </Card>
+  <Card title="Mid Game">
+    Prioritize efficiency. Use your notes to quickly identify which pages provide relevant clues versus those that are merely atmospheric.
+  </Card>
+  <Card title="Late Game">
+    Stay vigilant. Threats become more aggressive as you approach the final objective. Never stop checking your room during the final sequence.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Efficiency Note">
+Create a dedicated physical or digital notepad specifically for passwords and codes. Having this ready saves precious seconds when a threat is active.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Deep Web Site Management">
+
+Not all sites in the game are created equal. Distinguishing between progression-essential pages and decoys is vital for a smooth playthrough.
+
+| Site Category | Purpose | Danger Level |
+| :--- | :--- | :--- |
+| **Progression Site** | Contains mandatory clues | Medium |
+| **High-Risk Site** | Trigger points for threats | Extreme |
+| **Lore/Evidence Site** | Background info/Optional | Low |
+| **Mirror/Decoy Page** | Misleading info/Traps | Medium |
+
+<Checklist
+  id="investigation-checklist"
+  title="Progression Goals:"
+  items={[
+    "Verify every password before entering it",
+    "Cross-reference URLs with known safe hubs",
+    "Save your progress or state after major discoveries",
+    "Keep a list of unresolved clue chains"
+  ]}
+/>
+
+<Callout type="info" title="Investigation Insight">
+If a site asks for a login, ensure you have the correct username and password pair from your notes. Entering incorrect data repeatedly may trigger an unwanted event or lock your account.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I know if a clue is fake?",
+    answer: "Cross-reference it with at least two other sources. If a detail appears in a confirmed progression site and is supported by archive documents, it is likely valid."
+  },
+  {
+    question: "Why do I keep getting caught by intruders?",
+    answer: "You are likely spending too much time on the computer without checking your surroundings. Implement a strict check-and-browse cycle to maintain awareness."
+  },
+  {
+    question: "Is there a best ending in Welcome to the Game 3?",
+    answer: "The 'Completed Investigation' ending is considered the primary goal, but hidden truths can be discovered by finding optional lore and following secret clue chains."
+  },
+  {
+    question: "Should I explore every link I find?",
+    answer: "No. Random exploration is risky. Focus on links that share symbols or keywords with your current objective to stay on the right path."
+  }
+]} />
+
+</Section>
