@@ -1,11 +1,1090 @@
 {
+  "seo": {
+    "home": {
+      "title": "Welcome to the Game 3 - Lançamento, Detonado e Enigmas",
+      "description": "Explore os guias de Welcome to the Game 3, cobrindo detalhes do lançamento, dicas para iniciantes, enigmas da deep web, ameaças, finais, segredos e atualizações do Steam.",
+      "keywords": "Welcome to the Game 3, Steam, data de lançamento, detonado, enigmas, finais, jogo de terror",
+      "ogTitle": "Welcome to the Game 3 - Lançamento, Detonado e Enigmas",
+      "ogDescription": "Explore os guias de Welcome to the Game 3, cobrindo detalhes do lançamento, dicas para iniciantes, enigmas da deep web, ameaças, finais, segredos e atualizações do Steam.",
+      "twitterTitle": "Welcome to the Game 3 - Lançamento, Detonado e Enigmas",
+      "twitterDescription": "Explore os guias de Welcome to the Game 3, cobrindo detalhes do lançamento, enigmas da deep web, ameaças, finais e dicas de sobrevivência."
+    }
+  },
   "nav": {
-    "release": "Release",
+    "release": "Lançamento",
     "demo": "Demo",
-    "guide": "Guide",
-    "killers": "Killers",
-    "characters": "Characters",
-    "story": "Story",
-    "features": "Features"
+    "guide": "Guia",
+    "killers": "Assassinos",
+    "characters": "Personagens",
+    "story": "História",
+    "features": "Recursos"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Terror e Enigmas da Deep Web",
+    "title": "Wiki de Welcome to the Game 3",
+    "description": "Entre em uma investigação hostil na deep web onde cada clique pode expor você. Resolva enigmas crípticos, siga pistas escondidas, sobreviva a ameaças crescentes e descubra o mistério por trás da próxima experiência de terror da Reflect Studios.",
+    "getFreeCodesCTA": "Ler Guia para Iniciantes",
+    "playOnSteamCTA": "Jogue no Steam",
+    "stats": {
+      "stat1": {
+        "value": "Steam",
+        "label": "Plataforma"
+      },
+      "stat2": {
+        "value": "Reflect Studios",
+        "label": "Desenvolvedor"
+      },
+      "stat3": {
+        "value": "Terror e Enigmas",
+        "label": "Gênero"
+      },
+      "stat4": {
+        "value": "A anunciar",
+        "label": "Data de Lançamento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Welcome to the Game 3",
+    "description": "Navegue por uma deep web fictícia e hostil, decodifique pistas complexas em páginas interligadas e sobreviva a uma investigação que observa você de volta."
+  },
+  "tools": {
+    "title": "Welcome to the Game 3",
+    "titleHighlight": "Central de Investigação",
+    "subtitle": "Tudo o que você precisa para investigar a deep web, decifrar quebra-cabeças, sobreviver a ameaças e descobrir todos os finais em Welcome to the Game 3",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Ciclo básico, ferramentas de computador e prioridades iniciais de sobrevivência"
+      },
+      {
+        "icon": "Route",
+        "title": "Detonado",
+        "description": "Progressão etapa por etapa do início ao fim do jogo"
+      },
+      {
+        "icon": "Puzzle",
+        "title": "Guia de Puzzles",
+        "description": "Tipos de pistas, métodos de decodificação e soluções completas"
+      },
+      {
+        "icon": "ShieldAlert",
+        "title": "Ameaças e Sobrevivência",
+        "description": "Sinais de alerta, respostas defensivas e prevenção"
+      },
+      {
+        "icon": "Globe",
+        "title": "Sites da Deep Web",
+        "description": "Catálogo de sites, pistas, acesso e níveis de perigo"
+      },
+      {
+        "icon": "Flag",
+        "title": "Finais",
+        "description": "Rotas de desfecho, requisitos e escolhas finais"
+      },
+      {
+        "icon": "Key",
+        "title": "Segredos e Easter Eggs",
+        "description": "Interações ocultas e descobertas opcionais"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Atualizações e Notas de Atualização",
+        "description": "Lançamentos, correções, mudanças de equilíbrio e novos conteúdos"
+      }
+    ]
+  },
+  "modules": {
+    "beginnerGuide": {
+      "title": "Guia para Iniciantes de Welcome to the Game 3",
+      "eyebrow": "Primeiros Passos",
+      "subtitle": "Aprenda o ciclo básico de investigação, as ferramentas do computador, a rotina defensiva e as prioridades do início do jogo em Welcome to the Game 3.",
+      "intro": "Welcome to the Game 3 combina investigação no computador com sobrevivência em tempo real. Navegue por espaços online perigosos, identifique pistas úteis, conecte informações em várias páginas e pare de trabalhar regularmente para verificar se há ameaças ao seu redor.",
+      "steps": [
+        {
+          "title": "Conheça a Área Segura",
+          "description": "Inspecione o quarto antes de iniciar a investigação. Identifique entradas, linhas de visão, luzes, controles do computador e todos os objetos usados para detectar ou responder ao perigo.",
+          "actions": [
+            "Memorize a rota mais rápida entre o computador e os objetos interativos de defesa.",
+            "Teste controles importantes antes de abrir páginas perigosas.",
+            "Mantenha o quarto silencioso o suficiente para ouvir passos, movimentos e outros sons de alerta."
+          ],
+          "priority": "Sobrevivência",
+          "commonMistake": "Iniciar a investigação imediatamente sem aprender onde os controles de defesa estão localizados."
+        },
+        {
+          "title": "Organize o Computador",
+          "description": "Use o navegador do jogo, notas e utilitários de segurança como partes separadas de um único espaço de trabalho de investigação. Mantenha as informações essenciais visíveis e feche os aplicativos que acumulam bagunça.",
+          "actions": [
+            "Registre URLs, nomes, senhas, símbolos e sequências numéricas úteis.",
+            "Separe as pistas confirmadas das páginas que servem apenas para dar atmosfera ou distrair.",
+            "Mantenha as ferramentas de segurança fáceis de alcançar enquanto navega."
+          ],
+          "priority": "Organização",
+          "commonMistake": "Confiar na memória e perder uma pista importante após sair de uma página."
+        },
+        {
+          "title": "Navegue Metodicamente",
+          "description": "Investigue uma página de cada vez e examine seu texto, imagens, links de navegação, pistas de origem e formatações incomuns antes de prosseguir.",
+          "actions": [
+            "Leia os títulos das páginas e as frases repetidas com atenção.",
+            "Verifique se imagens, nomes de arquivos, símbolos ou textos destacados contêm fragmentos de pistas.",
+            "Siga links promissores de maneira controlada, em vez de abrir tudo de uma vez."
+          ],
+          "priority": "Investigação",
+          "commonMistake": "Abrir muitas páginas rapidamente e deixar passar a pista que as conecta."
+        },
+        {
+          "title": "Use um Ciclo de Verificação e Navegação",
+          "description": "Alterne sessões curtas de investigação com verificações físicas de segurança. Isso evita a visão de túnel e cria um ritmo de defesa previsível.",
+          "actions": [
+            "Faça uma pausa após concluir uma página ou decifrar parte de uma pista.",
+            "Escute antes de sair do computador.",
+            "Verifique a sala após sons suspeitos, mudanças visuais ou interrupções no computador."
+          ],
+          "priority": "Controle de Ameaças",
+          "commonMistake": "Permanecer no computador por longos períodos ignorando os sinais de alerta do ambiente."
+        },
+        {
+          "title": "Proteja o Progresso Importante",
+          "description": "Preserve as informações úteis assim que elas aparecerem. As sequências de investigação em Welcome to the Game 3 geralmente exigem detalhes coletados de várias páginas não relacionadas.",
+          "actions": [
+            "Anote cada pista confirmada imediatamente.",
+            "Mantenha as informações decodificadas ao lado da pista original.",
+            "Revise as informações coletadas antes de inserir senhas ou respostas finais."
+          ],
+          "priority": "Progresso",
+          "commonMistake": "Descartar uma pista porque seu propósito não está claro imediatamente."
+        },
+        {
+          "title": "Evite Assassinos do Início da Partida",
+          "description": "A maioria das falhas iniciais ocorre por falta de atenção, e não por quebra-cabeças difíceis. Vá mais devagar sempre que o ambiente mudar ou o computador se comportar de maneira inesperada.",
+          "actions": [
+            "Não investigue interrupções suspeitas ignorando a sala.",
+            "Não repita tentativas de senha incorretas sem verificar a pista novamente.",
+            "Não presuma que o silêncio significa que a área está segura."
+          ],
+          "priority": "Consistência",
+          "commonMistake": "Tratar os sistemas de investigação e de sobrevivência como atividades separadas."
+        }
+      ],
+      "quickTips": [
+        "Trate a sala e o computador como um único espaço de trabalho pelo qual você alterna constantemente.",
+        "Mantenha um único arquivo de notas para URLs, senhas, nomes, símbolos e sequências numéricas.",
+        "Navegue em sessões curtas e focadas, e verifique a sala entre cada uma delas.",
+        "Registre cada pista no momento em que ela aparecer, mesmo que o propósito ainda não esteja claro."
+      ]
+    },
+    "walkthrough": {
+      "title": "Detonado de Welcome to the Game 3",
+      "eyebrow": "Progressão Principal",
+      "subtitle": "Acompanhe a investigação de Welcome to the Game 3 desde a configuração inicial até o objetivo final de acesso.",
+      "intro": "O progresso em Welcome to the Game 3 é construído explorando páginas online, registrando evidências conectadas, resolvendo cadeias de pistas e sobrevivendo a interrupções crescentes. A abordagem mais segura é concluir uma ramificação da investigação por vez, mantendo uma rotina regular de verificação do quarto.",
+      "stages": [
+        {
+          "title": "Configuração Inicial",
+          "requiredActions": [
+            "Inspecione o quarto e localize todos os interagíveis de defesa.",
+            "Aprenda a interface do computador e a navegação no navegador.",
+            "Crie um local claro para registrar URLs, senhas, nomes e símbolos."
+          ],
+          "preparation": "Confirme os controles básicos de movimento e interação antes de abrir as páginas de investigação.",
+          "majorDangers": [
+            "Negligenciar os controles ambientais",
+            "Ignorar sons de alerta iniciais",
+            "Perder as primeiras pistas úteis"
+          ],
+          "recovery": "Volte para as páginas iniciais, refaça suas notas e teste cada interação do quarto antes de continuar."
+        },
+        {
+          "title": "Construa a Primeira Cadeia de Pistas",
+          "requiredActions": [
+            "Navegue pelas páginas iniciais disponíveis.",
+            "Identifique palavras repetidas, símbolos, nomes de usuário e assuntos vinculados.",
+            "Registre cada página que contenha uma conexão confirmada."
+          ],
+          "preparation": "Use um formato simples de anotação contendo o nome da página, a pista, o possível significado e a página conectada.",
+          "majorDangers": [
+            "Seguir links não relacionados por muito tempo",
+            "Confundir texto decorativo com uma solução",
+            "Permanecer no computador durante mudanças ambientais suspeitas"
+          ],
+          "recovery": "Revise as páginas já visitadas e compare os detalhes repetidos em vez de começar toda a investigação novamente."
+        },
+        {
+          "title": "Decodifique Informações de Acesso",
+          "requiredActions": [
+            "Combine fragmentos coletados de páginas separadas.",
+            "Teste interpretações diretas antes de métodos complexos de decodificação.",
+            "Associe senhas e códigos à página ou conta que os solicita."
+          ],
+          "preparation": "Preserve o uso de maiúsculas original, espaçamento, ordem dos símbolos e ordem dos números em suas notas.",
+          "majorDangers": [
+            "Inserir uma resposta correta no local errado",
+            "Alterar a ordem dos fragmentos de pistas",
+            "Repetir palpites sem revisar o material de origem"
+          ],
+          "recovery": "Volte para a pista original, refaça a sequência exatamente como exibida e verifique qual página solicita a resposta."
+        },
+        {
+          "title": "Gerencie a Pressão do Meio de Jogo",
+          "requiredActions": [
+            "Continue progredindo na investigação enquanto encurta as sessões de navegação.",
+            "Realize verificações no quarto após grandes descobertas e interrupções no computador.",
+            "Mantenha os controles de segurança mais importantes prontos."
+          ],
+          "preparation": "Revise os sons de aviso e as pistas ambientais antes de abrir uma nova ramificação de investigação.",
+          "majorDangers": [
+            "Visão de túnel durante quebra-cabeças mais longos",
+            "Alarmes falsos que atrapalham a concentração",
+            "Não notar mudanças no quarto enquanto lê"
+          ],
+          "recovery": "Pare de navegar, proteja o quarto e retome a partir da última pista confirmada em vez de reabrir todas as páginas."
+        },
+        {
+          "title": "Conclua as Ramificações de Investigação Restantes",
+          "requiredActions": [
+            "Verifique nomes, símbolos e URLs não resolvidos em suas notas.",
+            "Visite novamente páginas que contêm cadeias de pistas incompletas.",
+            "Confirme se cada resposta coletada foi usada no local pretendido."
+          ],
+          "preparation": "Agrupe as notas por ramificação de investigação para que os objetivos inacabados sejam fáceis de identificar.",
+          "majorDangers": [
+            "Presumir que uma pista não utilizada é irrelevante",
+            "Repetir ramificações concluídas",
+            "Abrir páginas não resolvidas demais de uma só vez"
+          ],
+          "recovery": "Marque cada pista como não utilizada, parcialmente resolvida ou concluída e continue a partir da entrada não resolvida mais antiga."
+        },
+        {
+          "title": "Prepare-se para o Objetivo Final",
+          "requiredActions": [
+            "Revise todas as informações de acesso final antes de enviá-las.",
+            "Feche janelas desnecessárias e simplifique a área de trabalho do computador.",
+            "Conclua uma verificação de segurança completa antes de iniciar a sequência final."
+          ],
+          "preparation": "Mantenha o código, senha ou sequência de acesso final escritos exatamente como foram descobertos.",
+          "majorDangers": [
+            "Iniciar a sequência final sem verificar a sala",
+            "Usar uma cadeia de pistas incompleta",
+            "Entrar em pânico quando múltiplos sistemas exigem atenção"
+          ],
+          "recovery": "Saia da interface final, proteja o ambiente e compare cada resposta com sua fonte original antes de tentar novamente."
+        },
+        {
+          "title": "Conclua a Sequência de Endgame",
+          "requiredActions": [
+            "Insira as informações de acesso confirmadas na ordem correta.",
+            "Responda imediatamente aos sinais de alerta ambiental.",
+            "Siga os objetivos finais na tela sem abandonar as verificações defensivas."
+          ],
+          "preparation": "Remova distrações e mantenha visíveis apenas as notas finais e as ferramentas de computador necessárias.",
+          "majorDangers": [
+            "Ignorar a sala durante a interação final",
+            "Apressar-se ao seguir as instruções",
+            "Confundir a interrupção de uma ameaça com o progresso da investigação"
+          ],
+          "recovery": "Retorne ao último estado estável, repita a rotina de segurança e reinicie a sequência final usando informações verificadas."
+        }
+      ]
+    },
+    "puzzles": {
+      "title": "Guia de Puzzles de Welcome to the Game 3",
+      "eyebrow": "Pistas e Soluções",
+      "subtitle": "Entenda como Welcome to the Game 3 esconde informações em páginas da web, imagens, textos e telas de login.",
+      "intro": "A maioria dos puzzles em Welcome to the Game 3 depende de observação cuidadosa e conexões entre várias partes de evidências online. Preserve a forma original de cada pista, pois maiúsculas e minúsculas, ordem, espaçamento, nomes de arquivos, símbolos e frases repetidas podem afetar a solução.",
+      "items": [
+        {
+          "title": "Cadeias de Pistas de Páginas Vinculadas",
+          "summary": "Uma pista em uma página identifica uma palavra, pessoa, símbolo ou assunto que leva a informações em outra página.",
+          "hint": "Busque detalhes repetidos em suas notas em vez de tratar cada página da web como um puzzle separado.",
+          "fullSolution": [
+            "Registre o detalhe distintivo da primeira página.",
+            "Encontre outra página visitada que contenha o mesmo detalhe ou uma variação direta dele.",
+            "Compare o texto ao redor em ambas as páginas.",
+            "Use a informação compartilhada para identificar a URL, senha, conta ou frase de acesso necessária."
+          ],
+          "commonError": "Seguir todos os links disponíveis em vez de focar em evidências repetidas."
+        },
+        {
+          "title": "Puzzles de Senha e Login",
+          "summary": "Páginas protegidas exigem credenciais reunidas a partir de textos próximos ou informações coletadas em outros lugares.",
+          "hint": "Verifique nomes de usuário, títulos de páginas, datas, palavras enfatizadas e frases repetidas antes de tentar combinações.",
+          "fullSolution": [
+            "Identifique se a página solicita um nome de usuário, senha, código ou frase completa.",
+            "Associe cada campo à pista correspondente em suas notas.",
+            "Preserve maiúsculas e minúsculas, pontuação, espaçamento e a ordem dos números.",
+            "Envie as credenciais apenas após confirmar que elas pertencem à página atual."
+          ],
+          "commonError": "Usar a senha correta com o nome de usuário errado ou em uma página protegida errada."
+        },
+        {
+          "title": "Enigmas de Fragmentos Ordenados",
+          "summary": "Várias letras, palavras, números ou símbolos se combinam na sequência indicada pelas páginas de origem.",
+          "hint": "A ordem correta geralmente segue a navegação da página, numeração, carimbos de data/hora, direção de leitura ou outra sequência visível.",
+          "fullSolution": [
+            "Copie cada fragmento exatamente como mostrado.",
+            "Anote o local onde cada fragmento foi encontrado.",
+            "Identifique a regra de ordenação compartilhada por esses locais.",
+            "Combine os fragmentos sem alterar seus caracteres originais."
+          ],
+          "commonError": "Encontrar todos os fragmentos, mas organizá-los de acordo com a ordem de descoberta em vez da ordem pretendida do enigma."
+        },
+        {
+          "title": "Imagens e Pistas Visuais",
+          "summary": "Imagens escondem texto legível, símbolos, contagem de objetos, nomes de arquivos, padrões visuais ou detalhes conectados a outra página.",
+          "hint": "Inspecione a imagem inteira e a página ao redor em vez de olhar apenas para o assunto principal.",
+          "fullSolution": [
+            "Verifique cantos, fundos, objetos repetidos, marcas incomuns e escritas visíveis.",
+            "Compare a imagem com nomes e símbolos já registrados.",
+            "Leia qualquer nome de arquivo ou legenda associada à imagem.",
+            "Use o detalhe visual correspondente como um fragmento de código, pista de busca ou identificador de página."
+          ],
+          "commonError": "Assumir que uma imagem é decorativa porque não contém texto óbvio."
+        },
+        {
+          "title": "Padrões de Texto Oculto",
+          "summary": "Formatação, letras repetidas, uso incomum de maiúsculas, quebras de linha ou palavras enfatizadas revelam uma mensagem.",
+          "hint": "Procure por textos que quebrem o padrão normal de escrita da página.",
+          "fullSolution": [
+            "Copie o texto suspeito preservando sua formatação.",
+            "Extraia os caracteres repetidos, em maiúsculo, destacados ou em posições incomuns.",
+            "Leia os caracteres extraídos na ordem em que são exibidos.",
+            "Teste o resultado como uma palavra-chave, nome de página, senha ou instrução."
+          ],
+          "commonError": "Corrigir a ortografia ou o uso de maiúsculas incomum e remover a pista acidentalmente."
+        },
+        {
+          "title": "Números, Datas e Sequências",
+          "summary": "Sequências numéricas agem como códigos de acesso ou definem a ordem na qual outras pistas devem ser lidas.",
+          "hint": "Determine se os números representam um código direto, uma data, uma contagem ou posições dentro de outro texto.",
+          "fullSolution": [
+            "Copie a sequência numérica completa.",
+            "Verifique o texto próximo para encontrar rótulos que expliquem o que os números representam.",
+            "Teste primeiro a interpretação direta mais simples.",
+            "Quando os números indicarem posições, aplique-os à palavra, frase ou lista de pistas associada."
+          ],
+          "commonError": "Aplicar matemática complexa antes de verificar se os números já são um código direto."
+        },
+        {
+          "title": "Desafios de Computador Multietapas",
+          "summary": "Alguns objetivos exigem informações do navegador, notas, ferramentas de segurança e interfaces protegidas usadas em uma ordem específica.",
+          "hint": "Trate cada interação bem-sucedida como uma etapa de uma sequência maior e registre o que mudou depois.",
+          "fullSolution": [
+            "Identifique a interface bloqueada atual ou o requisito ausente.",
+            "Encontre a página da web ou pista que fornece a informação necessária.",
+            "Insira a informação e observe a mudança resultante.",
+            "Repita o processo até que o objetivo final de acesso fique disponível."
+          ],
+          "commonError": "Assumindo que o primeiro login bem-sucedido conclui toda a cadeia de investigação."
+        }
+      ]
+    },
+    "threatsAndSurvival": {
+      "title": "Ameaças e Sobrevivência em Welcome to the Game 3",
+      "eyebrow": "Sobrevivência",
+      "subtitle": "Reconheça sinais de alerta, interrompa hábitos de investigação perigosos e responda na ordem correta em Welcome to the Game 3.",
+      "intro": "Ameaças em Welcome to the Game 3 pressionam o jogador por meio de som, mudanças visuais, interrupções no computador e perigo ambiental direto. A resposta correta é parar a navegação, identificar a fonte do alerta, usar a interação defensiva apropriada e retomar a investigação somente após a área estar segura.",
+      "threats": [
+        {
+          "name": "Intrusão Física",
+          "dangerLevel": "Crítico",
+          "warningSigns": [
+            "Passos ou movimento perto de uma entrada",
+            "Sons relacionados a portas",
+            "Mudanças na ambiência de salas próximas"
+          ],
+          "behavior": "A ameaça se aproxima da localização física do jogador enquanto a atenção está voltada para o computador.",
+          "immediateResponse": [
+            "Saia do computador imediatamente.",
+            "Ouça antes de se mover em direção à entrada.",
+            "Use a interação defensiva da sala e permaneça alerta até que o aviso passe."
+          ],
+          "prevention": [
+            "Mantenha as sessões de navegação curtas.",
+            "Memorize a rota para os controles defensivos.",
+            "Evite abafar sons importantes."
+          ]
+        },
+        {
+          "name": "Vigilância Visual",
+          "dangerLevel": "Alta",
+          "warningSigns": [
+            "Movimento em uma janela ou linha de visão",
+            "Uma silhueta ou mudança ambiental",
+            "Atividade visual repetida fora do estado normal da sala"
+          ],
+          "behavior": "A ameaça utiliza visibilidade e exposição do jogador em vez de entrar imediatamente na sala.",
+          "immediateResponse": [
+            "Interrompa a linha de visão.",
+            "Use a luz, cobertura ou interação de sala apropriada.",
+            "Não retorne ao computador até que o aviso visual tenha terminado."
+          ],
+          "prevention": [
+            "Verifique janelas e linhas de visão durante cada ciclo de segurança.",
+            "Evite permanecer exposto ao ler páginas longas.",
+            "Responda a mudanças visuais antes de confirmar sua causa exata."
+          ]
+        },
+        {
+          "name": "Rastreamento de Rede",
+          "dangerLevel": "Alta",
+          "warningSigns": [
+            "Alertas de segurança",
+            "Comportamento inesperado do computador",
+            "Interrupções relacionadas à conexão"
+          ],
+          "behavior": "A ameaça visa a atividade online do jogador e pune a navegação prolongada ou descuidada.",
+          "immediateResponse": [
+            "---",
+            "Pare a ação de navegação atual.",
+            "Use as ferramentas de segurança do computador disponíveis."
+          ],
+          "prevention": [
+            "Feche páginas desnecessárias e verifique o estado da conexão antes de continuar.",
+            "Use utilitários de segurança de forma consistente.",
+            "Evite deixar páginas perigosas abertas sem propósito."
+          ]
+        },
+        {
+          "name": "Conclua a coleta de pistas de forma eficiente em vez de navegar aleatoriamente.",
+          "dangerLevel": "Distração no Computador",
+          "warningSigns": [
+            "Médio",
+            "Mensagens ou pop-ups inesperados",
+            "Mudanças na interface"
+          ],
+          "behavior": "Eventos projetados para prender a atenção na tela",
+          "immediateResponse": [
+            "A distração mantém o jogador focado no computador enquanto outro perigo se desenvolve.",
+            "Não interaja automaticamente.",
+            "Verifique o quarto antes de investigar o evento no computador."
+          ],
+          "prevention": [
+            "Retorne à tela apenas após concluir uma verificação de segurança.",
+            "Trate cada interrupção inexplicável como uma possível distração.",
+            "Mantenha a área de trabalho do computador organizada."
+          ]
+        },
+        {
+          "name": "Use um ritmo fixo de verificação e navegação.",
+          "dangerLevel": "Alarme Falso",
+          "warningSigns": [
+            "Moderado",
+            "Um som breve sem movimento subsequente",
+            "Um sinal ambiental isolado"
+          ],
+          "behavior": "Um aviso que desaparece rapidamente",
+          "immediateResponse": [
+            "O evento interrompe a concentração e incentiva reações apressadas ou descuidadas.",
+            "Realize a verificação de segurança normal.",
+            "Não persiga a fonte além da rotina de resposta segura."
+          ],
+          "prevention": [
+            "Retome a partir da última pista registrada após o quarto estar seguro.",
+            "Use a mesma sequência de resposta para cada aviso.",
+            "Registre o progresso do puzzle antes de deixar o computador."
+          ]
+        },
+        {
+          "name": "Evite suposições quando a concentração for interrompida.",
+          "dangerLevel": "Pressão Combinada",
+          "warningSigns": [
+            "Crítico",
+            "Múltiplos avisos ocorrendo próximos uns dos outros",
+            "Uma interrupção no computador seguida por movimento ambiental"
+          ],
+          "behavior": "Tempo reduzido entre eventos de ameaça",
+          "immediateResponse": [
+            "Vários sistemas competem pela atenção, forçando o jogador a priorizar a sobrevivência imediata em vez do progresso da investigação.",
+            "Lide com o perigo físico antes das tarefas no computador.",
+            "Conclua uma ação defensiva de cada vez."
+          ],
+          "prevention": [
+            "Retome a navegação apenas após todos os sinais de aviso pararem.",
+            "Feche aplicativos não relacionados.",
+            "Faça uma verificação completa do quarto antes dos principais passos da investigação."
+          ]
+        }
+      ],
+      "emergencyChecklist": [
+        "Pare de navegar no momento em que um aviso aparecer.",
+        "Identifique se a ameaça é física, visual ou digital.",
+        "Use a interação defensiva correspondente na ordem correta.",
+        "Retome a investigação apenas depois que o quarto estiver totalmente seguro."
+      ]
+    },
+    "deepWebSites": {
+      "title": "Sites da Deep Web de Welcome to the Game 3",
+      "eyebrow": "Banco de Dados de Investigação",
+      "subtitle": "Identifique as páginas fictícias da deep web de Welcome to the Game 3, entenda seus riscos e separe as pistas de progresso das armadilhas.",
+      "intro": "A deep web do jogo Welcome to the Game 3 contém páginas fictícias que desempenham diferentes papéis na investigação. Algumas fornecem fragmentos de pistas necessários, enquanto outras escondem lore opcional, ativam ameaças, desperdiçam tempo ou redirecionam os jogadores para informações enganosas.",
+      "sites": [
+        {
+          "name": "The Hive",
+          "category": "Site de Progresso",
+          "dangerLevel": "Médio",
+          "description": "Um hub central de informações contendo discussões, mensagens codificadas, perfis de usuários e links que conectam várias partes da investigação.",
+          "possibleClues": [
+            "Nomes de usuário ou pseudônimos repetidos",
+            "Frases codificadas escondidas dentro de postagens",
+            "Links que levam a páginas restritas"
+          ],
+          "accessRequirement": "Acessado por meio de uma página indexada, um link descoberto ou informações coletadas de outro site fictício.",
+          "warning": "Tópicos de discussão longos podem distrair os jogadores dos sons de aviso do ambiente."
+        },
+        {
+          "name": "Red Room",
+          "category": "Site de Alto Risco",
+          "dangerLevel": "Extremo",
+          "description": "Uma página fictícia perturbadora ligada a encontros perigosos, grandes implicações na história ou pressão para agir rapidamente.",
+          "possibleClues": [
+            "Informações relacionadas a cronômetros",
+            "Nomes conectados ao caso atual",
+            "Símbolos visuais reutilizados em outros lugares"
+          ],
+          "accessRequirement": "Requer um endereço oculto, convite, senha ou uma cadeia de pistas anterior concluída.",
+          "warning": "Prepare o quarto e as ferramentas de segurança antes de abrir a página, e não fique focado na tela por muito tempo."
+        },
+        {
+          "name": "Portal de Convite",
+          "category": "Portal de Progresso",
+          "dangerLevel": "Alto",
+          "description": "Um portal fictício restrito usado para entrar em seções privadas da rede do jogo após obter os dados de convite corretos.",
+          "possibleClues": [
+            "Códigos de convite",
+            "Credenciais de login",
+            "Um endereço de destino para a próxima fase"
+          ],
+          "accessRequirement": "Requer informações reunidas de várias páginas, em vez de uma única senha óbvia.",
+          "warning": "Entradas incorretas repetidas desperdiçam o tempo limitado ou ativam um evento indesejado."
+        },
+        {
+          "name": "Underground Market",
+          "category": "Site Opcional",
+          "dangerLevel": "Médio",
+          "description": "Um mercado fictício com anúncios suspeitos, perfis de vendedores e referências indiretas a personagens ou organizações na história.",
+          "possibleClues": [
+            "Pseudônimos de vendedores",
+            "Descrições de itens contendo linguagem codificada",
+            "Números ou datas de transações"
+          ],
+          "accessRequirement": "Descoberto por meio de anúncios, links de fóruns ou elementos de navegação ocultos.",
+          "warning": "Muitos anúncios são detalhes atmosféricos e não contribuem diretamente para a progressão."
+        },
+        {
+          "name": "Arquivo de Casos",
+          "category": "Site de Evidências",
+          "dangerLevel": "Baixo",
+          "description": "Um arquivo de relatórios fictícios, registros de pessoas desaparecidas, imagens e resumos de incidentes que confirmam relações entre as pistas coletadas.",
+          "possibleClues": [
+            "Nomes de vítimas ou suspeitos",
+            "Locais e registros de data/hora",
+            "Fotografias contendo detalhes de fundo"
+          ],
+          "accessRequirement": "Requer um número de caso, credencial de conta ou link descoberto por meio de outra página de investigação.",
+          "warning": "Registre detalhes importantes antes de sair, pois algumas páginas de arquivo são difíceis de encontrar novamente."
+        },
+        {
+          "name": "Páginas de Espelho e Iscas",
+          "category": "Site Enganoso",
+          "dangerLevel": "Médio",
+          "description": "Cópias ou imitações de páginas legítimas que fornecem senhas incorretas, direções falsas ou distrações perturbadoras.",
+          "possibleClues": [
+            "Pequenas diferenças nos títulos das páginas",
+            "Datas ou nomes de usuário incorretos",
+            "Links que retornam repetidamente ao mesmo local"
+          ],
+          "accessRequirement": "Acessível sem credenciais especiais e comumente aparece durante a exploração ampla.",
+          "warning": "Compare as informações com evidências confirmadas anteriormente antes de confiar na página."
+        },
+        {
+          "name": "Página Pessoal Oculta",
+          "category": "Site de História Secreta",
+          "dangerLevel": "Baixo",
+          "description": "Um perfil oculto, diário ou página inicial pessoal que revela informações de fundo opcionais sobre um personagem na investigação.",
+          "possibleClues": [
+            "Relacionamentos pessoais",
+            "Nomes de usuário antigos",
+            "Referências a locais ou eventos secretos"
+          ],
+          "accessRequirement": "Encontrado por meio de inspeção cuidadosa de nomes de arquivos, links de perfil, pistas de código-fonte da página ou pseudônimos repetidos.",
+          "warning": "A página contém lore importante sem ser necessária para o objetivo principal."
+        }
+      ]
+    },
+    "endings": {
+      "title": "Finais de Welcome to the Game 3",
+      "eyebrow": "Guia de Spoilers",
+      "subtitle": "Revise as principais rotas de desfecho de Welcome to the Game 3, seus requisitos e as decisões que redirecionam uma investigação.",
+      "intro": "Esta seção do guia de Welcome to the Game 3 contém spoilers importantes. Os desfechos são determinados pelo fato de o jogador concluir a investigação, preservar evidências essenciais, sobreviver a eventos hostis e tomar as decisões finais corretas.",
+      "endings": [
+        {
+          "name": "Final da Investigação Concluída",
+          "spoilerLevel": "Principal",
+          "description": "O jogador segue a cadeia de pistas principal, identifica o alvo ou local correto, conclui o objetivo final e sobrevive à sequência de encerramento.",
+          "requirements": [
+            "Coletar todos os fragmentos de pista obrigatórios",
+            "Decodificar corretamente o endereço ou identidade final",
+            "Completar a última interação sem selecionar uma pista falsa",
+            "Sobreviver a todas as sequências de ameaça obrigatórias"
+          ],
+          "criticalChoice": "Use apenas evidências confirmadas ao completar o objetivo final.",
+          "missableCondition": "Deixar uma pista obrigatória não resolvida impede que a opção de progressão final apareça."
+        },
+        {
+          "name": "Final: Caso Incompleto",
+          "spoilerLevel": "Moderado",
+          "description": "A investigação termina sem informações verificadas suficientes para resolver o caso central após se comprometer com uma conclusão incorreta ou atingir um prazo com evidências faltando.",
+          "requirements": [
+            "Avançar sem completar a cadeia completa de pistas",
+            "Enviar uma identidade, código ou destino incorreto",
+            "Ignorar informações contraditórias"
+          ],
+          "criticalChoice": "Não finalize a investigação até que cada pista importante sustente a mesma conclusão.",
+          "missableCondition": "Uma página de isca convincente leva diretamente a este resultado."
+        },
+        {
+          "name": "Final: Capturado",
+          "spoilerLevel": "Grave",
+          "description": "Um personagem hostil alcança o jogador após sinais de alerta serem ignorados ou a resposta defensiva correta não ser concluída.",
+          "requirements": [
+            "Perder avisos ambientais repetidos",
+            "Permanecer no computador durante uma ameaça ativa",
+            "Usar a ação defensiva errada"
+          ],
+          "criticalChoice": "Pare de navegar imediatamente quando a sala ou o computador sinalizarem um perigo iminente.",
+          "missableCondition": "Alguns ataques começam durante páginas importantes, encorajando o jogador a ignorar a sala."
+        },
+        {
+          "name": "Final: Sistema Comprometido",
+          "spoilerLevel": "Grave",
+          "description": "O computador do jogo torna-se inutilizável ou controlado por uma força externa após o jogador lidar incorretamente com uma ameaça digital.",
+          "requirements": [
+            "Permitir que um processo perigoso seja concluído",
+            "Falhar em uma interação de segurança ou recuperação",
+            "Continuar navegando após avisos claros do sistema"
+          ],
+          "criticalChoice": "Priorize a segurança do sistema em vez de preservar a sessão atual do navegador.",
+          "missableCondition": "A ameaça aparece como uma interrupção visual inofensiva antes de escalar."
+        },
+        {
+          "name": "Final: Investigação Abandonada",
+          "spoilerLevel": "Leve",
+          "description": "O jogador sai ou interrompe a investigação antes de chegar ao estágio decisivo, preservando a segurança pessoal, mas falhando em resolver o caso.",
+          "requirements": [
+            "Escolher uma opção de saída ou retirada",
+            "Recusar-se a continuar após um aviso grave",
+            "Encerrar a partida antes da cadeia final de pistas"
+          ],
+          "criticalChoice": "Decida se a sobrevivência ou a conclusão da investigação é a prioridade imediata.",
+          "missableCondition": "Esta rota está disponível apenas durante momentos específicos de escalada."
+        },
+        {
+          "name": "Final: Verdade Oculta",
+          "spoilerLevel": "Extremo",
+          "description": "Um desfecho opcional conectado a evidências ocultas, páginas secretas ou uma descoberta que muda o significado da investigação principal.",
+          "requirements": [
+            "Encontre páginas de história opcionais",
+            "Registre nomes, símbolos ou códigos ocultos",
+            "Complete uma sequência de pistas alternativa",
+            "Selecione a interação final secreta"
+          ],
+          "criticalChoice": "Investigue inconsistências que o objetivo principal não exige.",
+          "missableCondition": "Progredir rápido demais pela sequência final pula a rota alternativa."
+        },
+        {
+          "name": "Lista de Preparação para Todos os Finais",
+          "spoilerLevel": "Planejamento",
+          "description": "Use um save reutilizável ou um plano de partida para reduzir o trabalho de investigação repetido ao testar escolhas finais alternativas.",
+          "requirements": [
+            "Mantenha um registro completo de senhas e pistas decodificadas",
+            "Identifique o último ponto de decisão antes do final",
+            "Termine a exploração opcional de sites antes de se comprometer com o final",
+            "Separe falhas de sobrevivência de desfechos de escolhas da história"
+          ],
+          "criticalChoice": "Preserve o progresso antes de entrar na sequência final sempre que o jogo permitir.",
+          "missableCondition": "Pistas aleatórias ou comportamento de ameaças exigem que partes da investigação sejam repetidas."
+        }
+      ]
+    },
+    "secrets": {
+      "title": "Segredos e Easter Eggs de Welcome to the Game 3",
+      "eyebrow": "Descobertas Ocultas",
+      "subtitle": "Encontre interações ocultas, detalhes opcionais da história, eventos incomuns e referências escondidas por todo Welcome to the Game 3.",
+      "intro": "Os segredos em Welcome to the Game 3 estão atrelados a páginas específicas, tempo, interações repetidas com o ambiente ou informações que o objetivo principal não exige. As entradas abaixo cobrem os métodos de descoberta e as recompensas que cada segredo desbloqueia.",
+      "items": [
+        {
+          "title": "Rastro de Nome de Usuário Repetido",
+          "hint": "Fique atento ao mesmo nome de usuário incomum aparecendo em sites fictícios não relacionados.",
+          "solution": "Registre o nome de usuário exatamente e pesquise por ele em postagens de fóruns, perfis de mercado, arquivos e páginas pessoais. Detalhes correspondentes revelam uma conexão de história opcional ou um endereço de página oculto.",
+          "confirmation": "Segredo de investigação",
+          "reward": "Lore adicional de personagem e uma pista alternativa"
+        },
+        {
+          "title": "Detalhe de Imagem Oculto",
+          "hint": "Algumas imagens contêm informações úteis fora de seu tema óbvio.",
+          "solution": "Inspecione fundos, reflexos, nomes de arquivos, legendas e símbolos repetidos. Um número, localização ou logotipo corresponde a uma senha ou outra página na rede fictícia.",
+          "confirmation": "Técnica de quebra-cabeça",
+          "reward": "Fragmento de pista opcional ou uma rota de quebra-cabeça encurtada"
+        },
+        {
+          "title": "Link de Navegação Inativo",
+          "hint": "Um link que parece decorativo muda após outra condição ser concluída.",
+          "solution": "Volte a páginas suspeitas após descobrir uma senha, nome de usuário ou convite relacionado. Textos ou imagens anteriormente inativos tornam-se selecionáveis.",
+          "confirmation": "Segredo atrelado à progressão",
+          "reward": "Acesso a uma página restrita"
+        },
+        {
+          "title": "Sequência de Interação com o Quarto",
+          "hint": "Verificar repetidamente um objeto comum produz uma resposta incomum.",
+          "solution": "Interaja com objetos do ambiente em diferentes estágios da investigação, especialmente após grandes eventos da história. Um som, mensagem ou detalhe visual alterado revela um Easter egg.",
+          "confirmation": "Segredo baseado em eventos",
+          "reward": "Animação única, deixa sonora ou referência dos desenvolvedores"
+        },
+        {
+          "title": "Referência à Série Original",
+          "hint": "Procure por nomes, símbolos, designs de página ou pistas de áudio que lembrem os títulos anteriores de Welcome to the Game.",
+          "solution": "Compare marcas fictícias recorrentes, codinomes, elementos de interface e sons relacionados a ameaças com os jogos anteriores da série. Essas referências são opcionais e não afetam o progresso.",
+          "confirmation": "Referência do desenvolvedor",
+          "reward": "Conexão com a história da série"
+        },
+        {
+          "title": "Mensagem de Login Alternativa",
+          "hint": "Credenciais corretas e incorretas não são as únicas entradas reconhecidas por uma página de login.",
+          "solution": "Tente codinomes relevantes para a história, frases repetidas ou identificadores descobertos quando forem compatíveis com as pistas do jogo. Uma resposta especial aparecerá sem conceder acesso total.",
+          "confirmation": "Interação oculta",
+          "reward": "Mensagem secreta ou dica adicional"
+        },
+        {
+          "title": "Evento de Tela Raro",
+          "hint": "Uma interrupção visual incomum é mais do que um aviso de ameaça normal.",
+          "solution": "Observe o evento sem ignorar o perigo físico e, em seguida, registre quaisquer símbolos, textos ou imagens que aparecerem. Eventos raros se conectam à lore opcional ou prenunciam um encontro posterior.",
+          "confirmation": "Evento raro",
+          "reward": "Detalhe oculto da história"
+        },
+        {
+          "title": "Cadeia de Pistas do Final Secreto",
+          "hint": "Várias descobertas opcionais formam uma sequência maior.",
+          "solution": "Combine nomes de usuário ocultos, detalhes de imagens, registros de arquivo e informações de páginas restritas antes de iniciar a sequência final. As evidências coletadas desbloqueiam uma resposta ou destino alternativo.",
+          "confirmation": "Cadeia de segredos combinada",
+          "reward": "Rota de final alternativo"
+        }
+      ]
+    },
+    "updatesAndPatchNotes": {
+      "title": "Atualizações e Notas de Patch de Welcome to the Game 3",
+      "eyebrow": "Desenvolvimento do Jogo",
+      "subtitle": "Acompanhe os principais lançamentos, correções, ajustes de jogabilidade e novos conteúdos para Welcome to the Game 3.",
+      "intro": "Esta linha do tempo de Welcome to the Game 3 acompanha as atualizações oficiais e como cada mudança afeta as estratégias de quebra-cabeças, rotinas de sobrevivência, progressão e o guia existente.",
+      "entries": [
+        {
+          "date": "Pré-lançamento",
+          "title": "Anúncios de Desenvolvimento",
+          "status": "Anunciado",
+          "description": "Os anúncios dos desenvolvedores apresentam novos sistemas de investigação, ameaças, ambientes, detalhes da história ou alterações no cronograma de lançamento planejado.",
+          "affectedSystems": [
+            "Informações de lançamento",
+            "Jogabilidade principal",
+            "Apresentação da história"
+          ],
+          "guideImpact": "As informações de prévia são separadas das mecânicas confirmadas em uma versão jogável."
+        },
+        {
+          "date": "Versão de Lançamento",
+          "title": "Lançamento Inicial do Jogo",
+          "status": "Lançamento",
+          "description": "A versão pública inicial estabelece a rota principal de investigação, o catálogo de sites fictícios, os sistemas de sobrevivência, quebra-cabeças, ameaças e os finais disponíveis.",
+          "affectedSystems": [
+            "Progressão principal",
+            "Catálogo de sites da deep web",
+            "Comportamento das ameaças",
+            "Condições para os finais"
+          ],
+          "guideImpact": "Todas as seções do detonado são verificadas com a versão de lançamento antes de serem apresentadas como finais."
+        },
+        {
+          "date": "Pós-lançamento inicial",
+          "title": "Correções de bugs críticos",
+          "status": "Hotfix",
+          "description": "Correções iniciais abordam progressão bloqueada, links indisponíveis, senhas quebradas, falta de comandos de interação, problemas de salvamento e ameaças que não se comportam corretamente.",
+          "affectedSystems": [
+            "Progressão de quebra-cabeças",
+            "Estabilidade do sistema de salvamento",
+            "Navegação em sites",
+            "Encontros com ameaças"
+          ],
+          "guideImpact": "Soluções temporárias para bugs de lançamento são removidas após o envio das correções."
+        },
+        {
+          "date": "Pós-lançamento",
+          "title": "Ajustes de quebra-cabeças e pistas",
+          "status": "Atualização de equilíbrio",
+          "description": "As pistas dos quebra-cabeças são esclarecidas, realocadas, randomizadas de forma diferente ou ajustadas para evitar que os jogadores fiquem presos permanentemente.",
+          "affectedSystems": [
+            "Senhas",
+            "Sequências de códigos",
+            "Links ocultos",
+            "Fluxo de investigação"
+          ],
+          "guideImpact": "Localizações exatas de pistas e soluções são documentadas para cada versão."
+        },
+        {
+          "date": "Pós-lançamento",
+          "title": "Mudanças no equilíbrio de ameaças",
+          "status": "Atualização de equilíbrio",
+          "description": "As atualizações alteram a duração do aviso, frequência de ataque, tempo de defesa, dicas de áudio ou as condições que ativam encontros hostis.",
+          "affectedSystems": [
+            "Frequência de inimigos",
+            "Sinais de alerta",
+            "Interações defensivas",
+            "Equilíbrio de dificuldade"
+          ],
+          "guideImpact": "Rotinas de sobrevivência focam em sinais de alerta reconhecíveis em vez de um tempo fixo."
+        },
+        {
+          "date": "Pós-lançamento",
+          "title": "Desempenho e acessibilidade",
+          "status": "Atualização técnica",
+          "description": "Patches técnicos melhoram a estabilidade, comportamento de carregamento, suporte de entrada, legibilidade de texto, configurações de áudio e desempenho em diferentes configurações de PC.",
+          "affectedSystems": [
+            "Desempenho",
+            "Controles",
+            "Áudio",
+            "Legibilidade da interface"
+          ],
+          "guideImpact": "Recomendações técnicas listam a versão do jogo e tratam problemas de lançamento como temporários."
+        },
+        {
+          "date": "Conteúdo futuro",
+          "title": "Novos sites, segredos ou conteúdo de história",
+          "status": "Atualização de conteúdo",
+          "description": "Uma atualização de conteúdo adiciona páginas da web fictícias, sequências de pistas opcionais, eventos ambientais, descobertas ocultas, ameaças ou desfechos alternativos.",
+          "affectedSystems": [
+            "Catálogo de sites",
+            "Segredos",
+            "Rotas da história",
+            "Finais"
+          ],
+          "guideImpact": "Novos conteúdos são adicionados como entradas separadas com sua conexão com a rota de progressão original."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Welcome to the Game 3",
+    "questions": [
+      {
+        "question": "O que é Welcome to the Game 3?",
+        "answer": "Welcome to the Game 3 é um jogo de terror e quebra-cabeça da deep web da Reflect Studios. Você navega por uma rede fictícia hostil, decodifica pistas em camadas e sobrevive a ameaças que se aproximam enquanto investiga."
+      },
+      {
+        "question": "Onde posso jogar Welcome to the Game 3?",
+        "answer": "Welcome to the Game 3 está disponível no Steam para PC. Você pode adicioná-lo à sua lista de desejos ou comprá-lo na página oficial da loja no Steam."
+      },
+      {
+        "question": "Welcome to the Game 3 é um jogo singleplayer?",
+        "answer": "Sim. Welcome to the Game 3 é uma experiência de investigação singleplayer, sem modo multiplayer ou co-op."
+      },
+      {
+        "question": "Como funciona o ciclo de investigação em Welcome to the Game 3?",
+        "answer": "Em Welcome to the Game 3, você navega por páginas fictícias da deep web uma de cada vez, registra pistas, conecta informações entre as páginas e para regularmente para verificar se há ameaças se aproximando no quarto."
+      },
+      {
+        "question": "Como faço para sobreviver por mais tempo em Welcome to the Game 3?",
+        "answer": "Mantenha as sessões de navegação curtas, memorize os controles defensivos do quarto e trate cada som, mudança visual ou interrupção no computador como um motivo para parar e verificar os arredores."
+      },
+      {
+        "question": "Quantos finais Welcome to the Game 3 tem?",
+        "answer": "Welcome to the Game 3 tem vários finais que dependem de você concluir a investigação, preservar evidências importantes, sobreviver a eventos hostis e tomar as decisões finais corretas."
+      },
+      {
+        "question": "Welcome to the Game 3 receberá atualizações?",
+        "answer": "Sim. Welcome to the Game 3 recebe correções pós-lançamento, mudanças de balanceamento e atualizações de conteúdo que ajustam quebra-cabeças, ameaças e progressão."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para entrar na Deep Web?",
+    "description": "Adicione Welcome to the Game 3 à sua lista de desejos no Steam e junte-se à comunidade para obter guias, soluções de quebra-cabeças, finais e dicas de sobrevivência.",
+    "joinCommunity": "Junte-se à Comunidade Steam",
+    "joinGame": "Jogue no Steam"
+  },
+  "footer": {
+    "title": "Wiki de Welcome to the Game 3",
+    "description": "Sua central de recursos completa para detalhes de lançamento, quebra-cabeças da deep web, ameaças, finais, segredos e guias de sobrevivência de Welcome to the Game 3.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Site Oficial",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidade Steam",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Welcome to the Game 3 Wiki. Não afiliado à Reflect Studios.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "release": {
+      "title": "Lançamento de Welcome to the Game 3",
+      "description": "Data de lançamento, página do Steam, preço, plataformas compatíveis e contagem de jogadores em tempo real para Welcome to the Game 3.",
+      "metaTitle": "Lançamento de Welcome to the Game 3 - Data, Preço e Plataformas",
+      "metaDescription": "Acompanhe o lançamento de Welcome to the Game 3 com a data de lançamento confirmada, preço no Steam, plataformas compatíveis e contagem atual de jogadores.",
+      "categoryLabel": "LANÇAMENTO",
+      "whatIs": "Informações de Lançamento",
+      "whatIsDescription": "Tudo sobre o lançamento de Welcome to the Game 3, incluindo a data de lançamento confirmada, a página da loja no Steam, preços regionais, plataformas compatíveis e a contagem de jogadores em tempo real.",
+      "why": "Por que verificar as informações de lançamento?",
+      "whySteps": {
+        "step1Title": "Confirme a Data de Lançamento",
+        "step1Description": "Veja a data de lançamento oficial e cada marco do lançamento completo de Welcome to the Game 3.",
+        "step2Title": "Compare Plataformas e Preços",
+        "step2Description": "Verifique as plataformas compatíveis, como o Steam, e os preços regionais antes de comprar.",
+        "step3Title": "Acompanhe a Contagem de Jogadores",
+        "step3Description": "Acompanhe a base de jogadores ativos para medir o tamanho da comunidade e o ritmo das atualizações."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Lançamento"
+    },
+    "demo": {
+      "title": "Demo de Welcome to the Game 3",
+      "description": "Duração da demo, encontros com inimigos, dicas de sobrevivência e o final da demo de Welcome to the Game 3.",
+      "metaTitle": "Demo de Welcome to the Game 3 - Duração, Inimigos e Final",
+      "metaDescription": "Experimente a demo de Welcome to the Game 3 com um guia completo cobrindo a duração da demo, encontros com inimigos, dicas de sobrevivência e o final da demo.",
+      "categoryLabel": "DEMO",
+      "whatIs": "Demo",
+      "whatIsDescription": "Um passo a passo focado da demo de Welcome to the Game 3, cobrindo quanto tempo leva, quais inimigos aparecem, como sobreviver a cada encontro e o que o final da demo revela.",
+      "why": "Por que jogar a demo?",
+      "whySteps": {
+        "step1Title": "Planeje-se com base na Duração da Demo",
+        "step1Description": "Saiba quanto tempo dura a demo para que você possa terminá-la em uma única sessão.",
+        "step2Title": "Aprenda sobre os Encontros com Inimigos",
+        "step2Description": "Identifique os sinais de alerta de cada inimigo e a resposta defensiva correta.",
+        "step3Title": "Veja o Final da Demo",
+        "step3Description": "Chegue ao fim da demo para ter uma prévia do tom e das ameaças do jogo completo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos da Demo"
+    },
+    "guide": {
+      "title": "Guia de Welcome to the Game 3",
+      "description": "Passo a passo completo, dicas de dificuldade, locais importantes, tempo dos sites e um plano claro para vencer Welcome to the Game 3.",
+      "metaTitle": "Guia de Welcome to the Game 3 - Passo a Passo e Dicas",
+      "metaDescription": "Domine Welcome to the Game 3 com um passo a passo completo, dicas de dificuldade, locais importantes, tempo dos sites e um plano passo a passo para vencer o jogo.",
+      "categoryLabel": "GUIA",
+      "whatIs": "Guia",
+      "whatIsDescription": "Um guia completo de Welcome to the Game 3 que abrange o ciclo principal de investigação, o detonado completo, opções de dificuldade, localizações de itens-chave, o tempo certo de acesso aos sites e um plano passo a passo para superar cada ameaça.",
+      "why": "Por que usar o guia?",
+      "whySteps": {
+        "step1Title": "Siga o Detonado",
+        "step1Description": "Avance por cada estágio da investigação na ordem correta.",
+        "step2Title": "Encontre Todas as Localizações de Chaves",
+        "step2Description": "Localize chaves, códigos e itens sem precisar voltar pelo caminho.",
+        "step3Title": "Cronometre suas Visitas aos Sites",
+        "step3Description": "Abra cada página da deep web no momento certo para evitar emboscadas mortais."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "killers": {
+      "title": "Assassinos de Welcome to the Game 3",
+      "description": "Todos os assassinos em Welcome to the Game 3, com sinais de aviso, padrões de jumpscare, gatilhos de morte e táticas de sobrevivência.",
+      "metaTitle": "Assassinos de Welcome to the Game 3 - Como Sobreviver a Cada Ameaça",
+      "metaDescription": "Sobreviva a todos os assassinos em Welcome to the Game 3 com sinais de aviso, padrões de jumpscare, gatilhos de morte, comportamento do sequestrador e táticas de sobrevivência comprovadas.",
+      "categoryLabel": "ASSASSINOS",
+      "whatIs": "Assassinos",
+      "whatIsDescription": "Uma análise detalhada de cada ameaça de assassino em Welcome to the Game 3, incluindo como saber quando um está atrás de você, o comportamento do sequestrador, padrões de jumpscare e as condições que desencadeiam a morte.",
+      "why": "Por que estudar os assassinos?",
+      "whySteps": {
+        "step1Title": "Identifique os Sinais de Aviso",
+        "step1Description": "Interprete as pistas sonoras e visuais que sinalizam que um assassino está por perto.",
+        "step2Title": "Conheça os Gatilhos de Morte",
+        "step2Description": "Saiba quais erros encerram sua partida instantaneamente para que você possa evitá-los.",
+        "step3Title": "Contra-ataque o Sequestrador",
+        "step3Description": "Reconheça a aproximação do sequestrador e aplique a ação defensiva correta."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Assassinos"
+    },
+    "characters": {
+      "title": "Personagens de Welcome to the Game 3",
+      "description": "O elenco de Welcome to the Game 3, incluindo Tanner, Lucas, Patrick, CaseOh e os dubladores por trás deles.",
+      "metaTitle": "Personagens de Welcome to the Game 3 - Elenco e Dubladores",
+      "metaDescription": "Conheça os personagens de Welcome to the Game 3, incluindo Tanner, Lucas, Patrick, CaseOh e os dubladores que dão vida ao elenco.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "Personagens",
+      "whatIsDescription": "Uma visão geral do elenco de Welcome to the Game 3, abrangendo personagens principais como Tanner, Lucas e Patrick, participações especiais como CaseOh e os dubladores que interpretam cada papel.",
+      "why": "Por que explorar os personagens?",
+      "whySteps": {
+        "step1Title": "Conheça o Elenco Principal",
+        "step1Description": "Saiba quem são Tanner, Lucas e Patrick e como eles se encaixam na história.",
+        "step2Title": "Identifique Participações Especiais",
+        "step2Description": "Identifique convidados especiais como CaseOh e o papel deles no jogo.",
+        "step3Title": "Descubra os Dubladores",
+        "step3Description": "Veja quais artistas dublam cada personagem em Welcome to the Game 3."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Personagens"
+    },
+    "story": {
+      "title": "História de Welcome to the Game 3",
+      "description": "A história completa, o lore, todos os finais e o capítulo de John em Welcome to the Game 3.",
+      "metaTitle": "História de Welcome to the Game 3 - Lore, Finais e Capítulo de John",
+      "metaDescription": "Entenda a história de Welcome to the Game 3 com uma análise profunda do lore, de todos os finais e do capítulo de John.",
+      "categoryLabel": "HISTÓRIA",
+      "whatIs": "História",
+      "whatIsDescription": "Uma visão consciente de spoilers sobre a narrativa de Welcome to the Game 3, incluindo a história principal, o lore expandido, cada final e como alcançá-lo, e o capítulo crucial de John.",
+      "why": "Por que ler o guia de história?",
+      "whySteps": {
+        "step1Title": "Siga a História Principal",
+        "step1Description": "Acompanhe a investigação central e como cada pista faz a trama avançar.",
+        "step2Title": "Explore o Lore",
+        "step2Description": "Conecte as páginas e arquivos da deep web ao mundo por trás de Welcome to the Game 3.",
+        "step3Title": "Desbloqueie Todos os Finais",
+        "step3Description": "Cumpra os requisitos para cada final, incluindo o desfecho do capítulo de John."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de História"
+    },
+    "features": {
+      "title": "Funcionalidades de Welcome to the Game 3",
+      "description": "Mecânicas de jogabilidade e detalhes do multijogador que definem a experiência de Welcome to the Game 3.",
+      "metaTitle": "Funcionalidades de Welcome to the Game 3 - Jogabilidade e Multijogador",
+      "metaDescription": "Descubra as funcionalidades de Welcome to the Game 3, desde as mecânicas principais de jogabilidade até os modos multijogador e o que torna a experiência de terror única.",
+      "categoryLabel": "FUNCIONALIDADES",
+      "whatIs": "Funcionalidades",
+      "whatIsDescription": "Uma visão geral das funcionalidades de destaque de Welcome to the Game 3, cobrindo o ciclo principal de jogabilidade, suporte multijogador e os sistemas que moldam a investigação de terror.",
+      "why": "Por que conferir as funcionalidades?",
+      "whySteps": {
+        "step1Title": "Entenda o Ciclo de Jogabilidade",
+        "step1Description": "Veja como a navegação, a busca por pistas e a sobrevivência a ameaças se encaixam.",
+        "step2Title": "Confira o Suporte Multijogador",
+        "step2Description": "Saiba como o multijogador funciona e o que ele muda na experiência.",
+        "step3Title": "Planeje-se com Base nas Mecânicas",
+        "step3Description": "Use o conjunto de funcionalidades para moldar seu estilo de jogo antes de começar."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Funcionalidades"
+    }
   }
 }
