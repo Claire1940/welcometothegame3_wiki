@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.welcometothegame3.wiki'
   const path = '/privacy-policy'
 
   return {
-    title: 'Privacy Policy - Lucid Blocks Wiki',
-    description: 'Lucid Blocks Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Steam game resource platform. Your privacy matters to us.',
+    title: 'Privacy Policy - Welcome to the Game 3 Wiki',
+    description: 'Welcome to the Game 3 Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Steam game resource platform. Your privacy matters to us.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'Privacy Policy - Lucid Blocks Wiki',
+      siteName: 'Welcome to the Game 3 Wiki',
+      title: 'Privacy Policy - Welcome to the Game 3 Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'Lucid Blocks Wiki',
+          alt: 'Welcome to the Game 3 Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Privacy Policy - Lucid Blocks Wiki',
+      title: 'Privacy Policy - Welcome to the Game 3 Wiki',
       description: 'Learn how we protect your privacy and handle your data.',
       images: [`${siteUrl}/og-image.jpg`],
     },
@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
             How we collect, use, and protect your information
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: July 19, 2026
           </p>
         </div>
       </section>
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Information Collection</h2>
             <p>
-              Lucid Blocks Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
+              Welcome to the Game 3 Wiki ("we", "our", or "us") collects minimal information to provide and improve our services.
               We collect information in the following ways:
             </p>
             <ul>
@@ -212,8 +212,8 @@ export default function PrivacyPolicy() {
 
             <h2>11. Disclaimer</h2>
             <p>
-              Lucid Blocks Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
-              with Valve Corporation (Steam) or the developers of Lucid Blocks. All game content, trademarks, and assets are
+              Welcome to the Game 3 Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
+              with Valve Corporation (Steam) or the developers of Welcome to the Game 3. All game content, trademarks, and assets are
               the property of their respective owners.
             </p>
 
@@ -223,7 +223,7 @@ export default function PrivacyPolicy() {
               please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:privacy@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@lucidblocks.wiki</a>
+              <strong>Email:</strong> <a href="mailto:privacy@welcometothegame3.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">privacy@welcometothegame3.wiki</a>
             </p>
             <p>
               We will respond to all legitimate requests within 30 days.
