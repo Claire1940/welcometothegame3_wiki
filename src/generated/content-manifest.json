@@ -164,6 +164,28 @@
     ]
   },
   "es": {
+    "characters": [
+      {
+        "slug": "welcome-to-the-game-3-caseoh",
+        "file": "welcome-to-the-game-3-caseoh"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lucas",
+        "file": "welcome-to-the-game-3-lucas"
+      },
+      {
+        "slug": "welcome-to-the-game-3-patrick",
+        "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-tanner",
+        "file": "welcome-to-the-game-3-tanner"
+      },
+      {
+        "slug": "welcome-to-the-game-3-voice-actors",
+        "file": "welcome-to-the-game-3-voice-actors"
+      }
+    ],
     "demo": [
       {
         "slug": "welcome-to-the-game-3-demo-ending",
@@ -240,6 +262,10 @@
         "file": "welcome-to-the-game-3-deaths"
       },
       {
+        "slug": "welcome-to-the-game-3-jumpscares",
+        "file": "welcome-to-the-game-3-jumpscares"
+      },
+      {
         "slug": "welcome-to-the-game-3-kidnapper",
         "file": "welcome-to-the-game-3-kidnapper"
       },
@@ -250,6 +276,36 @@
       {
         "slug": "welcome-to-the-game-3-when-to-know-he-is-behind-you",
         "file": "welcome-to-the-game-3-when-to-know-he-is-behind-you"
+      }
+    ],
+    "release": [
+      {
+        "slug": "welcome-to-the-game-3-full-release-date",
+        "file": "welcome-to-the-game-3-full-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-is-out",
+        "file": "welcome-to-the-game-3-is-out"
+      },
+      {
+        "slug": "welcome-to-the-game-3-player-count",
+        "file": "welcome-to-the-game-3-player-count"
+      },
+      {
+        "slug": "welcome-to-the-game-3-price",
+        "file": "welcome-to-the-game-3-price"
+      },
+      {
+        "slug": "welcome-to-the-game-3-ps5",
+        "file": "welcome-to-the-game-3-ps5"
+      },
+      {
+        "slug": "welcome-to-the-game-3-release-date",
+        "file": "welcome-to-the-game-3-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steam",
+        "file": "welcome-to-the-game-3-steam"
       }
     ],
     "story": [
@@ -272,6 +328,28 @@
     ]
   },
   "pt": {
+    "characters": [
+      {
+        "slug": "welcome-to-the-game-3-caseoh",
+        "file": "welcome-to-the-game-3-caseoh"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lucas",
+        "file": "welcome-to-the-game-3-lucas"
+      },
+      {
+        "slug": "welcome-to-the-game-3-patrick",
+        "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-tanner",
+        "file": "welcome-to-the-game-3-tanner"
+      },
+      {
+        "slug": "welcome-to-the-game-3-voice-actors",
+        "file": "welcome-to-the-game-3-voice-actors"
+      }
+    ],
     "demo": [
       {
         "slug": "welcome-to-the-game-3-demo-ending",
@@ -295,6 +373,10 @@
       }
     ],
     "features": [
+      {
+        "slug": "welcome-to-the-game-3-gameplay",
+        "file": "welcome-to-the-game-3-gameplay"
+      },
       {
         "slug": "welcome-to-the-game-3-multiplayer",
         "file": "welcome-to-the-game-3-multiplayer"
@@ -360,6 +442,36 @@
         "file": "welcome-to-the-game-3-when-to-know-he-is-behind-you"
       }
     ],
+    "release": [
+      {
+        "slug": "welcome-to-the-game-3-full-release-date",
+        "file": "welcome-to-the-game-3-full-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-is-out",
+        "file": "welcome-to-the-game-3-is-out"
+      },
+      {
+        "slug": "welcome-to-the-game-3-player-count",
+        "file": "welcome-to-the-game-3-player-count"
+      },
+      {
+        "slug": "welcome-to-the-game-3-price",
+        "file": "welcome-to-the-game-3-price"
+      },
+      {
+        "slug": "welcome-to-the-game-3-ps5",
+        "file": "welcome-to-the-game-3-ps5"
+      },
+      {
+        "slug": "welcome-to-the-game-3-release-date",
+        "file": "welcome-to-the-game-3-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steam",
+        "file": "welcome-to-the-game-3-steam"
+      }
+    ],
     "story": [
       {
         "slug": "welcome-to-the-game-3-ending",
@@ -380,6 +492,28 @@
     ]
   },
   "ru": {
+    "characters": [
+      {
+        "slug": "welcome-to-the-game-3-caseoh",
+        "file": "welcome-to-the-game-3-caseoh"
+      },
+      {
+        "slug": "welcome-to-the-game-3-lucas",
+        "file": "welcome-to-the-game-3-lucas"
+      },
+      {
+        "slug": "welcome-to-the-game-3-patrick",
+        "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-tanner",
+        "file": "welcome-to-the-game-3-tanner"
+      },
+      {
+        "slug": "welcome-to-the-game-3-voice-actors",
+        "file": "welcome-to-the-game-3-voice-actors"
+      }
+    ],
     "demo": [
       {
         "slug": "welcome-to-the-game-3-demo-ending",
@@ -403,6 +537,10 @@
       }
     ],
     "features": [
+      {
+        "slug": "welcome-to-the-game-3-gameplay",
+        "file": "welcome-to-the-game-3-gameplay"
+      },
       {
         "slug": "welcome-to-the-game-3-multiplayer",
         "file": "welcome-to-the-game-3-multiplayer"
@@ -448,6 +586,10 @@
     ],
     "killers": [
       {
+        "slug": "welcome-to-the-game-3-deaths",
+        "file": "welcome-to-the-game-3-deaths"
+      },
+      {
         "slug": "welcome-to-the-game-3-jumpscares",
         "file": "welcome-to-the-game-3-jumpscares"
       },
@@ -462,6 +604,36 @@
       {
         "slug": "welcome-to-the-game-3-when-to-know-he-is-behind-you",
         "file": "welcome-to-the-game-3-when-to-know-he-is-behind-you"
+      }
+    ],
+    "release": [
+      {
+        "slug": "welcome-to-the-game-3-full-release-date",
+        "file": "welcome-to-the-game-3-full-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-is-out",
+        "file": "welcome-to-the-game-3-is-out"
+      },
+      {
+        "slug": "welcome-to-the-game-3-player-count",
+        "file": "welcome-to-the-game-3-player-count"
+      },
+      {
+        "slug": "welcome-to-the-game-3-price",
+        "file": "welcome-to-the-game-3-price"
+      },
+      {
+        "slug": "welcome-to-the-game-3-ps5",
+        "file": "welcome-to-the-game-3-ps5"
+      },
+      {
+        "slug": "welcome-to-the-game-3-release-date",
+        "file": "welcome-to-the-game-3-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steam",
+        "file": "welcome-to-the-game-3-steam"
       }
     ],
     "story": [
