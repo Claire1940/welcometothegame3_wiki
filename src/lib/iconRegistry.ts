@@ -28,6 +28,23 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Welcome to the Game 3 主题图标（调查 / 深网 / 解谜 / 生存）
+  Route: LucideIcons.Route,
+  Puzzle: LucideIcons.Puzzle,
+  ShieldAlert: LucideIcons.ShieldAlert,
+  Globe: LucideIcons.Globe,
+  Flag: LucideIcons.Flag,
+  Key: LucideIcons.Key,
+  Newspaper: LucideIcons.Newspaper,
+  Compass: LucideIcons.Compass,
+  Lightbulb: LucideIcons.Lightbulb,
+  Lock: LucideIcons.Lock,
+  Search: LucideIcons.Search,
+  ListChecks: LucideIcons.ListChecks,
+  GitBranch: LucideIcons.GitBranch,
+  Skull: LucideIcons.Skull,
+  FileWarning: LucideIcons.FileWarning,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,

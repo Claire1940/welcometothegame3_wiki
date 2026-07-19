@@ -52,696 +52,829 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Welcome to the Game 3 Gameplay",
+    "description": "Browse a hostile fictional deep web, decode layered clues across linked pages, and survive an investigation that watches you back."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Welcome to the Game 3",
+    "titleHighlight": "Investigation Hub",
+    "subtitle": "Everything you need to investigate the deep web, decode puzzles, survive threats, and uncover every ending in Welcome to the Game 3",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Core loop, computer tools, and early survival priorities"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Route",
+        "title": "Walkthrough",
+        "description": "Stage-by-stage progression from opening to endgame"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Puzzle",
+        "title": "Puzzle Guide",
+        "description": "Clue types, decoding methods, and full solutions"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "ShieldAlert",
+        "title": "Threats & Survival",
+        "description": "Warning cues, defensive responses, and prevention"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Globe",
+        "title": "Deep Web Sites",
+        "description": "Site catalog, clues, access, and danger levels"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Flag",
+        "title": "Endings",
+        "description": "Outcome routes, requirements, and final choices"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Key",
+        "title": "Secrets & Easter Eggs",
+        "description": "Hidden interactions and optional discoveries"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Newspaper",
+        "title": "Updates & Patch Notes",
+        "description": "Releases, fixes, balance changes, and new content"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "beginnerGuide": {
+      "title": "Welcome to the Game 3 Beginner Guide",
+      "eyebrow": "Getting Started",
+      "subtitle": "Learn the basic investigation loop, computer tools, defensive routine, and early-game priorities in Welcome to the Game 3.",
+      "intro": "Welcome to the Game 3 combines computer-based investigation with real-time survival. Browse dangerous online spaces, identify useful clues, connect information across multiple pages, and regularly stop working to check your physical surroundings for threats.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Learn the Safe Area",
+          "description": "Inspect the room before beginning the investigation. Identify entrances, sightlines, lights, computer controls, and every object used to detect or respond to danger.",
+          "actions": [
+            "Memorize the quickest route between the computer and defensive interactables.",
+            "Test important controls before opening dangerous pages.",
+            "Keep the room quiet enough to hear footsteps, movement, and other warning sounds."
+          ],
+          "priority": "Survival",
+          "commonMistake": "Starting the investigation immediately without learning where defensive controls are located."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Organize the Computer",
+          "description": "Use the in-game browser, notes, and security utilities as separate parts of one investigation workspace. Keep essential information visible and close applications that create clutter.",
+          "actions": [
+            "Record useful URLs, names, passwords, symbols, and number sequences.",
+            "Separate confirmed clues from pages that only provide atmosphere or distractions.",
+            "Keep security-related tools easy to reach while browsing."
+          ],
+          "priority": "Organization",
+          "commonMistake": "Relying on memory and losing an important clue after leaving a page."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Browse Methodically",
+          "description": "Investigate one page at a time and examine its text, images, navigation links, source clues, and unusual formatting before moving on.",
+          "actions": [
+            "Read page titles and repeated phrases carefully.",
+            "Check whether images, filenames, symbols, or highlighted text contain clue fragments.",
+            "Follow promising links in a controlled order instead of opening everything at once."
+          ],
+          "priority": "Investigation",
+          "commonMistake": "Rapidly opening many pages and overlooking the clue that connects them."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Use a Check-and-Browse Cycle",
+          "description": "Alternate short investigation sessions with physical security checks. This prevents tunnel vision and creates a predictable defensive rhythm.",
+          "actions": [
+            "Pause after completing a page or solving part of a clue.",
+            "Listen before leaving the computer.",
+            "Check the room after suspicious sounds, visual changes, or computer interruptions."
+          ],
+          "priority": "Threat Control",
+          "commonMistake": "Remaining at the computer for long periods while ignoring environmental warning signs."
+        },
+        {
+          "title": "Protect Important Progress",
+          "description": "Preserve useful information as soon as it appears. Investigation chains in Welcome to the Game 3 often require details collected from several unrelated pages.",
+          "actions": [
+            "Write down every confirmed clue immediately.",
+            "Keep decoded information beside the original clue.",
+            "Review collected information before entering passwords or final answers."
+          ],
+          "priority": "Progress",
+          "commonMistake": "Discarding a clue because its purpose is not immediately obvious."
+        },
+        {
+          "title": "Avoid Early Run Killers",
+          "description": "Most early failures come from poor awareness rather than difficult puzzles. Slow down whenever the environment changes or the computer behaves unexpectedly.",
+          "actions": [
+            "Do not investigate suspicious interruptions while ignoring the room.",
+            "Do not repeat failed password attempts without rechecking the clue.",
+            "Do not assume that silence means the area is safe."
+          ],
+          "priority": "Consistency",
+          "commonMistake": "Treating the investigation and survival systems as separate activities."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Treat the room and the computer as a single workspace that you switch between constantly.",
+        "Keep a single notes file for URLs, passwords, names, symbols, and number sequences.",
+        "Browse in short focused sessions and check the room between each one.",
+        "Record every clue the moment it appears, even when its purpose is unclear yet."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "walkthrough": {
+      "title": "Welcome to the Game 3 Walkthrough",
+      "eyebrow": "Main Progression",
+      "subtitle": "Follow the Welcome to the Game 3 investigation from the opening setup to the final access objective.",
+      "intro": "Progress in Welcome to the Game 3 is built by exploring online pages, recording connected evidence, solving clue chains, and surviving escalating interruptions. The safest approach is to complete one investigation branch at a time while maintaining a regular room-checking routine.",
+      "stages": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Opening Setup",
+          "requiredActions": [
+            "Inspect the room and locate all defensive interactables.",
+            "Learn the computer interface and browser navigation.",
+            "Create a clear place for recording URLs, passwords, names, and symbols."
+          ],
+          "preparation": "Confirm the basic movement and interaction controls before opening investigation pages.",
+          "majorDangers": [
+            "Missing environmental controls",
+            "Ignoring early warning sounds",
+            "Losing the first useful clues"
+          ],
+          "recovery": "Return to the starting pages, rebuild your notes, and test each room interaction before continuing."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Build the First Clue Chain",
+          "requiredActions": [
+            "Browse the available starting pages.",
+            "Identify repeated words, symbols, usernames, and linked subjects.",
+            "Record every page that contains a confirmed connection."
+          ],
+          "preparation": "Use a simple note format containing the page name, clue, possible meaning, and connected page.",
+          "majorDangers": [
+            "Following unrelated links for too long",
+            "Mistaking decorative text for a solution",
+            "Remaining at the computer during suspicious environmental changes"
+          ],
+          "recovery": "Review the pages already visited and compare repeated details instead of starting the entire investigation again."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Decode Access Information",
+          "requiredActions": [
+            "Combine fragments collected from separate pages.",
+            "Test straightforward interpretations before complex decoding methods.",
+            "Match passwords and codes to the page or account that requests them."
+          ],
+          "preparation": "Preserve original capitalization, spacing, symbol order, and number order in your notes.",
+          "majorDangers": [
+            "Entering a correct answer in the wrong location",
+            "Changing the order of clue fragments",
+            "Repeating guesses without reviewing the source material"
+          ],
+          "recovery": "Return to the original clue, rebuild the sequence exactly as displayed, and verify which page requests the answer."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "title": "Manage Midgame Pressure",
+          "requiredActions": [
+            "Continue collecting investigation progress while shortening browsing sessions.",
+            "Perform room checks after major discoveries and computer interruptions.",
+            "Keep the most important security controls ready."
+          ],
+          "preparation": "Review warning sounds and environmental cues before opening a new investigation branch.",
+          "majorDangers": [
+            "Tunnel vision during longer puzzles",
+            "False alarms that disrupt concentration",
+            "Overlooking changes in the room while reading"
+          ],
+          "recovery": "Stop browsing, secure the room, then resume from the last confirmed clue rather than reopening every page."
+        },
+        {
+          "title": "Complete Remaining Investigation Branches",
+          "requiredActions": [
+            "Check unresolved names, symbols, and URLs in your notes.",
+            "Revisit pages containing incomplete clue chains.",
+            "Confirm that each collected answer has been used in its intended location."
+          ],
+          "preparation": "Group notes by investigation branch so unfinished objectives are easy to identify.",
+          "majorDangers": [
+            "Assuming an unused clue is irrelevant",
+            "Repeating completed branches",
+            "Opening too many unresolved pages at once"
+          ],
+          "recovery": "Mark every clue as unused, partially solved, or completed and continue from the oldest unresolved entry."
+        },
+        {
+          "title": "Prepare for the Final Objective",
+          "requiredActions": [
+            "Review all final access information before submitting it.",
+            "Close unnecessary windows and simplify the computer workspace.",
+            "Complete a full security check before beginning the final sequence."
+          ],
+          "preparation": "Keep the final code, password, or access sequence written exactly as discovered.",
+          "majorDangers": [
+            "Beginning the final sequence without checking the room",
+            "Using an incomplete clue chain",
+            "Panicking when multiple systems demand attention"
+          ],
+          "recovery": "Leave the final interface, secure the environment, and compare every answer with its original source before trying again."
+        },
+        {
+          "title": "Complete the Endgame Sequence",
+          "requiredActions": [
+            "Enter the confirmed access information in the correct order.",
+            "Respond immediately to environmental warning cues.",
+            "Follow the final on-screen objectives without abandoning defensive checks."
+          ],
+          "preparation": "Remove distractions and keep only the final notes and required computer tools visible.",
+          "majorDangers": [
+            "Ignoring the room during the final interaction",
+            "Rushing through instructions",
+            "Confusing a threat interruption with investigation progress"
+          ],
+          "recovery": "Return to the last stable state, repeat the security routine, and restart the final sequence using verified information."
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "puzzles": {
+      "title": "Welcome to the Game 3 Puzzle Guide",
+      "eyebrow": "Clues and Solutions",
+      "subtitle": "Understand how Welcome to the Game 3 hides information across webpages, images, text, and login screens.",
+      "intro": "Most puzzles in Welcome to the Game 3 rely on careful observation and connections between several pieces of online evidence. Preserve the original form of every clue, because capitalization, order, spacing, filenames, symbols, and repeated phrases can all affect the solution.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Linked-Page Clue Chains",
+          "summary": "A clue on one page identifies a word, person, symbol, or subject that leads to information on another page.",
+          "hint": "Search your notes for repeated details instead of treating each webpage as a separate puzzle.",
+          "fullSolution": [
+            "Record the distinctive detail from the first page.",
+            "Find another visited page containing the same detail or a direct variation of it.",
+            "Compare the surrounding text on both pages.",
+            "Use the shared information to identify the required URL, password, account, or access phrase."
+          ],
+          "commonError": "Following every available link instead of focusing on repeated evidence."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Password and Login Puzzles",
+          "summary": "Protected pages require credentials assembled from nearby text or information collected elsewhere.",
+          "hint": "Check usernames, page titles, dates, emphasized words, and repeated phrases before attempting combinations.",
+          "fullSolution": [
+            "Identify whether the page requests a username, password, code, or complete phrase.",
+            "Match each field with the corresponding clue in your notes.",
+            "Preserve capitalization, punctuation, spacing, and number order.",
+            "Submit the credentials only after confirming that they belong to the current page."
+          ],
+          "commonError": "Using the correct password with the wrong username or protected page."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Ordered Fragment Puzzles",
+          "summary": "Several letters, words, numbers, or symbols combine in the sequence indicated by the source pages.",
+          "hint": "The correct order usually follows page navigation, numbering, timestamps, reading direction, or another visible sequence.",
+          "fullSolution": [
+            "Copy every fragment exactly as shown.",
+            "Write down the location where each fragment was found.",
+            "Identify the ordering rule shared by those locations.",
+            "Combine the fragments without changing their original characters."
+          ],
+          "commonError": "Finding every fragment but arranging them according to discovery order rather than the puzzle's intended order."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Images and Visual Clues",
+          "summary": "Images hide readable text, symbols, object counts, filenames, visual patterns, or details connected to another page.",
+          "hint": "Inspect the entire image and its surrounding page instead of looking only at the main subject.",
+          "fullSolution": [
+            "Check corners, backgrounds, repeated objects, unusual marks, and visible writing.",
+            "Compare the image with names and symbols already recorded.",
+            "Read any filename or caption associated with the image.",
+            "Use the matching visual detail as a code fragment, search clue, or page identifier."
+          ],
+          "commonError": "Assuming an image is decorative because it does not contain obvious text."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "title": "Hidden Text Patterns",
+          "summary": "Formatting, repeated letters, unusual capitalization, line breaks, or emphasized words reveal a message.",
+          "hint": "Look for text that breaks the normal writing pattern of the page.",
+          "fullSolution": [
+            "Copy the suspicious text while preserving its formatting.",
+            "Extract the repeated, capitalized, highlighted, or positionally unusual characters.",
+            "Read the extracted characters in their displayed order.",
+            "Test the result as a keyword, page name, password, or instruction."
+          ],
+          "commonError": "Correcting unusual spelling or capitalization and accidentally removing the clue."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "title": "Numbers, Dates, and Sequences",
+          "summary": "Number strings act as access codes or define the order in which other clues must be read.",
+          "hint": "Determine whether the numbers represent a direct code, a date, a count, or positions inside another text.",
+          "fullSolution": [
+            "Copy the complete number sequence.",
+            "Check nearby text for labels that explain what the numbers represent.",
+            "Test the simplest direct interpretation first.",
+            "When the numbers indicate positions, apply them to the associated word, sentence, or clue list."
+          ],
+          "commonError": "Applying complex mathematics before checking whether the numbers are already a direct code."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Multi-Step Computer Challenges",
+          "summary": "Some objectives require information from the browser, notes, security tools, and protected interfaces used in a specific order.",
+          "hint": "Treat each successful interaction as one stage of a larger sequence and record what changed afterward.",
+          "fullSolution": [
+            "Identify the current locked interface or missing requirement.",
+            "Find the webpage or clue that supplies the required information.",
+            "Enter the information and note the resulting change.",
+            "Repeat the process until the final access objective becomes available."
+          ],
+          "commonError": "Assuming the first successful login completes the entire investigation chain."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "threatsAndSurvival": {
+      "title": "Welcome to the Game 3 Threats and Survival",
+      "eyebrow": "Survival",
+      "subtitle": "Recognize warning cues, interrupt dangerous investigation habits, and respond in the correct order in Welcome to the Game 3.",
+      "intro": "Threats in Welcome to the Game 3 pressure the player through sound, visual changes, computer interruptions, and direct environmental danger. The correct response is to stop browsing, identify the warning source, use the appropriate defensive interaction, and resume the investigation only after the area is secure.",
+      "threats": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Physical Intrusion",
+          "dangerLevel": "Critical",
+          "warningSigns": [
+            "Footsteps or movement near an entrance",
+            "Door-related sounds",
+            "Changes in nearby room ambience"
+          ],
+          "behavior": "The threat approaches the player's physical location while attention is focused on the computer.",
+          "immediateResponse": [
+            "Leave the computer immediately.",
+            "Listen before moving toward the entrance.",
+            "Use the room's defensive interaction and remain alert until the warning passes."
+          ],
+          "prevention": [
+            "Keep browsing sessions short.",
+            "Memorize the route to defensive controls.",
+            "Avoid masking important sounds."
+          ]
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Visual Surveillance",
+          "dangerLevel": "High",
+          "warningSigns": [
+            "Movement at a window or sightline",
+            "A silhouette or environmental change",
+            "Repeated visual activity outside the normal room state"
+          ],
+          "behavior": "The threat uses visibility and player exposure rather than immediately entering the room.",
+          "immediateResponse": [
+            "Break line of sight.",
+            "Use the appropriate light, cover, or room interaction.",
+            "Do not return to the computer until the visual warning has ended."
+          ],
+          "prevention": [
+            "Check windows and sightlines during every security cycle.",
+            "Avoid remaining exposed while reading long pages.",
+            "Respond to visual changes before confirming their exact cause."
+          ]
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Network Tracking",
+          "dangerLevel": "High",
+          "warningSigns": [
+            "Security alerts",
+            "Unexpected computer behavior",
+            "Connection-related interruptions"
+          ],
+          "behavior": "The threat targets the player's online activity and punishes prolonged or careless browsing.",
+          "immediateResponse": [
+            "Stop the current browsing action.",
+            "Use the available computer security tools.",
+            "Close unnecessary pages and verify the connection state before continuing."
+          ],
+          "prevention": [
+            "Use security utilities consistently.",
+            "Avoid leaving dangerous pages open without purpose.",
+            "Complete clue collection efficiently instead of browsing randomly."
+          ]
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Computer Distraction",
+          "dangerLevel": "Medium",
+          "warningSigns": [
+            "Unexpected messages or pop-ups",
+            "Interface changes",
+            "Events designed to hold attention on the screen"
+          ],
+          "behavior": "The distraction keeps the player focused on the computer while another danger develops.",
+          "immediateResponse": [
+            "Do not interact automatically.",
+            "Check the room before investigating the computer event.",
+            "Return to the screen only after completing a security check."
+          ],
+          "prevention": [
+            "Treat every unexplained interruption as a possible distraction.",
+            "Keep the computer workspace uncluttered.",
+            "Use a fixed check-and-browse rhythm."
+          ]
+        },
+        {
+          "name": "False Alarm",
+          "dangerLevel": "Moderate",
+          "warningSigns": [
+            "A brief sound without follow-up movement",
+            "An isolated environmental cue",
+            "A warning that disappears quickly"
+          ],
+          "behavior": "The event interrupts concentration and encourages rushed or careless reactions.",
+          "immediateResponse": [
+            "Perform the normal security check.",
+            "Do not chase the source beyond the safe response routine.",
+            "Resume from the last recorded clue after the room is clear."
+          ],
+          "prevention": [
+            "Use the same response sequence for every warning.",
+            "Record puzzle progress before leaving the computer.",
+            "Avoid guessing when concentration is broken."
+          ]
+        },
+        {
+          "name": "Combined Pressure",
+          "dangerLevel": "Critical",
+          "warningSigns": [
+            "Multiple warnings occurring close together",
+            "A computer interruption followed by environmental movement",
+            "Reduced time between threat events"
+          ],
+          "behavior": "Several systems compete for attention, forcing the player to prioritize immediate survival over investigation progress.",
+          "immediateResponse": [
+            "Handle physical danger before computer tasks.",
+            "Complete one defensive action at a time.",
+            "Resume browsing only after all warning cues have stopped."
+          ],
+          "prevention": [
+            "Prepare final answers before opening high-risk interfaces.",
+            "Close unrelated applications.",
+            "Perform a full room check before major investigation steps."
+          ]
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+      "emergencyChecklist": [
+        "Stop browsing the moment a warning appears.",
+        "Identify whether the threat is physical, visual, or digital.",
+        "Use the matching defensive interaction in the correct order.",
+        "Resume the investigation only after the room is fully clear."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+    "deepWebSites": {
+      "title": "Welcome to the Game 3 Deep Web Sites",
+      "eyebrow": "Investigation Database",
+      "subtitle": "Identify the fictional deep web pages of Welcome to the Game 3, understand their risks, and separate progression clues from traps.",
+      "intro": "The in-game deep web of Welcome to the Game 3 contains fictional pages serving different roles in the investigation. Some provide required clue fragments, while others hide optional lore, trigger threats, waste time, or redirect players toward misleading information.",
+      "sites": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "The Hive",
+          "category": "Progression Site",
+          "dangerLevel": "Medium",
+          "description": "A central information hub containing discussions, coded messages, user profiles, and links that connect several parts of the investigation.",
+          "possibleClues": [
+            "Repeated usernames or aliases",
+            "Coded phrases hidden inside posts",
+            "Links leading to restricted pages"
+          ],
+          "accessRequirement": "Reached through an indexed page, a discovered link, or information collected from another fictional site.",
+          "warning": "Long discussion threads can distract players from environmental warning sounds."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Red Room",
+          "category": "High-Risk Site",
+          "dangerLevel": "Extreme",
+          "description": "A disturbing fictional page tied to dangerous encounters, major story implications, or pressure to act quickly.",
+          "possibleClues": [
+            "Timer-related information",
+            "Names connected to the current case",
+            "Visual symbols reused elsewhere"
+          ],
+          "accessRequirement": "Requires a hidden address, invitation, password, or a completed earlier clue chain.",
+          "warning": "Prepare the room and security tools before opening the page, and do not stay focused on the screen for too long."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Invitation Portal",
+          "category": "Progression Gateway",
+          "dangerLevel": "High",
+          "description": "A restricted fictional portal used to enter private sections of the in-game network after obtaining the correct invitation data.",
+          "possibleClues": [
+            "Invitation codes",
+            "Login credentials",
+            "A destination address for the next stage"
+          ],
+          "accessRequirement": "Requires information assembled from multiple pages rather than a single obvious password.",
+          "warning": "Repeated incorrect entries waste limited time or trigger an unwanted event."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Underground Market",
+          "category": "Optional Site",
+          "dangerLevel": "Medium",
+          "description": "A fictional marketplace with suspicious listings, seller profiles, and indirect references to characters or organizations in the story.",
+          "possibleClues": [
+            "Seller aliases",
+            "Item descriptions containing coded language",
+            "Transaction numbers or dates"
+          ],
+          "accessRequirement": "Discovered through advertisements, forum links, or hidden navigation elements.",
+          "warning": "Many listings are atmospheric details and do not contribute directly to progression."
+        },
+        {
+          "name": "Case Archive",
+          "category": "Evidence Site",
+          "dangerLevel": "Low",
+          "description": "An archive of fictional reports, missing-person records, images, and incident summaries that confirm relationships between collected clues.",
+          "possibleClues": [
+            "Victim or suspect names",
+            "Locations and timestamps",
+            "Photographs containing background details"
+          ],
+          "accessRequirement": "Requires a case number, account credential, or link discovered through another investigation page.",
+          "warning": "Record important details before leaving, because some archive pages are hard to relocate."
+        },
+        {
+          "name": "Mirror and Decoy Pages",
+          "category": "Misleading Site",
+          "dangerLevel": "Medium",
+          "description": "Copies or imitations of legitimate pages that provide incorrect passwords, false directions, or unsettling distractions.",
+          "possibleClues": [
+            "Small differences in page titles",
+            "Incorrect dates or usernames",
+            "Links that repeatedly return to the same location"
+          ],
+          "accessRequirement": "Accessible without special credentials and commonly appears during broad exploration.",
+          "warning": "Compare information with previously confirmed evidence before trusting the page."
+        },
+        {
+          "name": "Hidden Personal Page",
+          "category": "Secret Story Site",
+          "dangerLevel": "Low",
+          "description": "A concealed profile, journal, or personal homepage revealing optional background information about a character in the investigation.",
+          "possibleClues": [
+            "Personal relationships",
+            "Old usernames",
+            "References to secret locations or events"
+          ],
+          "accessRequirement": "Found through careful inspection of filenames, profile links, page source clues, or repeated aliases.",
+          "warning": "The page holds important lore without being required for the main objective."
         }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
+    "endings": {
+      "title": "Welcome to the Game 3 Endings",
+      "eyebrow": "Spoiler Guide",
+      "subtitle": "Review the major outcome routes of Welcome to the Game 3, their requirements, and the decisions that redirect an investigation.",
+      "intro": "This section of the Welcome to the Game 3 guide contains major spoilers. Outcomes are determined by whether the player completes the investigation, preserves essential evidence, survives hostile events, and makes the correct final decisions.",
+      "endings": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Completed Investigation Ending",
+          "spoilerLevel": "Major",
+          "description": "The player follows the primary clue chain, identifies the correct target or location, completes the final objective, and survives the closing sequence.",
+          "requirements": [
+            "Collect every mandatory clue fragment",
+            "Correctly decode the final address or identity",
+            "Complete the last interaction without selecting a false lead",
+            "Survive all required threat sequences"
+          ],
+          "criticalChoice": "Use only confirmed evidence when completing the final objective.",
+          "missableCondition": "Leaving a required clue unresolved prevents the final progression option from appearing."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Incomplete Case Ending",
+          "spoilerLevel": "Moderate",
+          "description": "The investigation ends without enough verified information to resolve the central case after committing to an incorrect conclusion or reaching a deadline with missing evidence.",
+          "requirements": [
+            "Advance without completing the full clue chain",
+            "Submit an incorrect identity, code, or destination",
+            "Ignore contradictory information"
+          ],
+          "criticalChoice": "Do not finalize the investigation until every major clue supports the same conclusion.",
+          "missableCondition": "A convincing decoy page leads directly to this outcome."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Captured Ending",
+          "spoilerLevel": "Major",
+          "description": "A hostile character reaches the player after warning signs are ignored or the correct defensive response is not completed.",
+          "requirements": [
+            "Miss repeated environmental warnings",
+            "Remain at the computer during an active threat",
+            "Use the wrong defensive action"
+          ],
+          "criticalChoice": "Stop browsing immediately when the room or computer signals an approaching danger.",
+          "missableCondition": "Some attacks begin during important pages, encouraging the player to ignore the room."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Compromised System Ending",
+          "spoilerLevel": "Major",
+          "description": "The in-game computer becomes unusable or controlled by an outside force after the player mishandles a digital threat.",
+          "requirements": [
+            "Allow a dangerous process to complete",
+            "Fail a security or recovery interaction",
+            "Continue browsing after clear system warnings"
+          ],
+          "criticalChoice": "Prioritize system security over preserving the current browser session.",
+          "missableCondition": "The threat appears as a harmless visual interruption before escalating."
+        },
+        {
+          "name": "Abandoned Investigation Ending",
+          "spoilerLevel": "Minor",
+          "description": "The player leaves or stops the investigation before reaching its decisive stage, preserving personal safety but failing to resolve the case.",
+          "requirements": [
+            "Choose an exit or withdrawal option",
+            "Refuse to continue after a major warning",
+            "End the run before the final clue chain"
+          ],
+          "criticalChoice": "Decide whether survival or completing the investigation is the immediate priority.",
+          "missableCondition": "This route is available only during specific moments of escalation."
+        },
+        {
+          "name": "Hidden Truth Ending",
+          "spoilerLevel": "Extreme",
+          "description": "An optional outcome connected to concealed evidence, secret pages, or a discovery that changes the meaning of the main investigation.",
+          "requirements": [
+            "Find optional story pages",
+            "Record hidden names, symbols, or codes",
+            "Complete an alternate clue sequence",
+            "Select the secret final interaction"
+          ],
+          "criticalChoice": "Investigate inconsistencies that the main objective does not require.",
+          "missableCondition": "Progressing too quickly through the final sequence skips the alternate route."
+        },
+        {
+          "name": "All Endings Preparation Checklist",
+          "spoilerLevel": "Planning",
+          "description": "Use a reusable save or run plan to reduce repeated investigation work while testing alternate final choices.",
+          "requirements": [
+            "Keep a complete record of passwords and decoded clues",
+            "Identify the last decision point before the ending",
+            "Finish optional site exploration before committing to the finale",
+            "Separate survival failures from story-choice outcomes"
+          ],
+          "criticalChoice": "Preserve progress before entering the final sequence whenever the game permits it.",
+          "missableCondition": "Randomized clues or threat behavior require parts of the investigation to be repeated."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "secrets": {
+      "title": "Welcome to the Game 3 Secrets and Easter Eggs",
+      "eyebrow": "Hidden Discoveries",
+      "subtitle": "Find concealed interactions, optional story details, unusual events, and references hidden throughout Welcome to the Game 3.",
+      "intro": "Secrets in Welcome to the Game 3 are tied to specific pages, timing, repeated environmental interactions, or information that the main objective does not require. The entries below cover the discovery methods and the rewards each secret unlocks.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "title": "Repeated Username Trail",
+          "hint": "Watch for the same unusual username appearing on unrelated fictional sites.",
+          "solution": "Record the username exactly and search for it across forum posts, marketplace profiles, archives, and personal pages. Matching details reveal an optional story connection or a hidden page address.",
+          "confirmation": "Investigation secret",
+          "reward": "Additional character lore and an alternate clue"
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "title": "Hidden Image Detail",
+          "hint": "Some images contain useful information outside their obvious subject.",
+          "solution": "Inspect backgrounds, reflections, filenames, captions, and repeated symbols. A number, location, or logo corresponds to a password or another page in the fictional network.",
+          "confirmation": "Puzzle technique",
+          "reward": "Optional clue fragment or a shortened puzzle route"
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "title": "Inactive Navigation Link",
+          "hint": "A link that appears decorative changes after another condition is completed.",
+          "solution": "Return to suspicious pages after discovering a related password, username, or invitation. Previously inactive text or images become selectable.",
+          "confirmation": "Progression-tied secret",
+          "reward": "Access to a restricted page"
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "title": "Room Interaction Sequence",
+          "hint": "Repeatedly checking an ordinary object produces an unusual response.",
+          "solution": "Interact with environmental objects at different stages of the investigation, especially after major story events. A changed sound, message, or visual detail reveals an Easter egg.",
+          "confirmation": "Event-based secret",
+          "reward": "Unique animation, sound cue, or developer reference"
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "title": "Legacy Series Reference",
+          "hint": "Look for names, symbols, page designs, or audio cues resembling earlier Welcome to the Game entries.",
+          "solution": "Compare recurring fictional brands, aliases, interface elements, and threat-related sounds with earlier games in the series. These references are optional and do not affect progression.",
+          "confirmation": "Developer reference",
+          "reward": "Series lore connection"
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "title": "Alternate Login Message",
+          "hint": "Correct and incorrect credentials are not the only inputs recognized by a login page.",
+          "solution": "Try story-relevant aliases, repeated phrases, or discovered identifiers when they are supported by in-game clues. A special response appears without granting full access.",
+          "confirmation": "Hidden interaction",
+          "reward": "Secret message or additional hint"
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "title": "Rare Screen Event",
+          "hint": "An unusual visual interruption is more than a normal threat warning.",
+          "solution": "Observe the event without ignoring physical danger, then record any symbols, text, or images that appear. Rare events connect to optional lore or foreshadow a later encounter.",
+          "confirmation": "Rare event",
+          "reward": "Hidden story detail"
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "title": "Secret Ending Clue Chain",
+          "hint": "Several optional discoveries form one larger sequence.",
+          "solution": "Combine hidden usernames, image details, archive records, and restricted-page information before entering the final sequence. The collected evidence unlocks an alternate response or destination.",
+          "confirmation": "Combined secret chain",
+          "reward": "Alternate ending route"
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "updatesAndPatchNotes": {
+      "title": "Welcome to the Game 3 Updates and Patch Notes",
+      "eyebrow": "Game Development",
+      "subtitle": "Follow major releases, fixes, gameplay adjustments, and new content for Welcome to the Game 3.",
+      "intro": "This Welcome to the Game 3 timeline tracks official updates and how each change affects puzzle strategies, survival routines, progression, and the existing walkthrough.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "Pre-Release",
+          "title": "Development Announcements",
+          "status": "Announced",
+          "description": "Developer announcements introduce new investigation systems, threats, environments, story details, or changes to the planned release schedule.",
+          "affectedSystems": [
+            "Release information",
+            "Core gameplay",
+            "Story presentation"
+          ],
+          "guideImpact": "Preview information is separated from mechanics confirmed in a playable build."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "Launch Build",
+          "title": "Initial Game Release",
+          "status": "Launch",
+          "description": "The initial public build establishes the main investigation route, the fictional website pool, survival systems, puzzles, threats, and the available endings.",
+          "affectedSystems": [
+            "Main progression",
+            "Deep web site catalog",
+            "Threat behavior",
+            "Ending conditions"
+          ],
+          "guideImpact": "All walkthrough sections are checked against the launch build before being presented as final."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "date": "Early Post-Launch",
+          "title": "Critical Bug Fixes",
+          "status": "Hotfix",
+          "description": "Early fixes address blocked progression, unavailable links, broken passwords, missing interaction prompts, save problems, and threats that fail to behave correctly.",
+          "affectedSystems": [
+            "Puzzle progression",
+            "Save system stability",
+            "Website navigation",
+            "Threat encounters"
+          ],
+          "guideImpact": "Workarounds for launch bugs are removed after fixes ship."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "date": "Post-Launch",
+          "title": "Puzzle and Clue Adjustments",
+          "status": "Balance Update",
+          "description": "Puzzle clues are clarified, relocated, randomized differently, or adjusted to keep players from becoming permanently stuck.",
+          "affectedSystems": [
+            "Passwords",
+            "Code sequences",
+            "Hidden links",
+            "Investigation flow"
+          ],
+          "guideImpact": "Exact clue locations and solutions are documented for each build."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "date": "Post-Launch",
+          "title": "Threat Balance Changes",
+          "status": "Balance Update",
+          "description": "Updates change warning duration, attack frequency, defensive timing, audio cues, or the conditions that activate hostile encounters.",
+          "affectedSystems": [
+            "Enemy frequency",
+            "Warning signals",
+            "Defensive interactions",
+            "Difficulty balance"
+          ],
+          "guideImpact": "Survival routines focus on recognizable warning signs rather than fixed timing."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "date": "Post-Launch",
+          "title": "Performance and Accessibility",
+          "status": "Technical Update",
+          "description": "Technical patches improve stability, loading behavior, input support, text readability, audio settings, and performance across different PC configurations.",
+          "affectedSystems": [
+            "Performance",
+            "Controls",
+            "Audio",
+            "Interface readability"
+          ],
+          "guideImpact": "Technical recommendations list the game version and treat launch issues as temporary."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "date": "Future Content",
+          "title": "New Sites, Secrets, or Story Content",
+          "status": "Content Update",
+          "description": "A content update adds fictional web pages, optional clue chains, environmental events, hidden discoveries, threats, or alternate outcomes.",
+          "affectedSystems": [
+            "Site catalog",
+            "Secrets",
+            "Story routes",
+            "Endings"
+          ],
+          "guideImpact": "New content is added as separate entries with its connection to the original progression route."
         }
       ]
     }
@@ -749,31 +882,35 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Welcome to the Game 3",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Welcome to the Game 3?",
+        "answer": "Welcome to the Game 3 is a deep web horror puzzle game by Reflect Studios. You browse a hostile fictional network, decode layered clues, and survive threats that close in while you investigate."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Welcome to the Game 3?",
+        "answer": "Welcome to the Game 3 is released on Steam for PC. You can wishlist or purchase it from the official Steam store page."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Is Welcome to the Game 3 a singleplayer game?",
+        "answer": "Yes. Welcome to the Game 3 is a singleplayer investigation experience with no multiplayer or co-op mode."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How does the investigation loop work in Welcome to the Game 3?",
+        "answer": "In Welcome to the Game 3 you browse fictional deep web pages one at a time, record clues, connect information across pages, and regularly stop to check the room for approaching threats."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do I survive longer in Welcome to the Game 3?",
+        "answer": "Keep browsing sessions short, memorize the room's defensive controls, and treat every sound, visual change, or computer interruption as a reason to stop and check your surroundings."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How many endings does Welcome to the Game 3 have?",
+        "answer": "Welcome to the Game 3 has several endings shaped by whether you complete the investigation, preserve key evidence, survive hostile events, and make the correct final decisions."
+      },
+      {
+        "question": "Will Welcome to the Game 3 receive updates?",
+        "answer": "Yes. Welcome to the Game 3 receives post-launch fixes, balance changes, and content updates that adjust puzzles, threats, and progression."
       }
     ]
   },
@@ -801,125 +938,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "beginner-guide": {
+      "title": "Welcome to the Game 3 Beginner Guide",
+      "description": "Core gameplay loop, computer tools, defensive routine, and early survival priorities for Welcome to the Game 3.",
+      "metaTitle": "Welcome to the Game 3 Beginner Guide - Getting Started",
+      "metaDescription": "Learn the basic investigation loop, computer tools, and survival priorities in Welcome to the Game 3 with this beginner guide.",
+      "categoryLabel": "BEGINNER GUIDE",
+      "whatIs": "Beginner Guide",
+      "whatIsDescription": "A beginner-friendly overview of the investigation loop, computer workspace, and defensive routine that keeps your first hours in Welcome to the Game 3 organized.",
+      "why": "Why start here?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn the Safe Area",
+        "step1Description": "Inspect the room, locate defensive controls, and set up a notes workspace before browsing.",
+        "step2Title": "Build a Check-and-Browse Cycle",
+        "step2Description": "Alternate short investigation sessions with physical security checks.",
+        "step3Title": "Avoid Early Run Killers",
+        "step3Description": "Slow down whenever the environment changes or the computer behaves unexpectedly."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Beginner Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "walkthrough": {
+      "title": "Welcome to the Game 3 Walkthrough",
+      "description": "Stage-by-stage progression from opening setup to the final endgame sequence.",
+      "metaTitle": "Welcome to the Game 3 Walkthrough - Full Progression",
+      "metaDescription": "Follow the Welcome to the Game 3 walkthrough from the opening setup through clue chains and the endgame sequence.",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "Walkthrough",
+      "whatIsDescription": "A structured progression route covering each stage of the investigation, including required actions, preparations, dangers, and recovery options.",
+      "why": "Why follow the walkthrough?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Progress One Branch at a Time",
+        "step1Description": "Complete investigation branches in order to avoid losing clue connections.",
+        "step2Title": "Prepare Before Each Stage",
+        "step2Description": "Review warnings and organize notes before opening new pages.",
+        "step3Title": "Recover From Missed Clues",
+        "step3Description": "Use the recovery steps to resume without restarting the whole investigation."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Walkthrough Stages"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "puzzles": {
+      "title": "Welcome to the Game 3 Puzzle Guide",
+      "description": "Clue types, decoding methods, and full solutions for every puzzle category.",
+      "metaTitle": "Welcome to the Game 3 Puzzle Guide - Clues & Solutions",
+      "metaDescription": "Master every puzzle type in Welcome to the Game 3 with hint-first solutions for clue chains, passwords, fragments, and visual clues.",
+      "categoryLabel": "PUZZLE GUIDE",
+      "whatIs": "Puzzle Guide",
+      "whatIsDescription": "Hint-first puzzle solutions that cover linked-page clue chains, passwords, ordered fragments, visual clues, hidden text, numbers, and multi-step computer challenges.",
+      "why": "Why use the puzzle guide?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Read the Hint First",
+        "step1Description": "Open the spoiler-free hint before revealing the full solution.",
+        "step2Title": "Preserve Original Clues",
+        "step2Description": "Keep capitalization, spacing, order, and symbols exactly as displayed.",
+        "step3Title": "Connect Evidence Across Pages",
+        "step3Description": "Match fragments to the pages and fields that request them."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Puzzle Solutions"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "threats-and-survival": {
+      "title": "Welcome to the Game 3 Threats and Survival",
+      "description": "Warning cues, defensive responses, and prevention tips for every threat type.",
+      "metaTitle": "Welcome to the Game 3 Threats & Survival Guide",
+      "metaDescription": "Survive Welcome to the Game 3 with warning cues, defensive responses, and prevention tips for every threat type.",
+      "categoryLabel": "THREATS & SURVIVAL",
+      "whatIs": "Threats and Survival",
+      "whatIsDescription": "A survival reference covering warning signs, behavior, immediate response, and prevention for each hostile encounter in the game.",
+      "why": "Why study threats?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Recognize Warning Cues",
+        "step1Description": "Identify physical, visual, and digital warning signs early.",
+        "step2Title": "Respond in the Correct Order",
+        "step2Description": "Stop browsing, identify the source, then use the matching defense.",
+        "step3Title": "Prevent Repeat Encounters",
+        "step3Description": "Shorten sessions and keep defensive controls ready."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Survival Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "deep-web-sites": {
+      "title": "Welcome to the Game 3 Deep Web Sites",
+      "description": "A catalog of fictional deep web pages, their clues, access requirements, and danger levels.",
+      "metaTitle": "Welcome to the Game 3 Deep Web Sites - Catalog & Clues",
+      "metaDescription": "Browse the fictional deep web of Welcome to the Game 3 with a full site catalog covering clues, access requirements, and danger levels.",
+      "categoryLabel": "DEEP WEB SITES",
+      "whatIs": "Deep Web Sites",
+      "whatIsDescription": "A catalog of the fictional deep web pages in the game, separating progression sites from optional, misleading, and high-risk pages.",
+      "why": "Why use the site catalog?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Separate Progression From Traps",
+        "step1Description": "Identify which pages advance the investigation and which distract.",
+        "step2Title": "Check Access Requirements",
+        "step2Description": "Prepare invitation codes, credentials, and links before visiting.",
+        "step3Title": "Read Danger Levels First",
+        "step3Description": "Prepare the room and security tools before opening high-risk pages."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Deep Web Sites"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "endings": {
+      "title": "Welcome to the Game 3 Endings",
+      "description": "Outcome routes, requirements, critical choices, and a checklist for every ending.",
+      "metaTitle": "Welcome to the Game 3 Endings - Routes & Requirements",
+      "metaDescription": "Unlock every ending in Welcome to the Game 3 with route requirements, critical choices, and a completion checklist.",
+      "categoryLabel": "ENDINGS",
+      "whatIs": "Endings",
+      "whatIsDescription": "A spoiler-controlled guide to every outcome, the conditions that trigger it, and the final choices that decide which route you reach.",
+      "why": "Why plan endings?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Track Required Evidence",
+        "step1Description": "Collect every mandatory clue before the final sequence.",
+        "step2Title": "Identify the Last Decision Point",
+        "step2Description": "Pinpoint where the ending route is locked in.",
+        "step3Title": "Use a Reusable Run Plan",
+        "step3Description": "Test alternate choices without repeating the whole investigation."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Endings"
+    },
+    "secrets": {
+      "title": "Welcome to the Game 3 Secrets and Easter Eggs",
+      "description": "Hidden interactions, optional discoveries, and the rewards each secret unlocks.",
+      "metaTitle": "Welcome to the Game 3 Secrets & Easter Eggs",
+      "metaDescription": "Find every secret and Easter egg in Welcome to the Game 3 with hint-first discovery methods and reward details.",
+      "categoryLabel": "SECRETS & EASTER EGGS",
+      "whatIs": "Secrets and Easter Eggs",
+      "whatIsDescription": "A collection of hidden interactions, optional discoveries, and developer references, each with a hint, a full solution, and the reward it unlocks.",
+      "why": "Why hunt secrets?",
+      "whySteps": {
+        "step1Title": "Read the Hint First",
+        "step1Description": "Try the spoiler-free hint before revealing the solution.",
+        "step2Title": "Follow the Discovery Method",
+        "step2Description": "Use the documented steps to trigger each secret.",
+        "step3Title": "Collect the Rewards",
+        "step3Description": "Unlock optional lore, alternate clues, and ending routes."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Secrets"
+    },
+    "updates": {
+      "title": "Welcome to the Game 3 Updates and Patch Notes",
+      "description": "Releases, fixes, balance changes, and new content tracked over time.",
+      "metaTitle": "Welcome to the Game 3 Updates & Patch Notes",
+      "metaDescription": "Track Welcome to the Game 3 updates, bug fixes, balance changes, and new content with guide impact notes.",
+      "categoryLabel": "UPDATES & PATCH NOTES",
+      "whatIs": "Updates and Patch Notes",
+      "whatIsDescription": "A timeline of releases, hotfixes, balance changes, and content updates, with notes on how each change affects puzzles, threats, and progression.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "Stay Current With the Build",
+        "step1Description": "Match puzzle and threat behavior to the latest version.",
+        "step2Title": "See What Changed",
+        "step2Description": "Review affected systems for each update.",
+        "step3Title": "Adjust Your Strategy",
+        "step3Description": "Update survival routines and walkthrough steps after balance changes."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates"
     }
   }
 }
