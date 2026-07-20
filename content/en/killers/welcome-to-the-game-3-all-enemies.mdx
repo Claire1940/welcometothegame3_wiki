@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "welcome to the game 3 all enemies: Survival Guide & Counter Strategies",
+  description: "Master the mechanics of all 8 enemies in Welcome to the Game 3. Learn audio cues, hiding spots, and counter-tactics for Lucas, Tucker, Noir, and more.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=All+Enemies+Guide",
+  date: "2026-07-21",
+  author: "welcome to the game 3 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **welcome to the game 3 all enemies**: There are **8 primary threats** in the base game, each requiring unique survival strategies.
+- **Checkpoint System**: Unlike previous entries, normal difficulty features **hourly checkpoints**, reducing the frustration of permadeath.
+- **Audio Cues**: Success depends heavily on directional audio; headphones are mandatory for detecting Lucas and Tucker.
+- **Resource Management**: DOSCoin and items like **meth bags** or **earbuds** are essential for countering specific antagonists.
+- **Main Antagonist**: While multiple psychos stalk you, **Wade** serves as the primary mastermind behind Simon's debt.
+</Callout>
+
+<Section icon={Map} title="Overview of Threats in WTTG3">
+
+In the 2026 release of *Welcome to the Game III*, Simon finds himself trapped in a motel, forced to play "The Game" to settle a massive debt. Unlike the previous installments, the threat landscape is more diverse, blending physical stalkers, psychological terrors, and technical hazards. Understanding **welcome to the game 3 all enemies** is the difference between uncovering the truth and a brutal game over.
+
+The game features a roster of 8 distinct antagonists. Some will actively hunt you within the motel, while others wait for you to make a mistake on the Deep Web or during external errands.
+
+| Enemy Name | Threat Type | Primary Location | Difficulty Rating |
+| :--- | :--- | :--- | :--- |
+| **Lucas Kumiega** | Physical Stalker | Motel Interior | Hard |
+| **Tucker** | Environmental | Motel/Breaker Boxes | Medium |
+| **Cletus** | Resource-Based | Motel Rooms | Easy |
+| **Breather** | Exterior Stalker | Drone Drop-off | Medium |
+| **Noir** | Psychological | Any Room | Hard |
+| **Kidnapper** | Scripted/Physical | Street/Motel | Medium |
+| **Bomb Maker** | Technical | Deep Web/PC | Hard |
+| **Wade** | Mastermind | Global | Unknown |
+
+<Callout type="tip" title="Survival Tip">
+Always keep your volume high. Reflect Studios has optimized the audio engine in Unreal Engine 5 to provide precise spatial feedback for enemy movements.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Primary Physical Stalkers: Lucas and Tucker">
+
+The most persistent threats you will face are Lucas Kumiega and Tucker. These two enemies require constant vigilance and specific environmental interactions to repel. Lucas focuses on your immediate surroundings, while Tucker manipulates the motel's infrastructure to draw you out into the open.
+
+**Lucas Kumiega** is the quintessential stalker. He attempts to enter your room via the backdoor. You must keep this door locked at all times. If you hear his unique audio cue—a heavy, rhythmic thudding or metallic scratching—you must immediately find a place to hide.
+
+<CardGrid cols={2}>
+  <Card title="Lucas Kumiega Tactics">
+    - **Backdoor Security**: Keep the bolt locked at all times.
+    - **Hiding Spots**: Use the laundry cart or the locker.
+    - **Stealth Mechanic**: You must pass a "stay quiet" minigame while hiding.
+    - **Detection**: Use earbuds or motion sensors to hear him earlier.
+  </Card>
+  <Card title="Tucker Tactics">
+    - **Internet Sabotage**: Periodically cuts your connection.
+    - **Repair Boxes**: Requires venturing out to fix breakers.
+    - **Freeze Mechanic**: Stop moving immediately upon hearing his sound cue.
+    - **Intercom Music**: Hide in rooms marked with a playing card.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Danger Alert">
+When hiding from Lucas in the laundry cart, the "Stay Quiet" minigame is slightly easier than the locker, but the locker provides a better view of the room once he leaves.
+</Callout>
+
+| Action Required | Lucas Counter | Tucker Counter |
+| :--- | :--- | :--- |
+| **Audio Detection** | Scratching/Thumping | Electrical hum or Intercom music |
+| **Active Response** | Lock door/Hide | Repair boxes/Freeze in place |
+| **Required Item** | Motion Sensor (Recommended) | Flashlight |
+| **Safe Zone** | Laundry Cart/Locker | Motel Room (Playing Card) |
+
+</Section>
+
+<Section icon={Shield} title="Resource and Exterior Threats: Cletus and Breather">
+
+Not all enemies in **welcome to the game 3 all enemies** want to kill you immediately. Some, like **Cletus**, are interested in trade or extortion. Cletus is a unique NPC who resides in the surrounding motel rooms. To keep him from becoming hostile, you must always carry a "peace offering."
+
+**Cletus** requires meth. You can find bags of meth scattered throughout the motel. However, he is greedy. If you carry more than one bag, he will take your entire inventory. The strategy is to always have exactly one bag on your person.
+
+<Steps>
+  <Step num="1" title="Scavenge Rooms">
+    Search adjacent motel rooms to find hidden bags of meth.
+  </Step>
+  <Step num="2" title="Inventory Management">
+    Only pick up one bag at a time. If you find multiple, mark their location and return later.
+  </Step>
+  <Step num="3" title="The Encounter">
+    If Cletus approaches, he will take the single bag and leave you alone for a set duration.
+  </Step>
+</Steps>
+
+The **Breather** is an exterior threat that only appears when you leave the safety of the motel to collect drone drops. He stalks the area beneath the bridge. Unlike other enemies, you cannot hide from the Breather once he sees you; you must outrun him.
+
+<Callout type="success" title="Pro Strategy">
+When heading to the drone drop-off point, always plot your sprint path back to the motel entrance before you pick up the package. The Breather triggers almost immediately upon package retrieval.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Psychological Horrors: The Noir and Kidnapper">
+
+The **Noir** represent the psychological toll of "The Game." They appear suddenly and challenge your ability to stay calm under pressure. There are two variants: a female and a male. Your reaction time and counting accuracy are the only things that will save you from an instant death.
+
+| Noir Variant | Visual Cue | Required Action |
+| :--- | :--- | :--- |
+| **Female Noir** | Pale figure, long hair | Turn around, count to **10 seconds**, turn back |
+| **Male Noir** | Tall, shadowed figure | Turn around, count to **5 seconds**, turn back |
+
+<Callout type="warning" title="Critical Timing">
+Counting must be exact. Turning back too early or too late will result in a jump scare and immediate death. Use the in-game clock or a real-world stopwatch if necessary.
+</Callout>
+
+The **Kidnapper** is a more traditional threat. He drives a white van and will occasionally park on the street before attempting to enter the motel. He is a high-speed threat that requires quick reflexes to lock him out or hide before he reaches your floor.
+
+</Section>
+
+<Section icon={Sparkles} title="The Mastermind and Technical Hazards">
+
+The **Bomb Maker** is a threat triggered by your own curiosity. If you visit the "Bomb Maker" website on the Deep Web, you activate a timed event. He will message you a code, and you must locate a physical bomb within the motel to disarm it.
+
+**Wade**, the main antagonist of *Welcome to the Game III*, operates mostly from the shadows. While he doesn't have a standard patrol like Lucas, his influence is felt through the increasing difficulty of hacking minigames and the aggressive behavior of other NPCs.
+
+<Checklist
+  id="survival-essentials"
+  title="Essential Survival Checklist:"
+  items={[
+    "Purchase Backdoor Hack software immediately to farm DOSCoin.",
+    "Keep at least one bag of Meth in your inventory for Cletus.",
+    "Memorize the count for both Noir variants (5s and 10s).",
+    "Identify the motel room marked with a playing card for Tucker events.",
+    "Upgrade to the High-Gain Antenna to reduce internet outages."
+  ]}
+/>
+
+<Callout type="info" title="Hacking for Profit">
+To afford the items needed to counter **welcome to the game 3 all enemies**, use VirtMesh to mine DOSCoin. Target high-yield users like **Pheonix (4.79)** or **OpsHex (3.23)** for maximum efficiency.
+</Callout>
+
+| Mining Tier | User Name | DOSCoin Rate |
+| :--- | :--- | :--- |
+| **Tier 1** | WebTyk | 1.84 |
+| **Tier 1** | UserJyx | 1.80 |
+| **Tier 2** | Pheonix | **4.79** |
+| **Tier 2** | OpsHex | 3.23 |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many enemies are in welcome to the game 3?",
+    answer: "There are 8 total threats described in the game's mechanics, including Lucas Kumiega, Tucker, Cletus, Breather, Noir (Male/Female), Kidnapper, Bomb Maker, and the main antagonist, Wade."
+  },
+  {
+    question: "What is the best hiding spot for Lucas Kumiega?",
+    answer: "The laundry cart is generally preferred over the locker because the 'Stay Quiet' minigame is slightly more forgiving, though both will work if you pass the skill check."
+  },
+  {
+    question: "How do I stop the music Tucker plays over the intercom?",
+    answer: "You cannot stop the music manually. You must find the specific motel room marked with a playing card and hide inside it until the music stops playing."
+  },
+  {
+    question: "What happens if I carry more than one bag of meth?",
+    answer: "If Cletus catches you with multiple bags, he will take all of them. Since meth is a limited resource, it is best to only carry one bag at a time to satisfy his requirement."
+  }
+]} />
+
+</Section>

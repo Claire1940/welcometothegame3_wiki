@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Search, Terminal, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Todos los asesinos de Welcome to the Game 3: Guía de supervivencia y contras",
+  description: "Domina las amenazas en Welcome to the Game 3. Guía de supervivencia detallada para los 8 asesinos, consejos de hackeo y rutas de farmeo de DOSCoins para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=WTTG3+All+Killers+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Welcome to the Game 3"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Todos los asesinos de Welcome to the Game 3**: Hay 8 amenazas principales que incluyen a Lucas, Tucker, Cletus y el antagonista principal, Wade.
+- **Sistema de puntos de control**: La dificultad Normal cuenta con un punto de control a cada hora en punto, eliminando la muerte permanente tradicional de la serie.
+- **Contras para los asesinos**: Cada amenaza tiene una pista visual o auditiva específica; dominarlas es esencial para sobrevivir a la noche.
+- **Gestión de la economía**: Usa el sistema VirtMesh para hackear usuarios y minar DOSCoins para comprar software esencial en DarkDrop.
+- **Conciencia ambiental**: El entorno del motel es interactivo; revisa siempre la puerta trasera y guarda una bolsa de meta para Cletus.
+</Callout>
+
+<Section icon={Activity} title="Resumen de las 8 amenazas mortales">
+
+En la última entrega de la franquicia, Simon se encuentra atrapado en un motel, obligado a participar en "El Juego" para pagar una deuda que pone en peligro su vida. Comprender la lista de **todos los asesinos de Welcome to the Game 3** es la diferencia entre alcanzar uno de los cinco finales o sufrir un brutal fin de partida. A diferencia de las entregas anteriores, WTTG3 utiliza Unreal Engine 5 para crear un entorno más inmersivo y aterrador donde cada sonido podría anunciar tu muerte.
+
+El juego presenta un conjunto diverso de psicópatas, cada uno con mecánicas únicas que ponen a prueba tu velocidad de reacción, memoria y gestión de recursos. Desde la amenaza localizada de Lucas Kumiega hasta el peligro de gran alcance del Creador de Bombas (Bomb Maker), los jugadores deben permanecer atentos mientras navegan por 52 sitios web diferentes en la Deep Web.
+
+| Nombre del asesino | Ubicación principal | Pista de audio | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Lucas Kumiega** | Habitación del motel | Traqueteo del pomo de la puerta / Pasos | ★★★☆☆ |
+| **Tucker** | Exterior / Motel | Corte de internet / Música | ★★★★☆ |
+| **Cletus** | Habitaciones contiguas | Respiración pesada | ★★☆☆☆ |
+| **Breather** | Puente / Calle | Jadeo pesado | ★★☆☆☆ |
+| **Noir (M/F)** | Aleatorio / Navegador | Estática / Susurros | ★★★★★ |
+| **Kidnapper** | Calle / Habitación | Motor de furgoneta / Patada a la puerta | ★★★★☆ |
+| **Bomb Maker** | Basado en la web | Notificación de mensaje | ★★★☆☆ |
+| **Wade** | Final del juego | Varios | ★★★★★ |
+
+<Callout type="warning" title="El sigilo es obligatorio">
+Cada asesino en WTTG3 reacciona al sonido. Usar los auriculares del juego o los sensores de movimiento puede aumentar significativamente tu tasa de supervivencia al amplificar estas sutiles pistas de audio antes de que la amenaza entre en tu vecindad inmediata.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas básicas de supervivencia y ocultación">
+
+Sobrevivir en WTTG3 no se trata solo de esconderse; se trata de una defensa proactiva. Debes equilibrar tu tiempo entre la búsqueda de piezas de rompecabezas en la Darknet y el mantenimiento de tu seguridad física. La habitación del motel actúa como tu centro de operaciones, pero está lejos de ser un refugio seguro.
+
+<CardGrid cols={3}>
+  <Card title="La puerta trasera">
+    - **Vigilancia constante**: Mantén siempre la puerta trasera cerrada con llave.
+    - **Contra para Lucas**: Si escuchas un traqueteo, escóndete de inmediato.
+    - **Carrito de lavandería**: El lugar de ocultación preferido por encima del casillero.
+  </Card>
+  <Card title="Mantenimiento de Internet">
+    - **La trampa de Tucker**: Tucker cortará tus líneas de internet.
+    - **Cajas de reparación**: Aventúrate afuera para arreglarlas.
+    - **Mecánica de congelación**: Si escuchas un sonido mientras estás afuera, no te muevas.
+  </Card>
+  <Card title="Defensa de narcóticos">
+    - **Política de Cletus**: Lleva siempre exactamente una bolsa de meta.
+    - **Búsqueda**: Encuentra meta en las habitaciones de motel cercanas.
+    - **Riesgo de inventario**: Cletus se lo llevará todo si llevas varias bolsas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Minijuegos de ocultación">
+Al esconderte en el carrito de lavandería o en el casillero, activarás un minijuego de "Mantenerse en silencio". Esto requiere un movimiento preciso del mouse o presionar teclas. Fallar este minijuego resulta en una muerte instantánea, independientemente de qué tan bien hayas calculado el momento para esconderte.
+</Callout>
+
+</Section>
+
+<Section icon={Terminal} title="Dominando a los Noir y al Creador de Bombas">
+
+Los Noir y el Creador de Bombas representan las amenazas más "abstractas" entre **todos los asesinos de Welcome to the Game 3**. Estas entidades no siempre siguen las reglas físicas del motel, a menudo atacando a través de la interfaz o mediante manipulación psicológica.
+
+**Los gemelos Noir**
+Los Noir aparecen como figuras llenas de estática. Requieren un "método de conteo" específico para ser derrotados. Si ves a la Noir femenina, debes darte la vuelta y contar exactamente hasta 10 segundos antes de volver a mirar. Para el Noir masculino, el conteo se reduce a 5 segundos. La precisión es clave; volverse demasiado pronto o demasiado tarde provocará un susto de muerte (jump scare) y la muerte.
+
+**El Creador de Bombas (Bomb Maker)**
+Esta amenaza se activa específicamente cuando visitas el sitio web de "The Bomb Maker". Colocará una bomba física en el área del motel. Debes localizar la bomba y esperar un mensaje que contenga el código de desactivación.
+
+| Amenaza | Desencadenante | Acción de contraataque | Penalización |
+| :--- | :--- | :--- | :--- |
+| **Noir femenina** | Estática aleatoria | Darse la vuelta / Contar 10s / Volver a mirar | Muerte |
+| **Noir masculino** | Estática aleatoria | Darse la vuelta / Contar 5s / Volver a mirar | Muerte |
+| **Creador de Bombas** | Visita al sitio web | Localizar bomba / Introducir código | Explosión |
+| **Secuestrador** | Furgoneta blanca | Cerrar puerta con llave / Esconderse | Secuestro |
+
+<Callout type="success" title="Esenciales de DarkDrop">
+Compra el "Backdoor Hack" lo antes posible. Este software te permite contrarrestar los hackeos entrantes de forma automática, generando un flujo constante de DOSCoins mientras te concentras en las amenazas de los Noir o del Creador de Bombas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Farmeo de DOSCoins y lista de niveles de VirtMesh">
+
+Para sobrevivir a todos los asesinos, necesitas software de alto nivel. El sistema VirtMesh te permite hackear las PC de otros usuarios para minar DOSCoins. Algunos usuarios son significativamente más rentables que otros, aunque su disponibilidad es aleatoria (RNG) en cada partida.
+
+**Usuarios de Nivel 1 (Ganancias estándar)**
+| Nombre de usuario | DOSCoins por minuto |
+| :--- | :--- |
+| **WebTyk** | 1.84 |
+| **UserJyx** | 1.80 |
+| **NetVorn** | 1.45 |
+| **CloudFuz** | 0.88 |
+| **SysBlip** | 0.87 |
+
+**Usuarios de Nivel 2 (Ganancias altas)**
+| Nombre de usuario | DOSCoins por minuto |
+| :--- | :--- |
+| **Pheonix** | 4.79 |
+| **OpsHex** | 3.23 |
+| **GameDrux** | 2.57 |
+| **PrintYiv** | 2.43 |
+| **FileNuz** | 1.84 |
+
+<Steps>
+  <Step num="1" title="Minado inicial">
+    Comienza hackeando a usuarios de Nivel 1 como WebTyk para obtener suficientes monedas para el software de seguridad básico.
+  </Step>
+  <Step num="2" title="Actualización de software">
+    Compra el "VirtMesh Scanner" para identificar a usuarios de Nivel 2 como Pheonix u OpsHex.
+  </Step>
+  <Step num="3" title="Ingresos pasivos">
+    Mantén al menos 3 conexiones activas mientras buscas piezas de rompecabezas para maximizar tu presupuesto.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Máquinas tragamonedas">
+WTTG3 es el primero de la serie en incluir una máquina tragamonedas. Si te quedan pocos DOSCoins y tienes mucha suerte, puedes arriesgar tu saldo restante para "inclinar la balanza", aunque generalmente esto no se recomienda para partidas serias de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Exploración de la Deep Web y piezas de rompecabezas">
+
+El objetivo final de la noche de Simon es descubrir las piezas ocultas de un rompecabezas repartidas en 52 sitios web diferentes. Estas piezas son esenciales para desbloquear el camino hacia la supervivencia. Sin embargo, navegar por la web te hace vulnerable a los intentos de hackeo y al rastreo de ubicación.
+
+**Consejos de navegación web:**
+1. **Anótalo todo**: Usa la aplicación de notas del juego para registrar hashes, códigos y registros de chat de los NPC.
+2. **Programas de chat**: Comunícate con los NPC para comprar y vender información. Algunas piezas del rompecabezas solo se pueden obtener mediante el comercio.
+3. **Entregas de drones**: Los artículos comprados en DarkDrop se entregan mediante un dron. El Breather acecha el punto de entrega debajo del puente, así que prepárate siempre para correr de regreso al motel.
+
+<Checklist
+  id="exploration-tasks"
+  title="Objetivos en la Deep Web:"
+  items={[
+    "Localizar los 52 sitios web accesibles",
+    "Identificar y registrar los 8 hashes de claves ocultas",
+    "Contrarrestar con éxito 10 minijuegos de hackeo",
+    "Completar una transacción con el 'Vendedor de las Sombras' (Shadow Seller)",
+    "Evitar al Breather durante 3 recuperaciones de drones distintas"
+  ]}
+/>
+
+<Callout type="warning" title="El Breather">
+El Breather está más activo cuando estás lejos del motel. Si escuchas un jadeo pesado cerca del puente, no investigues. Corre directamente hacia las luces del motel hasta que la pista de audio se desvanezca.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes de WTTG3">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos asesinos hay en Welcome to the Game 3?",
+    answer: "Hay un total de 8 amenazas en el juego, incluyendo a Lucas, Tucker, Cletus, Breather, los gemelos Noir, el Secuestrador, el Creador de Bombas y el antagonista principal, Wade."
+  },
+  {
+    question: "¿Tiene muerte permanente Welcome to the Game 3?",
+    answer: "En la dificultad Normal, el juego no tiene muerte permanente. En su lugar, el jugador recibe un punto de control a cada hora en punto. Sin embargo, los modos de dificultad más altos pueden reintroducir la mecánica de muerte permanente."
+  },
+  {
+    question: "¿Cuál es el mejor escondite en el motel?",
+    answer: "El carrito de lavandería se considera generalmente el mejor escondite. Ofrece un punto de vista ligeramente mejor y suele ser más confiable que el casillero cuando Lucas Kumiega está registrando la habitación."
+  },
+  {
+    question: "¿Cómo lidio con la estática de los Noir?",
+    answer: "Si es la Noir femenina, date la vuelta y cuenta exactamente hasta 10 antes de volver a mirar. Si es el Noir masculino, date la vuelta y cuenta hasta 5. No contar con precisión resultará en una muerte inmediata."
+  }
+]} />
+
+<Callout type="success" title="Consejo final de supervivencia">
+Mantén tu aplicación de "Notas" abierta en todo momento. En el fragor de un ataque de cualquiera de **todos los asesinos de Welcome to the Game 3**, es posible que olvides un código crucial o una pista que encontraste minutos antes. Mantenerse organizado es tan importante como mantenerse escondido.
+</Callout>
+
+</Section>

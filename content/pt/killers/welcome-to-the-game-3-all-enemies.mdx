@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Welcome to the Game 3 Todos os Inimigos: Guia de Sobrevivência e Estratégias",
+  description: "Domine as mecânicas de todos os 8 inimigos em Welcome to the Game 3. Aprenda sinais sonoros, esconderijos e táticas de defesa para Lucas, Tucker, Noir e mais.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=All+Enemies+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Welcome to the Game 3",
+  keywords: "welcome to the game 3 todos os inimigos, guia de sobrevivência, lucas kumiega, tucker, noir, wade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **welcome to the game 3 todos os inimigos**: Existem **8 ameaças principais** no jogo base, cada uma exigindo estratégias de sobrevivência únicas.
+- **Sistema de Checkpoint**: Ao contrário das edições anteriores, a dificuldade normal apresenta **checkpoints de hora em hora**, reduzindo a frustração da morte permanente.
+- **Sinais Sonoros**: O sucesso depende fortemente do áudio direcional; fones de ouvido são obrigatórios para detectar Lucas e Tucker.
+- **Gerenciamento de Recursos**: DOSCoin e itens como **sacos de metanfetamina** ou **fones de ouvido** são essenciais para combater antagonistas específicos.
+- **Antagonista Principal**: Embora vários psicopatas o persigam, **Wade** serve como o principal mentor por trás da dívida de Simon.
+</Callout>
+
+<Section icon={Map} title="Visão Geral das Ameaças em WTTG3">
+
+No lançamento de 2026 de *Welcome to the Game III*, Simon se vê preso em um motel, forçado a jogar "The Game" para quitar uma dívida enorme. Ao contrário dos títulos anteriores, o cenário de ameaças é mais diversificado, misturando perseguidores físicos, terrores psicológicos e perigos técnicos. Entender **welcome to the game 3 todos os inimigos** é a diferença entre descobrir a verdade e um game over brutal.
+
+O jogo apresenta um elenco de 8 antagonistas distintos. Alguns o caçarão ativamente dentro do motel, enquanto outros esperam que você cometa um erro na Deep Web ou durante tarefas externas.
+
+| Nome do Inimigo | Tipo de Ameaça | Localização Principal | Nível de Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Lucas Kumiega** | Perseguidor Físico | Interior do Motel | Difícil |
+| **Tucker** | Ambiental | Motel/Caixas de Disjuntores | Médio |
+| **Cletus** | Baseado em Recursos | Quartos do Motel | Fácil |
+| **Breather** | Perseguidor Externo | Entrega de Drones | Médio |
+| **Noir** | Psicológico | Qualquer Quarto | Difícil |
+| **Sequestrador** | Roteirizado/Físico | Rua/Motel | Médio |
+| **Fabricante de Bombas** | Técnico | Deep Web/PC | Difícil |
+| **Wade** | Mentor | Global | Desconhecido |
+
+<Callout type="tip" title="Dica de Sobrevivência">
+Sempre mantenha o volume alto. A Reflect Studios otimizou o motor de áudio no Unreal Engine 5 para fornecer feedback espacial preciso sobre os movimentos dos inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Principais Perseguidores Físicos: Lucas e Tucker">
+
+As ameaças mais persistentes que você enfrentará são Lucas Kumiega e Tucker. Esses dois inimigos exigem vigilância constante e interações ambientais específicas para serem repelidos. Lucas foca nos arredores imediatos, enquanto Tucker manipula a infraestrutura do motel para atraí-lo para o aberto.
+
+**Lucas Kumiega** é o perseguidor por excelência. Ele tenta entrar no seu quarto pela porta dos fundos. Você deve manter esta porta trancada o tempo todo. Se ouvir seu sinal sonoro único — um baque pesado e rítmico ou arranhões metálicos — você deve encontrar imediatamente um lugar para se esconder.
+
+<CardGrid cols={2}>
+  <Card title="Táticas contra Lucas Kumiega">
+    - **Segurança da Porta**: Mantenha o ferrolho trancado o tempo todo.
+    - **Esconderijos**: Use o carrinho de lavanderia ou o armário.
+    - **Mecânica de Furtividade**: Você deve passar por um minijogo de "ficar quieto" enquanto se esconde.
+    - **Detecção**: Use fones de ouvido ou sensores de movimento para ouvi-lo mais cedo.
+  </Card>
+  <Card title="Táticas contra Tucker">
+    - **Sabotagem de Internet**: Corta periodicamente sua conexão.
+    - **Caixas de Reparo**: Exige sair para consertar os disjuntores.
+    - **Mecânica de Congelar**: Pare de se mover imediatamente ao ouvir seu sinal sonoro.
+    - **Música no Interfone**: Esconda-se em quartos marcados com uma carta de baralho.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Alerta de Perigo">
+Ao se esconder de Lucas no carrinho de lavanderia, o minijogo "Fique Quieto" é um pouco mais fácil do que no armário, mas o armário oferece uma visão melhor do quarto quando ele sai.
+</Callout>
+
+| Ação Necessária | Defesa contra Lucas | Defesa contra Tucker |
+| :--- | :--- | :--- |
+| **Detecção de Áudio** | Arranhões/Batidas | Zumbido elétrico ou música no interfone |
+| **Resposta Ativa** | Trancar porta/Esconder-se | Reparar caixas/Congelar no lugar |
+| **Item Necessário** | Sensor de Movimento (Recomendado) | Lanterna |
+| **Zona Segura** | Carrinho de Lavanderia/Armário | Quarto de Motel (Carta de Baralho) |
+
+</Section>
+
+<Section icon={Shield} title="Ameaças de Recursos e Externas: Cletus e Breather">
+
+Nem todos os inimigos em **welcome to the game 3 todos os inimigos** querem matá-lo imediatamente. Alguns, como **Cletus**, estão interessados em troca ou extorsão. Cletus é um NPC único que reside nos quartos adjacentes do motel. Para evitar que ele se torne hostil, você deve sempre carregar uma "oferta de paz".
+
+**Cletus** exige metanfetamina. Você pode encontrar sacos de metanfetamina espalhados pelo motel. No entanto, ele é ganancioso. Se você carregar mais de um saco, ele levará todo o seu inventário. A estratégia é sempre ter exatamente um saco com você.
+
+<Steps>
+  <Step num="1" title="Vasculhar Quartos">
+    Procure nos quartos de motel adjacentes para encontrar sacos escondidos de metanfetamina.
+  </Step>
+  <Step num="2" title="Gerenciamento de Inventário">
+    Pegue apenas um saco de cada vez. Se encontrar vários, marque a localização e volte mais tarde.
+  </Step>
+  <Step num="3" title="O Encontro">
+    Se Cletus se aproximar, ele pegará o único saco e deixará você em paz por um período determinado.
+  </Step>
+</Steps>
+
+O **Breather** é uma ameaça externa que só aparece quando você sai da segurança do motel para coletar entregas de drones. Ele espreita a área sob a ponte. Ao contrário de outros inimigos, você não pode se esconder do Breather depois que ele o vê; você deve correr mais rápido que ele.
+
+<Callout type="success" title="Estratégia Profissional">
+Ao ir para o ponto de coleta do drone, sempre planeje seu caminho de volta para a entrada do motel antes de pegar o pacote. O Breather aparece quase imediatamente após a coleta do pacote.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Horrores Psicológicos: Os Noir e o Sequestrador">
+
+Os **Noir** representam o desgaste psicológico de "The Game". Eles aparecem de repente e desafiam sua capacidade de manter a calma sob pressão. Existem duas variantes: uma feminina e um masculino. Seu tempo de reação e precisão na contagem são as únicas coisas que o salvarão de uma morte instantânea.
+
+| Variante Noir | Sinal Visual | Ação Necessária |
+| :--- | :--- | :--- |
+| **Noir Feminina** | Figura pálida, cabelo comprido | Vire-se, conte até **10 segundos**, vire-se de volta |
+| **Noir Masculino** | Figura alta e sombria | Vire-se, conte até **5 segundos**, vire-se de volta |
+
+<Callout type="warning" title="Tempo Crítico">
+A contagem deve ser exata. Virar-se cedo ou tarde demais resultará em um jump scare e morte imediata. Use o relógio do jogo ou um cronômetro real, se necessário.
+</Callout>
+
+O **Sequestrador** é uma ameaça mais tradicional. Ele dirige uma van branca e ocasionalmente estaciona na rua antes de tentar entrar no motel. Ele é uma ameaça de alta velocidade que exige reflexos rápidos para trancá-lo do lado de fora ou se esconder antes que ele chegue ao seu andar.
+
+</Section>
+
+<Section icon={Sparkles} title="O Mentor e Perigos Técnicos">
+
+O **Fabricante de Bombas** é uma ameaça desencadeada pela sua própria curiosidade. Se você visitar o site do "Bomb Maker" na Deep Web, ativará um evento com tempo limitado. Ele enviará um código por mensagem, e você deve localizar uma bomba física dentro do motel para desarmá-la.
+
+**Wade**, o principal antagonista de *Welcome to the Game III*, opera principalmente nas sombras. Embora ele não tenha uma patrulha padrão como Lucas, sua influência é sentida através da dificuldade crescente dos minijogos de hacking e do comportamento agressivo de outros NPCs.
+
+<Checklist
+  id="survival-essentials"
+  title="Lista de Verificação Essencial de Sobrevivência:"
+  items={[
+    "Compre o software Backdoor Hack imediatamente para farmar DOSCoin.",
+    "Mantenha pelo menos um saco de metanfetamina em seu inventário para Cletus.",
+    "Memorize a contagem para ambas as variantes Noir (5s e 10s).",
+    "Identifique o quarto de motel marcado com uma carta de baralho para os eventos de Tucker.",
+    "Melhore para a Antena de Alto Ganho para reduzir quedas de internet."
+  ]}
+/>
+
+<Callout type="info" title="Hacking para Lucro">
+Para pagar pelos itens necessários para combater **welcome to the game 3 todos os inimigos**, use o VirtMesh para minerar DOSCoin. Foque em usuários de alto rendimento como **Pheonix (4.79)** ou **OpsHex (3.23)** para eficiência máxima.
+</Callout>
+
+| Nível de Mineração | Nome do Usuário | Taxa de DOSCoin |
+| :--- | :--- | :--- |
+| **Nível 1** | WebTyk | 1.84 |
+| **Nível 1** | UserJyx | 1.80 |
+| **Nível 2** | Pheonix | **4.79** |
+| **Nível 2** | OpsHex | 3.23 |
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quantos inimigos existem em welcome to the game 3?",
+    answer: "Existem 8 ameaças totais descritas nas mecânicas do jogo, incluindo Lucas Kumiega, Tucker, Cletus, Breather, Noir (Masculino/Feminino), Sequestrador, Fabricante de Bombas e o antagonista principal, Wade."
+  },
+  {
+    question: "Qual é o melhor esconderijo para Lucas Kumiega?",
+    answer: "O carrinho de lavanderia é geralmente preferido em relação ao armário porque o minijogo 'Ficar Quieto' é um pouco mais tolerante, embora ambos funcionem se você passar no teste de habilidade."
+  },
+  {
+    question: "Como faço para parar a música que Tucker toca no interfone?",
+    answer: "Você não pode parar a música manualmente. Você deve encontrar o quarto de motel específico marcado com uma carta de baralho e se esconder dentro dele até que a música pare de tocar."
+  },
+  {
+    question: "O que acontece se eu carregar mais de um saco de metanfetamina?",
+    answer: "Se Cletus o pegar com vários sacos, ele levará todos eles. Como a metanfetamina é um recurso limitado, é melhor carregar apenas um saco de cada vez para satisfazer a exigência dele."
+  }
+]} />
+
+</Section>

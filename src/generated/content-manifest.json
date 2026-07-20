@@ -6,6 +6,10 @@
         "file": "welcome-to-the-game-3-caseoh"
       },
       {
+        "slug": "welcome-to-the-game-3-characters",
+        "file": "welcome-to-the-game-3-characters"
+      },
+      {
         "slug": "welcome-to-the-game-3-lucas",
         "file": "welcome-to-the-game-3-lucas"
       },
@@ -40,6 +44,10 @@
         "file": "welcome-to-the-game-3-demo-length"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-walkthrough",
+        "file": "welcome-to-the-game-3-demo-walkthrough"
+      },
+      {
         "slug": "welcome-to-the-game-3-demo",
         "file": "welcome-to-the-game-3-demo"
       }
@@ -64,8 +72,16 @@
         "file": "welcome-to-the-game-3-bomb-maker-website"
       },
       {
+        "slug": "welcome-to-the-game-3-developer",
+        "file": "welcome-to-the-game-3-developer"
+      },
+      {
         "slug": "welcome-to-the-game-3-difficulty",
         "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-discord",
+        "file": "welcome-to-the-game-3-discord"
       },
       {
         "slug": "welcome-to-the-game-3-guide",
@@ -84,6 +100,14 @@
         "file": "welcome-to-the-game-3-key-locations"
       },
       {
+        "slug": "welcome-to-the-game-3-markiplier",
+        "file": "welcome-to-the-game-3-markiplier"
+      },
+      {
+        "slug": "welcome-to-the-game-3-reddit",
+        "file": "welcome-to-the-game-3-reddit"
+      },
+      {
         "slug": "welcome-to-the-game-3-walkthrough",
         "file": "welcome-to-the-game-3-walkthrough"
       },
@@ -93,6 +117,14 @@
       }
     ],
     "killers": [
+      {
+        "slug": "welcome-to-the-game-3-all-enemies",
+        "file": "welcome-to-the-game-3-all-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-all-killers",
+        "file": "welcome-to-the-game-3-all-killers"
+      },
       {
         "slug": "welcome-to-the-game-3-deaths",
         "file": "welcome-to-the-game-3-deaths"
@@ -115,6 +147,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "welcome-to-the-game-3-cancelled",
+        "file": "welcome-to-the-game-3-cancelled"
+      },
       {
         "slug": "welcome-to-the-game-3-full-release-date",
         "file": "welcome-to-the-game-3-full-release-date"
@@ -170,6 +206,10 @@
         "file": "welcome-to-the-game-3-caseoh"
       },
       {
+        "slug": "welcome-to-the-game-3-characters",
+        "file": "welcome-to-the-game-3-characters"
+      },
+      {
         "slug": "welcome-to-the-game-3-lucas",
         "file": "welcome-to-the-game-3-lucas"
       },
@@ -204,6 +244,10 @@
         "file": "welcome-to-the-game-3-demo-length"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-walkthrough",
+        "file": "welcome-to-the-game-3-demo-walkthrough"
+      },
+      {
         "slug": "welcome-to-the-game-3-demo",
         "file": "welcome-to-the-game-3-demo"
       }
@@ -228,8 +272,16 @@
         "file": "welcome-to-the-game-3-bomb-maker-website"
       },
       {
+        "slug": "welcome-to-the-game-3-developer",
+        "file": "welcome-to-the-game-3-developer"
+      },
+      {
         "slug": "welcome-to-the-game-3-difficulty",
         "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-discord",
+        "file": "welcome-to-the-game-3-discord"
       },
       {
         "slug": "welcome-to-the-game-3-guide",
@@ -248,6 +300,14 @@
         "file": "welcome-to-the-game-3-key-locations"
       },
       {
+        "slug": "welcome-to-the-game-3-markiplier",
+        "file": "welcome-to-the-game-3-markiplier"
+      },
+      {
+        "slug": "welcome-to-the-game-3-reddit",
+        "file": "welcome-to-the-game-3-reddit"
+      },
+      {
         "slug": "welcome-to-the-game-3-walkthrough",
         "file": "welcome-to-the-game-3-walkthrough"
       },
@@ -257,6 +317,14 @@
       }
     ],
     "killers": [
+      {
+        "slug": "welcome-to-the-game-3-all-enemies",
+        "file": "welcome-to-the-game-3-all-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-all-killers",
+        "file": "welcome-to-the-game-3-all-killers"
+      },
       {
         "slug": "welcome-to-the-game-3-deaths",
         "file": "welcome-to-the-game-3-deaths"
@@ -279,6 +347,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "welcome-to-the-game-3-cancelled",
+        "file": "welcome-to-the-game-3-cancelled"
+      },
       {
         "slug": "welcome-to-the-game-3-full-release-date",
         "file": "welcome-to-the-game-3-full-release-date"
@@ -334,6 +406,10 @@
         "file": "welcome-to-the-game-3-caseoh"
       },
       {
+        "slug": "welcome-to-the-game-3-characters",
+        "file": "welcome-to-the-game-3-characters"
+      },
+      {
         "slug": "welcome-to-the-game-3-lucas",
         "file": "welcome-to-the-game-3-lucas"
       },
@@ -368,6 +444,10 @@
         "file": "welcome-to-the-game-3-demo-length"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-walkthrough",
+        "file": "welcome-to-the-game-3-demo-walkthrough"
+      },
+      {
         "slug": "welcome-to-the-game-3-demo",
         "file": "welcome-to-the-game-3-demo"
       }
@@ -392,8 +472,16 @@
         "file": "welcome-to-the-game-3-bomb-maker-website"
       },
       {
+        "slug": "welcome-to-the-game-3-developer",
+        "file": "welcome-to-the-game-3-developer"
+      },
+      {
         "slug": "welcome-to-the-game-3-difficulty",
         "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-discord",
+        "file": "welcome-to-the-game-3-discord"
       },
       {
         "slug": "welcome-to-the-game-3-guide",
@@ -412,6 +500,14 @@
         "file": "welcome-to-the-game-3-key-locations"
       },
       {
+        "slug": "welcome-to-the-game-3-markiplier",
+        "file": "welcome-to-the-game-3-markiplier"
+      },
+      {
+        "slug": "welcome-to-the-game-3-reddit",
+        "file": "welcome-to-the-game-3-reddit"
+      },
+      {
         "slug": "welcome-to-the-game-3-walkthrough",
         "file": "welcome-to-the-game-3-walkthrough"
       },
@@ -421,6 +517,14 @@
       }
     ],
     "killers": [
+      {
+        "slug": "welcome-to-the-game-3-all-enemies",
+        "file": "welcome-to-the-game-3-all-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-all-killers",
+        "file": "welcome-to-the-game-3-all-killers"
+      },
       {
         "slug": "welcome-to-the-game-3-deaths",
         "file": "welcome-to-the-game-3-deaths"
@@ -443,6 +547,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "welcome-to-the-game-3-cancelled",
+        "file": "welcome-to-the-game-3-cancelled"
+      },
       {
         "slug": "welcome-to-the-game-3-full-release-date",
         "file": "welcome-to-the-game-3-full-release-date"
@@ -498,6 +606,10 @@
         "file": "welcome-to-the-game-3-caseoh"
       },
       {
+        "slug": "welcome-to-the-game-3-characters",
+        "file": "welcome-to-the-game-3-characters"
+      },
+      {
         "slug": "welcome-to-the-game-3-lucas",
         "file": "welcome-to-the-game-3-lucas"
       },
@@ -532,6 +644,10 @@
         "file": "welcome-to-the-game-3-demo-length"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-walkthrough",
+        "file": "welcome-to-the-game-3-demo-walkthrough"
+      },
+      {
         "slug": "welcome-to-the-game-3-demo",
         "file": "welcome-to-the-game-3-demo"
       }
@@ -556,8 +672,16 @@
         "file": "welcome-to-the-game-3-bomb-maker-website"
       },
       {
+        "slug": "welcome-to-the-game-3-developer",
+        "file": "welcome-to-the-game-3-developer"
+      },
+      {
         "slug": "welcome-to-the-game-3-difficulty",
         "file": "welcome-to-the-game-3-difficulty"
+      },
+      {
+        "slug": "welcome-to-the-game-3-discord",
+        "file": "welcome-to-the-game-3-discord"
       },
       {
         "slug": "welcome-to-the-game-3-guide",
@@ -576,6 +700,14 @@
         "file": "welcome-to-the-game-3-key-locations"
       },
       {
+        "slug": "welcome-to-the-game-3-markiplier",
+        "file": "welcome-to-the-game-3-markiplier"
+      },
+      {
+        "slug": "welcome-to-the-game-3-reddit",
+        "file": "welcome-to-the-game-3-reddit"
+      },
+      {
         "slug": "welcome-to-the-game-3-walkthrough",
         "file": "welcome-to-the-game-3-walkthrough"
       },
@@ -585,6 +717,14 @@
       }
     ],
     "killers": [
+      {
+        "slug": "welcome-to-the-game-3-all-enemies",
+        "file": "welcome-to-the-game-3-all-enemies"
+      },
+      {
+        "slug": "welcome-to-the-game-3-all-killers",
+        "file": "welcome-to-the-game-3-all-killers"
+      },
       {
         "slug": "welcome-to-the-game-3-deaths",
         "file": "welcome-to-the-game-3-deaths"
@@ -607,6 +747,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "welcome-to-the-game-3-cancelled",
+        "file": "welcome-to-the-game-3-cancelled"
+      },
       {
         "slug": "welcome-to-the-game-3-full-release-date",
         "file": "welcome-to-the-game-3-full-release-date"

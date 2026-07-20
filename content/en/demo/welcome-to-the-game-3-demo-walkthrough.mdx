@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Terminal } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Welcome to the Game 3 Demo Walkthrough: Essential Survival Strategies",
+  description: "Master the dark web, evade threats, and survive the trial run with our comprehensive Welcome to the Game 3 demo walkthrough guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=WTTG3+Demo+Walkthrough",
+  date: "2026-07-21",
+  author: "welcome to the game 3 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Welcome to the Game 3 demo** serves as an intense trial run to test your hacking and survival skills.
+- Players must **browse the darknet** to find hidden key hashes while avoiding lethal threats like the Kidnapper and Patrick.
+- Effective **DOSCoin management** and constant vigilance against shadows are critical to your success in the basement.
+- Always monitor your surroundings and **manage your light levels** to avoid detection by those stalking your location.
+</Callout>
+
+<Section icon={Terminal} title="Mastering the Trial Run">
+
+The demo for *Welcome to the Game 3* drops you into a high-stakes environment where you must act as a rogue hacker. Success requires balancing your digital investigations with constant physical awareness.
+
+**Video Highlights:**
+- Understanding the basic interface and darknet navigation.
+- Identifying and countering the Kidnapper's surveillance.
+- Recognizing the threat posed by the elusive Patrick.
+
+<YouTubeEmbed videoId="Fint90l2s_I" title="THE DARK WEB HORROR GAME IS BACK. | Welcome To The Game 3" />
+
+In this trial, you are not just browsing; you are being hunted. The key to survival is knowing when to engage with the darknet and when to focus entirely on your physical surroundings. If you see a shadow behind you, do not move—pause and recognize the threat before attempting to proceed.
+
+| Threat | Behavior | Counter-Strategy |
+| :--- | :--- | :--- |
+| Kidnapper | Parks van nearby, monitors light | Turn off lights, stay quiet |
+| Patrick | Monitors progress from shadows | Remain still, wait for signal |
+| Hackers | Attempt system breaches | Use Stack Pusher to defend |
+
+<Callout type="tip" title="Pro Tip">
+Always keep your DOSCoin miner running, but be prepared to manually restart it if the connection drops. Consistency in mining is your only path to funding necessary upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Hacking Workflow">
+
+Navigating the darknet is complex. You need to gather information and decrypt hashes to progress. Follow this workflow to stay efficient while keeping your system secure.
+
+<Steps>
+  <Step num="1" title="Initial Configuration">
+    Launch your browser and access the provided wiki link. Configure your crypto miner immediately to start generating funds.
+  </Step>
+  <Step num="2" title="Search for Hashes">
+    Browse the darknet sites. Hashes can be hidden in plain sight, embedded in page elements, or buried within the source code.
+  </Step>
+  <Step num="3" title="Decrypt and Combine">
+    Once you find two hashes, contact the designated agent via the crypt chat to decrypt them into key fragments.
+  </Step>
+  <Step num="4" title="Final Submission">
+    Combine the fragments by index and send the completed key to the Game Master to win the trial.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Security Alert">
+Never linger in the dark for too long. If you approach a man in a ghostly mask, hide immediately, or you will be trapped.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensive Systems and Upgrades">
+
+Survival depends on your ability to fend off attackers. You should prioritize purchasing defensive software from DarkDrop early in your run.
+
+| Upgrade | Function | Priority |
+| :--- | :--- | :--- |
+| Backdoor Hack | Counter stack overflow attacks | High |
+| Motion Sensor | Detects intruders near your basement | Medium |
+| Earbuds | Enhances audio cues for threats | Medium |
+| Stack Pusher | Prevents system injection | High |
+
+<CardGrid cols={3}>
+  <Card title="Resource Management">
+    - Mine DOSCoin from multiple users.
+    - Balance spending vs. saving.
+    - Always have a backdoor ready.
+  </Card>
+  <Card title="Threat Awareness">
+    - Check cameras frequently.
+    - Monitor for van headlights.
+    - Watch for shadows behind you.
+  </Card>
+  <Card title="Information Gathering">
+    - Use the notes app for codes.
+    - Check source code for hashes.
+    - Communicate via crypt chat.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy Note">
+When you feel overwhelmed, remember that the game environment is designed to test your patience. If you fail, analyze which system was compromised and adjust your defensive loadout for the next attempt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Progression Goals">
+
+To succeed in the *Welcome to the Game 3* demo, you must hit these specific milestones consistently. Use this checklist to track your progress during each session.
+
+<Checklist
+  id="demo-goals"
+  title="Trial Objectives:"
+  items={[
+    "Secure a steady DOSCoin mining income",
+    "Find and decrypt both key hashes",
+    "Install the latest Stack Pusher software",
+    "Successfully identify and avoid all 8 threats",
+    "Submit the final key to the Game Master"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I know if the Kidnapper is outside?",
+    answer: "Monitor the street cameras for a white van. If you see it, turn off your basement lights immediately to avoid detection."
+  },
+  {
+    question: "What should I do if I see a shadow behind me?",
+    answer: "Do not turn around or get up. You must remain still and recognize the presence until the shadow vanishes."
+  },
+  {
+    question: "Are there permadeath mechanics in the demo?",
+    answer: "The demo focuses on the trial run, but in the full game, normal difficulty provides checkpoints every hour."
+  },
+  {
+    question: "How do I find hidden hashes?",
+    answer: "Check the page source code, look for clickable elements, or scan text in plain sight on darknet websites."
+  }
+]} />
+
+</Section>
