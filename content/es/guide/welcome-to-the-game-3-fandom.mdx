@@ -1,0 +1,98 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bienvenido al Juego 3 - Guía en Profundidad y Consejos",
+  description: "Explora las profundidades de Bienvenido al Juego 3 con nuestra guía completa, incluyendo estrategias de juego, preguntas frecuentes y más.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Bienvenido+al+Juego+3+Guía",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de Bienvenido al Juego 3"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Bienvenido al Juego 3
+- **Mecánica clave**: Engáñate en desafíos de alto riesgo con consecuencias de vida o muerte
+- **Mejor estrategia**: Dominar la red oscura para desvelar piezas ocultas del rompecabezas
+- **Consejo crucial**: Siempre mantente vigilante ante amenazas inesperadas
+- **Elección superior**: Prioriza los minijuegos de hacking para DOSCoin y mejoras
+</Callout>
+
+<Section icon={Map} title="Sinopsis del Juego">
+Bienvenido al Juego 3 es la tercera entrega principal de la serie Bienvenido al Juego. Simon se encuentra en un juego peligroso con stakes de vida o muerte después de contraer una deuda. El entorno de la red oscura del juego, lleno de amenazas y desafíos, prueba las habilidades y la astucia del jugador.
+</Section>
+
+<Section icon={Swords} title="Jugabilidad">
+El juego presenta la muerte permanente en la dificultad normal, con puntos de control cada hora. Los jugadores deben navegar por la red oscura, completar minijuegos de hacking y comunicarse con NPC para avanzar. El ambiente del juego es tenso, con múltiples amenazas constantemente buscando terminar con la vida del jugador.
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Ganar">
+<Steps>
+  <Step num="1" title="Configuración Inicial">
+    Comienza asegurando una ubicación segura para evitar amenazas inmediatas.
+  </Step>
+  <Step num="2" title="Seguridad de Recursos">
+    Recoge recursos y DOSCoin para comprar mejoras y servicios.
+  </Step>
+  <Step num="3" title="Minijuegos de Hacking">
+    Completa los minijuegos de hacking para ganar DOSCoin y mejorar tus oportunidades de supervivencia.
+  </Step>
+  <Step num="4" title="Comunicación con NPC">
+    Interactúa con NPC para obtener información y asistencia.
+  </Step>
+  <Step num="5" title="Mantente Vigilante">
+  Siempre estate al tanto de tu entorno y de las amenazas potenciales que acechan en la red oscura.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Objetivos y Lista de Verificación">
+<Checklist
+  id="progression-goals"
+  title="Hitos Esenciales:"
+  items={[
+    "Completa la historia principal",
+    "Alcanza el nivel 50",
+    "Obtén el primer artículo legendario",
+    "Masterra los mecanismos básicos"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cómo evito las amenazas en el juego?",
+    answer: "Mantente vigilante, esconde cuando sea necesario y usa tus recursos sabiamente."
+  },
+  {
+    question: "¿Puedo jugar el juego solo?",
+    answer: "Sí, el juego está diseñado para un solo jugador, pero puedes comunicarte con NPC para obtener ayuda."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar DOSCoin?",
+    answer: "Completa los minijuegos de hacking y comunícate con NPC para obtener oportunidades adicionales."
+  }
+]} />
+</Section>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal del juego?",
+    answer: "El objetivo principal es sobrevivir a los desafíos del juego y ganar el premio mayor."
+  },
+  {
+    question: "¿Hay alguna característica multijugador?",
+    answer: "El juego está diseñado para un solo jugador, pero puedes comunicarte con NPC para tener una experiencia cooperativa."
+  },
+  {
+    question: "¿Puedo volver a jugar el juego con diferentes estrategias?",
+    answer: "Sí, puedes volver a jugar el juego con diferentes estrategias para ver cómo afectan tu resultado."
+  }
+]} />

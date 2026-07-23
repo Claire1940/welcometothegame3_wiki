@@ -2,6 +2,10 @@
   "en": {
     "characters": [
       {
+        "slug": "welcome-to-the-game-3-adam",
+        "file": "welcome-to-the-game-3-adam"
+      },
+      {
         "slug": "welcome-to-the-game-3-caseoh",
         "file": "welcome-to-the-game-3-caseoh"
       },
@@ -16,6 +20,10 @@
       {
         "slug": "welcome-to-the-game-3-patrick",
         "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steamdb",
+        "file": "welcome-to-the-game-3-steamdb"
       },
       {
         "slug": "welcome-to-the-game-3-tanner",
@@ -84,6 +92,10 @@
         "file": "welcome-to-the-game-3-discord"
       },
       {
+        "slug": "welcome-to-the-game-3-fandom",
+        "file": "welcome-to-the-game-3-fandom"
+      },
+      {
         "slug": "welcome-to-the-game-3-guide",
         "file": "welcome-to-the-game-3-guide"
       },
@@ -150,6 +162,10 @@
       {
         "slug": "welcome-to-the-game-3-cancelled",
         "file": "welcome-to-the-game-3-cancelled"
+      },
+      {
+        "slug": "welcome-to-the-game-3-early-access",
+        "file": "welcome-to-the-game-3-early-access"
       },
       {
         "slug": "welcome-to-the-game-3-full-release-date",
@@ -210,12 +226,24 @@
         "file": "welcome-to-the-game-3-characters"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-steam",
+        "file": "welcome-to-the-game-3-demo-steam"
+      },
+      {
         "slug": "welcome-to-the-game-3-lucas",
         "file": "welcome-to-the-game-3-lucas"
       },
       {
+        "slug": "welcome-to-the-game-3-patrick-shadow",
+        "file": "welcome-to-the-game-3-patrick-shadow"
+      },
+      {
         "slug": "welcome-to-the-game-3-patrick",
         "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steamdb",
+        "file": "welcome-to-the-game-3-steamdb"
       },
       {
         "slug": "welcome-to-the-game-3-tanner",
@@ -254,6 +282,10 @@
     ],
     "features": [
       {
+        "slug": "how-to-beat-welcome-to-the-game-3-demo",
+        "file": "how-to-beat-welcome-to-the-game-3-demo"
+      },
+      {
         "slug": "welcome-to-the-game-3-gameplay",
         "file": "welcome-to-the-game-3-gameplay"
       },
@@ -264,12 +296,36 @@
     ],
     "guide": [
       {
+        "slug": "how-long-is-welcome-to-the-game-3-demo",
+        "file": "how-long-is-welcome-to-the-game-3-demo"
+      },
+      {
+        "slug": "how-much-will-welcome-to-the-game-3-cost",
+        "file": "how-much-will-welcome-to-the-game-3-cost"
+      },
+      {
+        "slug": "is-there-a-welcome-to-the-game-3",
+        "file": "is-there-a-welcome-to-the-game-3"
+      },
+      {
+        "slug": "is-there-going-to-be-a-welcome-to-the-game-3",
+        "file": "is-there-going-to-be-a-welcome-to-the-game-3"
+      },
+      {
+        "slug": "welcome-to-the-game-2-rule-of-3",
+        "file": "welcome-to-the-game-2-rule-of-3"
+      },
+      {
         "slug": "welcome-to-the-game-3-as-my-first-game",
         "file": "welcome-to-the-game-3-as-my-first-game"
       },
       {
         "slug": "welcome-to-the-game-3-bomb-maker-website",
         "file": "welcome-to-the-game-3-bomb-maker-website"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-reddit",
+        "file": "welcome-to-the-game-3-demo-reddit"
       },
       {
         "slug": "welcome-to-the-game-3-developer",
@@ -282,6 +338,10 @@
       {
         "slug": "welcome-to-the-game-3-discord",
         "file": "welcome-to-the-game-3-discord"
+      },
+      {
+        "slug": "welcome-to-the-game-3-fandom",
+        "file": "welcome-to-the-game-3-fandom"
       },
       {
         "slug": "welcome-to-the-game-3-guide",
@@ -302,6 +362,10 @@
       {
         "slug": "welcome-to-the-game-3-markiplier",
         "file": "welcome-to-the-game-3-markiplier"
+      },
+      {
+        "slug": "welcome-to-the-game-3-mechanics",
+        "file": "welcome-to-the-game-3-mechanics"
       },
       {
         "slug": "welcome-to-the-game-3-reddit",
@@ -352,6 +416,14 @@
         "file": "welcome-to-the-game-3-cancelled"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-release-date",
+        "file": "welcome-to-the-game-3-demo-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-early-access",
+        "file": "welcome-to-the-game-3-early-access"
+      },
+      {
         "slug": "welcome-to-the-game-3-full-release-date",
         "file": "welcome-to-the-game-3-full-release-date"
       },
@@ -372,6 +444,10 @@
         "file": "welcome-to-the-game-3-ps5"
       },
       {
+        "slug": "welcome-to-the-game-3-release-date-reddit",
+        "file": "welcome-to-the-game-3-release-date-reddit"
+      },
+      {
         "slug": "welcome-to-the-game-3-release-date",
         "file": "welcome-to-the-game-3-release-date"
       },
@@ -386,12 +462,20 @@
         "file": "welcome-to-the-game-3-ending"
       },
       {
+        "slug": "welcome-to-the-game-3-fridge-easter-egg",
+        "file": "welcome-to-the-game-3-fridge-easter-egg"
+      },
+      {
         "slug": "welcome-to-the-game-3-john-chapter",
         "file": "welcome-to-the-game-3-john-chapter"
       },
       {
         "slug": "welcome-to-the-game-3-lore",
         "file": "welcome-to-the-game-3-lore"
+      },
+      {
+        "slug": "welcome-to-the-game-3-plot",
+        "file": "welcome-to-the-game-3-plot"
       },
       {
         "slug": "welcome-to-the-game-3-story",
@@ -402,6 +486,10 @@
   "pt": {
     "characters": [
       {
+        "slug": "welcome-to-the-game-3-adam",
+        "file": "welcome-to-the-game-3-adam"
+      },
+      {
         "slug": "welcome-to-the-game-3-caseoh",
         "file": "welcome-to-the-game-3-caseoh"
       },
@@ -410,12 +498,24 @@
         "file": "welcome-to-the-game-3-characters"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-steam",
+        "file": "welcome-to-the-game-3-demo-steam"
+      },
+      {
         "slug": "welcome-to-the-game-3-lucas",
         "file": "welcome-to-the-game-3-lucas"
       },
       {
+        "slug": "welcome-to-the-game-3-patrick-shadow",
+        "file": "welcome-to-the-game-3-patrick-shadow"
+      },
+      {
         "slug": "welcome-to-the-game-3-patrick",
         "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steamdb",
+        "file": "welcome-to-the-game-3-steamdb"
       },
       {
         "slug": "welcome-to-the-game-3-tanner",
@@ -454,6 +554,10 @@
     ],
     "features": [
       {
+        "slug": "how-to-beat-welcome-to-the-game-3-demo",
+        "file": "how-to-beat-welcome-to-the-game-3-demo"
+      },
+      {
         "slug": "welcome-to-the-game-3-gameplay",
         "file": "welcome-to-the-game-3-gameplay"
       },
@@ -464,12 +568,36 @@
     ],
     "guide": [
       {
+        "slug": "how-long-is-welcome-to-the-game-3-demo",
+        "file": "how-long-is-welcome-to-the-game-3-demo"
+      },
+      {
+        "slug": "how-much-will-welcome-to-the-game-3-cost",
+        "file": "how-much-will-welcome-to-the-game-3-cost"
+      },
+      {
+        "slug": "is-there-a-welcome-to-the-game-3",
+        "file": "is-there-a-welcome-to-the-game-3"
+      },
+      {
+        "slug": "is-there-going-to-be-a-welcome-to-the-game-3",
+        "file": "is-there-going-to-be-a-welcome-to-the-game-3"
+      },
+      {
+        "slug": "welcome-to-the-game-2-rule-of-3",
+        "file": "welcome-to-the-game-2-rule-of-3"
+      },
+      {
         "slug": "welcome-to-the-game-3-as-my-first-game",
         "file": "welcome-to-the-game-3-as-my-first-game"
       },
       {
         "slug": "welcome-to-the-game-3-bomb-maker-website",
         "file": "welcome-to-the-game-3-bomb-maker-website"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-reddit",
+        "file": "welcome-to-the-game-3-demo-reddit"
       },
       {
         "slug": "welcome-to-the-game-3-developer",
@@ -482,6 +610,10 @@
       {
         "slug": "welcome-to-the-game-3-discord",
         "file": "welcome-to-the-game-3-discord"
+      },
+      {
+        "slug": "welcome-to-the-game-3-fandom",
+        "file": "welcome-to-the-game-3-fandom"
       },
       {
         "slug": "welcome-to-the-game-3-guide",
@@ -502,6 +634,10 @@
       {
         "slug": "welcome-to-the-game-3-markiplier",
         "file": "welcome-to-the-game-3-markiplier"
+      },
+      {
+        "slug": "welcome-to-the-game-3-mechanics",
+        "file": "welcome-to-the-game-3-mechanics"
       },
       {
         "slug": "welcome-to-the-game-3-reddit",
@@ -552,6 +688,14 @@
         "file": "welcome-to-the-game-3-cancelled"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-release-date",
+        "file": "welcome-to-the-game-3-demo-release-date"
+      },
+      {
+        "slug": "welcome-to-the-game-3-early-access",
+        "file": "welcome-to-the-game-3-early-access"
+      },
+      {
         "slug": "welcome-to-the-game-3-full-release-date",
         "file": "welcome-to-the-game-3-full-release-date"
       },
@@ -572,6 +716,10 @@
         "file": "welcome-to-the-game-3-ps5"
       },
       {
+        "slug": "welcome-to-the-game-3-release-date-reddit",
+        "file": "welcome-to-the-game-3-release-date-reddit"
+      },
+      {
         "slug": "welcome-to-the-game-3-release-date",
         "file": "welcome-to-the-game-3-release-date"
       },
@@ -586,12 +734,20 @@
         "file": "welcome-to-the-game-3-ending"
       },
       {
+        "slug": "welcome-to-the-game-3-fridge-easter-egg",
+        "file": "welcome-to-the-game-3-fridge-easter-egg"
+      },
+      {
         "slug": "welcome-to-the-game-3-john-chapter",
         "file": "welcome-to-the-game-3-john-chapter"
       },
       {
         "slug": "welcome-to-the-game-3-lore",
         "file": "welcome-to-the-game-3-lore"
+      },
+      {
+        "slug": "welcome-to-the-game-3-plot",
+        "file": "welcome-to-the-game-3-plot"
       },
       {
         "slug": "welcome-to-the-game-3-story",
@@ -610,12 +766,24 @@
         "file": "welcome-to-the-game-3-characters"
       },
       {
+        "slug": "welcome-to-the-game-3-demo-steam",
+        "file": "welcome-to-the-game-3-demo-steam"
+      },
+      {
         "slug": "welcome-to-the-game-3-lucas",
         "file": "welcome-to-the-game-3-lucas"
       },
       {
+        "slug": "welcome-to-the-game-3-patrick-shadow",
+        "file": "welcome-to-the-game-3-patrick-shadow"
+      },
+      {
         "slug": "welcome-to-the-game-3-patrick",
         "file": "welcome-to-the-game-3-patrick"
+      },
+      {
+        "slug": "welcome-to-the-game-3-steamdb",
+        "file": "welcome-to-the-game-3-steamdb"
       },
       {
         "slug": "welcome-to-the-game-3-tanner",
@@ -654,6 +822,10 @@
     ],
     "features": [
       {
+        "slug": "how-to-beat-welcome-to-the-game-3-demo",
+        "file": "how-to-beat-welcome-to-the-game-3-demo"
+      },
+      {
         "slug": "welcome-to-the-game-3-gameplay",
         "file": "welcome-to-the-game-3-gameplay"
       },
@@ -664,12 +836,36 @@
     ],
     "guide": [
       {
+        "slug": "how-long-is-welcome-to-the-game-3-demo",
+        "file": "how-long-is-welcome-to-the-game-3-demo"
+      },
+      {
+        "slug": "how-much-will-welcome-to-the-game-3-cost",
+        "file": "how-much-will-welcome-to-the-game-3-cost"
+      },
+      {
+        "slug": "is-there-a-welcome-to-the-game-3",
+        "file": "is-there-a-welcome-to-the-game-3"
+      },
+      {
+        "slug": "is-there-going-to-be-a-welcome-to-the-game-3",
+        "file": "is-there-going-to-be-a-welcome-to-the-game-3"
+      },
+      {
+        "slug": "welcome-to-the-game-2-rule-of-3",
+        "file": "welcome-to-the-game-2-rule-of-3"
+      },
+      {
         "slug": "welcome-to-the-game-3-as-my-first-game",
         "file": "welcome-to-the-game-3-as-my-first-game"
       },
       {
         "slug": "welcome-to-the-game-3-bomb-maker-website",
         "file": "welcome-to-the-game-3-bomb-maker-website"
+      },
+      {
+        "slug": "welcome-to-the-game-3-demo-reddit",
+        "file": "welcome-to-the-game-3-demo-reddit"
       },
       {
         "slug": "welcome-to-the-game-3-developer",
@@ -682,6 +878,10 @@
       {
         "slug": "welcome-to-the-game-3-discord",
         "file": "welcome-to-the-game-3-discord"
+      },
+      {
+        "slug": "welcome-to-the-game-3-fandom",
+        "file": "welcome-to-the-game-3-fandom"
       },
       {
         "slug": "welcome-to-the-game-3-guide",
@@ -702,6 +902,10 @@
       {
         "slug": "welcome-to-the-game-3-markiplier",
         "file": "welcome-to-the-game-3-markiplier"
+      },
+      {
+        "slug": "welcome-to-the-game-3-mechanics",
+        "file": "welcome-to-the-game-3-mechanics"
       },
       {
         "slug": "welcome-to-the-game-3-reddit",
@@ -752,6 +956,10 @@
         "file": "welcome-to-the-game-3-cancelled"
       },
       {
+        "slug": "welcome-to-the-game-3-early-access",
+        "file": "welcome-to-the-game-3-early-access"
+      },
+      {
         "slug": "welcome-to-the-game-3-full-release-date",
         "file": "welcome-to-the-game-3-full-release-date"
       },
@@ -772,6 +980,10 @@
         "file": "welcome-to-the-game-3-ps5"
       },
       {
+        "slug": "welcome-to-the-game-3-release-date-reddit",
+        "file": "welcome-to-the-game-3-release-date-reddit"
+      },
+      {
         "slug": "welcome-to-the-game-3-release-date",
         "file": "welcome-to-the-game-3-release-date"
       },
@@ -786,12 +998,20 @@
         "file": "welcome-to-the-game-3-ending"
       },
       {
+        "slug": "welcome-to-the-game-3-fridge-easter-egg",
+        "file": "welcome-to-the-game-3-fridge-easter-egg"
+      },
+      {
         "slug": "welcome-to-the-game-3-john-chapter",
         "file": "welcome-to-the-game-3-john-chapter"
       },
       {
         "slug": "welcome-to-the-game-3-lore",
         "file": "welcome-to-the-game-3-lore"
+      },
+      {
+        "slug": "welcome-to-the-game-3-plot",
+        "file": "welcome-to-the-game-3-plot"
       },
       {
         "slug": "welcome-to-the-game-3-story",

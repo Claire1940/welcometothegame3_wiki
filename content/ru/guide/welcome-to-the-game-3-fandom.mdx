@@ -1,0 +1,98 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Welcome to the Game 3 - Подробное руководство и советы",
+  description: "Исследуйте глубины Welcome to the Game 3 с нашим полным руководством, включая стратегии игры, часто задаваемые вопросы и многое другое.",
+  category: "Руководство",
+  image: "https://placehold.co/800x400/059669/fff?text=Welcome+to+the+Game+3+Guide",
+  date: "2026-07-23",
+  author: "Команда Wiki Welcome to the Game 3"
+};
+
+<Callout type="info" title="Краткое руководство">
+- **Основной ключевой слово**: Welcome to the Game 3
+- **Ключевая механика**: Участвуйте в высокорисковых задачах с жизненно важными последствиями
+- **Лучшая стратегия**: Мастерство黑暗ной сети для обнаружения скрытых частей пазла
+- **Критический совет**: Всегда будьте бдительны на случай неожиданных угроз
+- **Лучший выбор**: Приорitize hacking minigames for DOSCoin and upgrades
+</Callout>
+
+<Section icon={Map} title="Обзор игры">
+Welcome to the Game 3 - это третий основной выпуск в серии Welcome to the Game. Симон находит себя в опасной игре с жизненно важными ставками после накопления долга. Среда黑暗ной сети игры, полная угроз и задач, проверяет навыки и находчивость игрока.
+</Section>
+
+<Section icon={Swords} title="Игровой процесс">
+Игра включает permadeath на обычной сложности с контрольными точками каждые час. Игроки должны navigating the dark net, завершать хакинговые минигames и общаться с NPC, чтобы продвигаться. Атмосфера игры напряженная, с множеством угроз, постоянно ищущих способ结束 жизнь игрока.
+</Section>
+
+<Section icon={Target} title="Шаг за шагом к победе">
+<Steps>
+  <Step num="1" title="Начальная настройка">
+    Начните с обеспечения безопасного места, чтобы избежать немедленных угроз.
+  </Step>
+  <Step num="2" title="Обеспечение ресурсов">
+    Соберите ресурсы и DOSCoin для покупки улучшений и услуг.
+  </Step>
+  <Step num="3" title="Завершение хакинговых минигames">
+    Завершайте хакинговые минигames, чтобы заработать DOSCoin и улучшить свои шансы на выживание.
+  </Step>
+  <Step num="4" title="Общение с NPC">
+    Общайтесь с NPC для получения информации и помощи.
+  </Step>
+  <Step num="5" title="Будьте бдительны">
+  Всегда будьте осведомлены о своем окружении и потенциальных угрозах, скрывающихся в黑暗ной сети.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Цели и список задач">
+<Checklist
+  id="progression-goals"
+  title="Необходимые вехи:"
+  items={[
+    "Complete main storyline",
+    "Reach level 50",
+    "Obtain first legendary item",
+    "Master core mechanics"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Часто задаваемые вопросы">
+<FAQ items={[
+  {
+    question: "Как избежать угроз в игре?",
+    answer: "Будьте бдительны, скрывайтесь при необходимости и используйте свои ресурсы разумно."
+  },
+  {
+    question: "Могу ли я играть в одиночку?",
+    answer: "Да, игра спроектирована для одного игрока, но вы можете общаться с NPC для помощи."
+  },
+  {
+    question: "Какой лучший способ заработать DOSCoin?",
+    answer: "Завершайте хакинговые минигames и общайтесь с NPC для получения дополнительных возможностей."
+  }
+]} />
+</Section>
+
+<FAQ items={[
+  {
+    question: "Какова основная цель игры?",
+    answer: "Основная цель - выжить в вызовах игры и выиграть главный приз."
+  },
+  {
+    question: "Есть ли в игре многопользовательские функции?",
+    answer: "Игра спроектирована для одного игрока, но вы можете общаться с NPC для кооперативного опыта."
+  },
+  {
+    question: "Могу ли я replay the game with different strategies?",
+    answer: "Да, вы можете replay the game с различными стратегиями, чтобы увидеть, как они влияют на ваш результат."
+  }
+]} />

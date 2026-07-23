@@ -1,0 +1,98 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bem-vindo ao Jogo 3 - Guia Completo e Dicas",
+  description: "Explore as profundezas do Bem-vindo ao Jogo 3 com nosso guia completo, incluindo estratégias de jogo, perguntas frequentes e mais.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Bem-vindo+ao+Jogo+3+Guia",
+  date: "2026-07-23",
+  author: "Equipe do Wiki do Bem-vindo ao Jogo 3"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Bem-vindo ao Jogo 3
+- **Mecânica-chave**: Engaje-se em desafios de alto risco com consequências de vida ou morte
+- **Melhor estratégia**: Dominar a deep web para descobrir peças ocultas do quebra-cabeça
+- **Dica crucial**: Sempre fique vigilante para ameaças inesperadas
+- **Escolha top**: Priorize minigames de hacking para DOSCoin e melhorias
+</Callout>
+
+<Section icon={Map} title="Sinopse do Jogo">
+Bem-vindo ao Jogo 3 é o terceiro installment principal da série Bem-vindo ao Jogo. Simon se vê em um jogo perigoso com stakes de vida ou morte após contrair uma dívida. O ambiente da deep web do jogo, cheio de ameaças e desafios, testa as habilidades e a astúcia do jogador.
+</Section>
+
+<Section icon={Swords} title="Jogabilidade">
+O jogo possui permadeath na dificuldade normal, com checkpoints a cada hora. Os jogadores devem navegar na deep web, completar minigames de hacking e comunicar-se com NPCs para avançar. O ambiente do jogo é tenso, com várias ameaças constantemente à procura de acabar com a vida do jogador.
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para a Vitória">
+<Steps>
+  <Step num="1" title="Configuração Inicial">
+    Comece garantindo um local seguro para evitar ameaças imediatas.
+  </Step>
+  <Step num="2" title="Segure Recursos">
+    Reúna recursos e DOSCoin para comprar melhorias e serviços.
+  </Step>
+  <Step num="3" title="Minigames de Hacking">
+    Complete minigames de hacking para ganhar DOSCoin e melhorar suas chances de sobrevivência.
+  </Step>
+  <Step num="4" title="Comunique-se com NPCs">
+    Interaja com NPCs para obter informações e assistência.
+  </Step>
+  <Step num="5" title="Fique Vigilante">
+  Sempre esteja ciente do seu entorno e das possíveis ameaças escondidas na deep web.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Lista de Verificação">
+<Checklist
+  id="progression-goals"
+  title="Milestones Essenciais:"
+  items={[
+    "Complete a história principal",
+    "Atinja o nível 50",
+    "Obtenha o primeiro item lendário",
+    "Domine os mecanismos principais"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+<FAQ items={[
+  {
+    question: "Como evitar ameaças no jogo?",
+    answer: "Fique vigilante, esconda-se quando necessário e use seus recursos com sabedoria."
+  },
+  {
+    question: "Posso jogar o jogo sozinho?",
+    answer: "Sim, o jogo é projetado para single-player, mas você pode se comunicar com NPCs para ajuda."
+  },
+  {
+    question: "Qual é a melhor maneira de ganhar DOSCoin?",
+    answer: "Complete minigames de hacking e se comunique com NPCs para oportunidades adicionais."
+  }
+]} />
+</Section>
+
+<FAQ items={[
+  {
+    question: "Qual é o objetivo principal do jogo?",
+    answer: "O objetivo principal é sobreviver aos desafios do jogo e ganhar o grande prêmio."
+  },
+  {
+    question: "Existem recursos multiplayer?",
+    answer: "O jogo é projetado para single-player, mas você pode se comunicar com NPCs para uma experiência cooperativa."
+  },
+  {
+    question: "Posso replay o jogo com diferentes estratégias?",
+    answer: "Sim, você pode replay o jogo com diferentes estratégias para ver como elas afetam seu resultado."
+  }
+]} />
